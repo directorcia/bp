@@ -5,8 +5,6 @@
     "displayName":  "Windows Terminal",
     "description":  "The Windows Terminal is a modern, fast, efficient, powerful, and productive terminal application for users of command-line tools and shells like Command Prompt, PowerShell, and WSL. Its main features include multiple tabs, panes, Unicode and UTF-8 character support, a GPU accelerated text rendering engine, and custom themes, styles, and configurations.\n\nThis is an open source project and we welcome community participation. To participate please visit https://github.com/microsoft/terminal",
     "publisher":  "Microsoft Corporation",
-    "createdDateTime":  "\/Date(1701724128626)\/",
-    "lastModifiedDateTime":  "\/Date(1701724128626)\/",
     "isFeatured":  false,
     "privacyInformationUrl":  "https://go.microsoft.com/fwlink/?LinkID=521839",
     "informationUrl":  null,
