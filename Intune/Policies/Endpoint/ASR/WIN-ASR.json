@@ -1,7 +1,7 @@
 {
     "creationSource": null,
     "description": "Best Practices Endpoint Security ASR ASR rules",
-    "name": "BP - Endpoint ASR ASR rules - Windows 10'",
+    "name": "BP - Endpoint ASR ASR rules - Windows 10",
     "platforms": "windows10",
     "priorityMetaData": null,
     "roleScopeTagIds": [
