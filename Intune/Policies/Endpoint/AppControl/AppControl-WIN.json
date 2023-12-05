@@ -1,9 +1,7 @@
 {
-    "createdDateTime": "\/Date(1701745620134)\/",
     "creationSource": null,
-    "description": "",
-    "lastModifiedDateTime": "\/Date(1701745620134)\/",
-    "name": "App Control",
+    "description": "Best Practices Endpoint Security Application Control policy. Uses Patron best practice recommendations for application control from XML file.",
+    "name": "BP - Endpoint Application Control XML - Windows 10",
     "platforms": "windows10",
     "priorityMetaData": null,
     "roleScopeTagIds": [
