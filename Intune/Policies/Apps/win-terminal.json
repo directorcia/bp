@@ -1,5 +1,4 @@
 {
-    "@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceAppManagement/mobileApps/$entity",
     "@odata.type":  "#microsoft.graph.winGetApp",
     "id":  "a73ffa61-628b-4a7a-99a9-8184fcb50396",
     "displayName":  "Windows Terminal",
