@@ -53,20 +53,6 @@ Submit a driver for analysis - https://www.microsoft.com/en-us/wdsi/driversubmis
 Known exploited vulnerabilities catalog - https://www.cisa.gov/known-exploited-vulnerabilities-catalog
 Best practices for Outlook - https://support.microsoft.com/office/ba3b7674-ad42-468d-9a42-8ff2ba4c81b2
 
-iOS Security
-------------
-Security Configuration Guide – Apple iOS 14 Devices - https://www.cyber.gov.au/acsc/view-all-content/publications/security-configuration-guide-apple-ios-14-devices
-iOS Hardening Configuration Guide - https://www.cyber.gov.au/sites/default/files/2019-03/iOS9_Hardening_Guide.pdf
-
-Android Security
-----------------
-Security Configuration Guide – Samsung Galaxy S10, S20 and Note 20 Devices - https://www.cyber.gov.au/acsc/view-all-content/publications/security-configuration-guide-samsung-galaxy-s10-s20-and-note-20-devices
-
-Windows 10 Security
--------------------
-Hardening Microsoft Windows 10 version 21H1 Workstations - https://www.cyber.gov.au/acsc/view-all-content/publications/hardening-microsoft-windows-10-version-21h1-workstations
-Hardening Microsoft Windows 10 version 1909 Workstations - https://www.cyber.gov.au/sites/default/files/2020-06/PROTECT%20-%20Hardening%20Microsoft%20Windows%2010%20version%201909%20Workstations%20%28June%202020%29.pdf
-
 Security training
 -----------------
 NCSC's cyber security training for staff - https://www.ncsc.gov.uk/training/v4/Top+tips/Web+package/content/index.html#/

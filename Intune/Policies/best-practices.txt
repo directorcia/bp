@@ -1,0 +1,13 @@
+iOS Security
+------------
+Security Configuration Guide – Apple iOS 14 Devices - https://www.cyber.gov.au/acsc/view-all-content/publications/security-configuration-guide-apple-ios-14-devices
+iOS Hardening Configuration Guide - https://www.cyber.gov.au/sites/default/files/2019-03/iOS9_Hardening_Guide.pdf
+
+Android Security
+----------------
+Security Configuration Guide – Samsung Galaxy S10, S20 and Note 20 Devices - https://www.cyber.gov.au/acsc/view-all-content/publications/security-configuration-guide-samsung-galaxy-s10-s20-and-note-20-devices
+
+Windows 10 Security
+-------------------
+Hardening Microsoft Windows 10 version 21H1 Workstations - https://www.cyber.gov.au/acsc/view-all-content/publications/hardening-microsoft-windows-10-version-21h1-workstations
+Hardening Microsoft Windows 10 version 1909 Workstations - https://www.cyber.gov.au/sites/default/files/2020-06/PROTECT%20-%20Hardening%20Microsoft%20Windows%2010%20version%201909%20Workstations%20%28June%202020%29.pdf
