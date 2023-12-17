@@ -9,6 +9,12 @@
     "owner":  "",
     "developer":  "",
     "notes":  "",
+    "uploadState":  1,
+    "publishingState":  "published",
+    "isAssigned":  false,
+    "roleScopeTagIds":  [
+                            "0"
+                        ],
     "packageIdentifier":  "9N0DX20HK701",
     "installExperience":  {
                               "runAsAccount":  "system"
