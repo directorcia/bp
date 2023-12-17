@@ -1,8 +1,0 @@
-{
-    "@odata.type": "#microsoft.graph.winGetApp",
-    "displayName": "Microsoft To Do: Lists, Tasks & Reminders",
-    "packageIdentifier": "9WZDNCRD2G0J",
-    "installExperience": {
-        "runAsAccount": "user"
-    }
-}

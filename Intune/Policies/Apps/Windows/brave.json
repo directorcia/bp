@@ -1,0 +1,26 @@
+{
+    "@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceAppManagement/mobileApps/$entity",
+    "@odata.type":  "#microsoft.graph.winGetApp",
+    "displayName":  "Brave Browser",
+    "description":  "Brave Browser is a lightning fast, safe and private web browser that prevents you from being tracked and blocks ads by default (including YouTube ads).\n\nQuickly import bookmarks, extensions, even saved passwords. It�s the best of your old browser, only safer. And it only takes a minute to switch and ditch Big Tech.\n\nBrave Search\nSearch the internet without being tracked by advertisers, malware and pop-ups.Totally private, and built off an independent search index, Brave Search is the real alternative to Google. \nBrave Search doesn�t use secret methods or algorithms to bias or censor results. We rely on anonymous community contributions to refine results, and community-created alternative ranking models to ensure diversity.\n\nBrave Rewards\nWith your old web browser, you paid to browse the internet by viewing ads. Now, Brave welcomes you to the new internet. One where your time is valued, your personal data is kept private, and you actually get paid for your attention.\n\nPrivacy Protection\nBe protected with leading privacy and security features such as , script blocking, cookie blocking, and private incognito tabs. All other browsers fall short of the level of privacy and security protection that Brave provides.\n\nBrave Talk\nUnlimited, private video calls, right in your browser. No extra apps. No tracking. Just free connections, powered by Brave.\n\nBrave Wallet\nA secure, multi-chain and self-custody crypto wallet built directly into Brave browser. No extensions required. You can use it to buy, store, swap, and manage your tokens, send and receive NFTs, view market data, and much more.\n\nBrave News\nBrave News creates a customizable, up-to-date news feed, curated from a list of sources you�ve selected. Hundreds of top publishers and RSS feeds, blogs, news outlets, print and web magazines, and more, across dozens of categories.\n\nAbout Brave\nOur mission is to save the web by making a safe, private and fast browser while growing ad revenue for content creators. Brave aims to transform the online ad ecosystem with micropayments and a new revenue-sharing solution to give users and publishers a better deal, where safe, fast browsing is the path to a brighter future for an open web.\n\nTo learn more about Brave private Web browser, which has a free built-in 3rd-party ad block and pop up blocker and security protection, please go to www.brave.com.\n\nQuestions/support?\nContact us at https://community.brave.com/. \nWe love hearing from you.\n\n� 2015 - 2023 Brave Software, Inc. | All rights reserved",
+    "publisher":  "Brave",
+    "largeIcon":  null,
+    "isFeatured":  false,
+    "privacyInformationUrl":  "https://brave.com/privacy/browser/",
+    "informationUrl":  null,
+    "owner":  "",
+    "developer":  "",
+    "notes":  "",
+    "isAssigned":  false,
+    "roleScopeTagIds":  [
+                            "0"
+                        ],
+    "dependentAppCount":  0,
+    "supersedingAppCount":  0,
+    "supersededAppCount":  0,
+    "manifestHash":  null,
+    "packageIdentifier":  "XP8C9QZMS2PC1T",
+    "installExperience":  {
+                              "runAsAccount":  "user"
+                          }
+}
