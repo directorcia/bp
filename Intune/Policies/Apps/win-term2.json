@@ -1,6 +1,5 @@
 {
     "@odata.type":  "#microsoft.graph.winGetApp",
-    "id":  "a73ffa61-628b-4a7a-99a9-8184fcb50396",
     "displayName":  "Windows Terminal",
     "description":  "The Windows Terminal is a modern, fast, efficient, powerful, and productive terminal application for users of command-line tools and shells like Command Prompt, PowerShell, and WSL. Its main features include multiple tabs, panes, Unicode and UTF-8 character support, a GPU accelerated text rendering engine, and custom themes, styles, and configurations.\n\nThis is an open source project and we welcome community participation. To participate please visit https://github.com/microsoft/terminal",
     "publisher":  "Microsoft Corporation",
