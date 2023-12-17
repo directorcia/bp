@@ -9,9 +9,6 @@
     "notes":  "",
     "uploadState":  1,
     "publishingState":  "published",
-    "dependentAppCount":  0,
-    "supersedingAppCount":  0,
-    "supersededAppCount":  0,
     "repositoryType": "microsoftStore",
     "packageIdentifier":  "9N0DX20HK701",
     "installExperience":  {
