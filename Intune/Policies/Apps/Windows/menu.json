@@ -1,0 +1,14 @@
+[
+    {
+        "command": "Invoke-Command1",
+        "name": "Option 1"
+    },
+    {
+        "command": "Invoke-Command2",
+        "name": "Option 2"
+    },
+    {
+        "command": "Invoke-Command3",
+        "name": "Option 3"
+    }
+]
