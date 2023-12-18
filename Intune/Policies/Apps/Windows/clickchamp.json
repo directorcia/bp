@@ -1,0 +1,26 @@
+{
+    "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceAppManagement/mobileApps/$entity",
+    "@odata.type": "#microsoft.graph.winGetApp",
+    "displayName": "Microsoft Clipchamp",
+    "description": "Create videos with a few clicks in Clipchamp, the easy video editor by Microsoft.\n\nThis video maker is beginner-friendly with a drag-and-drop interface but has advanced video editing features to help you cut, crop and resize video, record screen and webcam, edit green screen videos and even add AI voiceovers. Make engaging videos for social media, sales promo videos, in-depth tutorials, and more with Clipchamp.\n\nEasy editing features:\n\nClipchamp\u0027s online video editor equips you with essential editing tools. You can cut, trim, crop, rotate, split, loop, zoom in and out, speed up or slow down, add or remove audio and even add filters and transitions to videos.\n\nRecord your camera and screen:\n\nEasily make screen recordings and edit them into tutorial videos, virtual meetings, presentations, and even reaction videos.\n\nCaptivating stock video and audio:\n\nSearch our library of curated themed stock collections to select the perfect song, sound effect, image, or video to complete your creations. There are millions of royalty-free and paid stock options to choose from.\n\nBeginner-friendly templates, made by designers:\n\nCreate professional videos with no experience in minutes using free video templates. Customize your template with videos, text, branding, and background music. From YouTube gaming to sales, choose from thousands of video templates for any industry.\n\nSave and share high-quality videos to your favorite apps:\n\nSave videos directly to your computer for free in 480p, 720p, or 1080p resolution. Directly publish to YouTube, LinkedIn, TikTok, Pinterest, and OneDrive. Low on computer storage? Save your videos with Clipchamp\u0027s secure content backup options.\n\nSpecial tools for creators:\n\n- Green screen video editor: Amaze your viewers with the background replace feature. Use chroma key effects to quickly replace parts of a video and add overlays.\n- Meme maker: Create and share looped videos and entertaining GIFs.\n- Try text-to-speech: Create lifelike voiceovers for your videos using our 170 AI voices. Choose from a selection of feminine, masculine and neutral tones in different accents in 70 languages.\n\nSpecial tools for businesses:\n\n- Brand kit: Simply add your brand\u0027s logo, custom fonts, colors, and watermark, and add them to any video using our brand kit.\n- Edit corporate videos: Skip long emails and make videos with the webcam recorder or polish meeting recordings with ease.\n\nIntuitive shortcuts help you edit faster:\n\n- Resize video to landscape, portrait, square, social, vertical, or cinematic in a click\n- Remove unwanted gaps between multiple video clips to maintain continuity\n- Try accessible editing with keyboard shortcuts\n\nSend us feedback and feature requests:\n\nLeave us a rating and review in the App Store so others can join in on the fun.\nSend in your feedback to feature requests and we\u0027ll be happy to help.",
+    "publisher": "Microsoft Corp.",
+    "largeIcon": null,
+    "isFeatured": false,
+    "privacyInformationUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+    "informationUrl": null,
+    "owner": "",
+    "developer": "",
+    "notes": "",
+    "isAssigned": false,
+    "roleScopeTagIds": [
+        "0"
+    ],
+    "dependentAppCount": 0,
+    "supersedingAppCount": 0,
+    "supersededAppCount": 0,
+    "manifestHash": null,
+    "packageIdentifier": "9P1J8S7CCWWT",
+    "installExperience": {
+        "runAsAccount": "user"
+    }
+}

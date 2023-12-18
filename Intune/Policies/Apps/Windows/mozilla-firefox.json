@@ -1,0 +1,26 @@
+{
+    "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceAppManagement/mobileApps/$entity",
+    "@odata.type": "#microsoft.graph.winGetApp",
+    "displayName": "Mozilla Firefox",
+    "description": "Firefox Browser: fast, private \u0026 safe web browser\r\n\r\nWhen it comes to your life online, you have a choice: accept the factory settings or put your privacy first. When you choose Firefox for Windows as your default browser, you’re choosing to protect your data while supporting an independent tech company. Firefox is also the only major browser backed by a non-profit fighting to give you more openness, transparency and control of your life online. Join hundreds of millions of people who choose to protect what\u0027s important by choosing Firefox - a web browser designed to be fast, easy to use, customizable and private.\r\n\r\nA BROWSER THAT REFLECTS WHO YOU ARE \r\n- You can choose whatever default browser you want. Maybe think about using the only super-fast, ultra-private browser that’s backed by a non-profit? No pressure though.\r\n- Our secret sauce: Firefox Add-ons. They’re like these magical power-ups you can add to your Firefox browser to make it even better.\r\n- From watching a web tutorial to keeping an eye on your favorite team, your video follows you while you multitask with Picture-in-Picture.\r\n\r\nFAST. PRIVATE. SAFE.\r\nFirefox browser gives you effortless privacy protection with lightning-fast page loads. Enhanced Tracking Protection automatically blocks over 2,000 known online trackers from invading your privacy and slowing down your webpages. Firefox browser also introduces a clean new design that makes it easier to get more things done, more quickly. Plus, with smart browsing features built in, Firefox lets you take your privacy, passwords, and bookmarks with you safely wherever you go.\r\n\r\nYOU COME FIRST\r\nAs the internet grows and changes, Firefox continues to focus on your right to privacy — we call it the Personal Data Promise: Take less. Keep it safe. No secrets. Your data, your web activity, your life online is protected with Firefox.\r\n\r\nHOW FIREFOX COMPARES TO OTHER BROWSERS\r\nWhen it comes to all-around performance — speed, design, utility, ease of use, and a steadfast commitment to your privacy — no browser beats Firefox. And being backed by a non-profit means that unlike other browsers, we have no financial stake in following you around the web.\r\n\r\nPICK UP RIGHT WHERE YOU LEFT OFF\r\nStart using Firefox on your phone then switch to the Firefox browser on your computer. With Firefox across your devices you can take your bookmarks, saved logins and browsing history wherever you go. Firefox browser also takes the guesswork out of passwords by remembering your passwords across devices.\r\n\r\nKEEP FACEBOOK OFF YOUR BACK\r\nBuilt for Firefox, the Facebook Container extension helps to stop Facebook from collecting your personal data and web activity when you’re outside of Facebook — yes, they’re actually doing this.\r\n\r\nYOUR SAVE BUTTON FOR THE INTERNET\r\nHit the Pocket button when you come across an interesting article, video, recipe — you know, the good stuff on the internet — but just don’t have the time. Pocket stashes it in your own private, distraction-free space to dive into later.\r\n\r\nMULTITASKING MADE EASY\r\nPlay a video in a separate, scalable window that pins to the front of your desktop with the Picture-in-Picture feature. It stays and plays while you go about your other business on other tabs or do things outside of Firefox. \r\n\r\nEXTENSIONS FOR EVERY INTEREST\r\nFrom security to news to gaming, there’s an extension for everyone. Add as many as you want until your browser is just right.\r\n\r\nCHALLENGING THE STATUS QUO SINCE 1998\r\nFirefox was created by Mozilla as a faster, more private alternative to browsers like Microsoft Edge and Google Chrome. Our mission-driven company and volunteer community continue to put your privacy above all else.",
+    "publisher": "Mozilla",
+    "largeIcon": null,
+    "isFeatured": false,
+    "privacyInformationUrl": "https://www.mozilla.org/privacy/firefox/",
+    "informationUrl": null,
+    "owner": "",
+    "developer": "",
+    "notes": "",
+    "isAssigned": false,
+    "roleScopeTagIds": [
+        "0"
+    ],
+    "dependentAppCount": 0,
+    "supersedingAppCount": 0,
+    "supersededAppCount": 0,
+    "manifestHash": null,
+    "packageIdentifier": "9NZVDKPMR9RD",
+    "installExperience": {
+        "runAsAccount": "user"
+    }
+}

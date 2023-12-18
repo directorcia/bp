@@ -1,0 +1,26 @@
+{
+    "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceAppManagement/mobileApps/$entity",
+    "@odata.type": "#microsoft.graph.winGetApp",
+    "displayName": "Microsoft Loop",
+    "description": "Microsoft Loop is a transformative co-creation experience that brings together teams, content, and tasks across your tools and devices. Loop enables you to organize your thoughts, content, and resources as your project evolves. Loop\u0027s portable pieces of content (components) synchronize across apps and stay up to date wherever they are shared across M365.",
+    "publisher": "Microsoft Corporation",
+    "largeIcon": null,
+    "isFeatured": false,
+    "privacyInformationUrl": "https://privacy.microsoft.com/en-us/privacystatement",
+    "informationUrl": null,
+    "owner": "",
+    "developer": "",
+    "notes": "",
+    "isAssigned": false,
+    "roleScopeTagIds": [
+        "0"
+    ],
+    "dependentAppCount": 0,
+    "supersedingAppCount": 0,
+    "supersededAppCount": 0,
+    "manifestHash": null,
+    "packageIdentifier": "9P1HQ5TQZMGD",
+    "installExperience": {
+        "runAsAccount": "user"
+    }
+}

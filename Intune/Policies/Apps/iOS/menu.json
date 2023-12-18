@@ -1,0 +1,10 @@
+[
+    {
+        "App": "Microsoft Authenticator",
+        "URL": "https://raw.githubusercontent.com/directorcia/bp/main/Intune/Policies/Apps/iOS/ms-authenticator.json"
+    },
+    {
+        "App": "Company Portal",
+        "URL": "https://raw.githubusercontent.com/directorcia/bp/main/Intune/Policies/Apps/iOS/companyportal.json"
+    }
+]
