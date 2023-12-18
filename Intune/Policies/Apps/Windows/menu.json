@@ -1,14 +1,14 @@
 [
     {
-        "command": "Invoke-Command1",
-        "name": "Option 1"
+        "App": "Brave browser",
+        "name": "https: //raw.githubusercontent.com/directorcia/bp/main/Intune/Policies/Apps/Windows/brave.json"
     },
     {
-        "command": "Invoke-Command2",
-        "name": "Option 2"
+        "command": "Windows Terminal",
+        "name": "https: //raw.githubusercontent.com/directorcia/bp/main/Intune/Policies/Apps/Windows/win-terminal.json"
     },
     {
-        "command": "Invoke-Command3",
-        "name": "Option 3"
+        "command": "Office 365",
+        "name": "https: //raw.githubusercontent.com/directorcia/bp/main/Intune/Policies/Apps/Windows/officeapps.json"
     }
 ]
