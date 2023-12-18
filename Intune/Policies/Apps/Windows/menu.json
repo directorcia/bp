@@ -1,14 +1,14 @@
 [
     {
         "App": "Brave browser",
-        "URL": "https: //raw.githubusercontent.com/directorcia/bp/main/Intune/Policies/Apps/Windows/brave.json"
+        "URL": "https://raw.githubusercontent.com/directorcia/bp/main/Intune/Policies/Apps/Windows/brave.json"
     },
     {
         "App": "Windows Terminal",
-        "URL": "https: //raw.githubusercontent.com/directorcia/bp/main/Intune/Policies/Apps/Windows/win-terminal.json"
+        "URL": "https://raw.githubusercontent.com/directorcia/bp/main/Intune/Policies/Apps/Windows/win-terminal.json"
     },
     {
         "App": "Office 365",
-        "URL": "https: //raw.githubusercontent.com/directorcia/bp/main/Intune/Policies/Apps/Windows/officeapps.json"
+        "URL": "https://raw.githubusercontent.com/directorcia/bp/main/Intune/Policies/Apps/Windows/officeapps.json"
     }
 ]
