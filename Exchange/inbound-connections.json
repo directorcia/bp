@@ -1,0 +1,7 @@
+{
+    "AdminDisplayName": "Best Practices Connection Policy",
+    "IPBlockList": null,
+    "Name": "Best Practices Connection Policy",
+    "IPAllowList": null,
+    "EnableSafeList": true
+}
