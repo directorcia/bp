@@ -1,7 +1,9 @@
 {
+    "createdDateTime":  "\/Date(1709615449696)\/",
     "creationSource":  null,
-    "description":  "Best Practices Endpoint Security ASR ASR rules",
-    "displayname":  "BP - Endpoint ASR ASR rules - Windows 10",
+    "description":  "",
+    "lastModifiedDateTime":  "\/Date(1709615449696)\/",
+    "name":  "Windows ASR",
     "platforms":  "windows10",
     "priorityMetaData":  null,
     "roleScopeTagIds":  [
