@@ -1,0 +1,26 @@
+{
+    "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceAppManagement/mobileApps/$entity",
+    "@odata.type": "#microsoft.graph.winGetApp",
+    "displayName": "Microsoft To Do: Lists, Tasks \u0026 Reminders",
+    "description": "Got something on your mind? Get Microsoft To Do. Whether you want to increase your productivity, decrease your stress levels, or just free up some mental space, Microsoft To Do makes it easy to plan your day and manage your life.\r\n\r\nWith Microsoft To Do, you can:\r\n• Stay focused with My Day, a personalized daily planner with suggested tasks\r\n• Get your lists anywhere, on any device\r\n• Share lists and assign tasks with your friends, family, colleagues, and classmates\r\n• Personalize your lists with bold and colorful backgrounds\r\n• Set one-time or recurring due dates and reminders\r\n• Break your tasks into manageable steps\r\n• Add notes to any task\r\n• Attach files up to 25 MB to any task\r\n• Sync your tasks between Outlook and To Do\r\n• Group your lists together by topic or project\r\nWhether it\u0027s for work, school, or home, To Do helps you organize and simplify your plans. To Do is free and available on all your devices.\r\n\r\nLearn more: https://to-do.microsoft.com\r\nFollow us on Twitter: @MicrosoftToDo\r\nNeed support? https://todosupport.microsoft.com/support?product_id=todo\u0026auth=1\u0026nf=1\u0026fromAR=1\r\nBy installing Microsoft To Do, you agree to the Microsoft Terms of Use: https://go.microsoft.com/fwlink/?linkid=842575",
+    "publisher": "Microsoft Corporation",
+    "largeIcon": null,
+    "isFeatured": false,
+    "privacyInformationUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+    "informationUrl": null,
+    "owner": "",
+    "developer": "",
+    "notes": "",
+    "isAssigned": false,
+    "roleScopeTagIds": [
+        "0"
+    ],
+    "dependentAppCount": 0,
+    "supersedingAppCount": 0,
+    "supersededAppCount": 0,
+    "manifestHash": null,
+    "packageIdentifier": "9NBLGGH5R558",
+    "installExperience": {
+        "runAsAccount": "user"
+    }
+}

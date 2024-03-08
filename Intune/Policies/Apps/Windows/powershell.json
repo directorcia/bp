@@ -1,0 +1,26 @@
+{
+    "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceAppManagement/mobileApps/$entity",
+    "@odata.type": "#microsoft.graph.winGetApp",
+    "displayName": "PowerShell",
+    "description": "PowerShell is a task-based command-line shell and scripting language built on .NET.  PowerShell helps system administrators and power-users rapidly automate task that manage operating systems (Linux, macOS, and Windows) and processes.\r\n\r\nPowerShell commands let you manage computers from the command line.  PowerShell providers let you access data stores, such as the registry and certificate store, as easily as you access the file system.  PowerShell includes a rich expression parser and a fully developed scripting language.\r\n\r\nPowerShell is Open Source.  See https://github.com/powershell/powershell",
+    "publisher": "Microsoft Corporation",
+    "largeIcon": null,
+    "isFeatured": false,
+    "privacyInformationUrl": "https://github.com/PowerShell/PowerShell#telemetry",
+    "informationUrl": null,
+    "owner": "",
+    "developer": "",
+    "notes": "",
+    "isAssigned": false,
+    "roleScopeTagIds": [
+        "0"
+    ],
+    "dependentAppCount": 0,
+    "supersedingAppCount": 0,
+    "supersededAppCount": 0,
+    "manifestHash": null,
+    "packageIdentifier": "9MZ1SNWT0N5D",
+    "installExperience": {
+        "runAsAccount": "user"
+    }
+}

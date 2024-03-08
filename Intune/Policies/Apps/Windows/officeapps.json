@@ -1,7 +1,6 @@
 {
     "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceAppManagement/mobileApps/$entity",
     "@odata.type": "#microsoft.graph.officeSuiteApp",
-    "id": "71ac24a1-8af6-4206-81f1-9f965b743fb2",
     "displayName": "Microsoft 365 Apps for Windows 10 and later",
     "description": "Microsoft 365 Apps for Windows 10 and later",
     "publisher": "Microsoft",
@@ -11,8 +10,6 @@
     "owner": "Microsoft",
     "developer": "Microsoft",
     "notes": "",
-    "uploadState": 1,
-    "publishingState": "published",
     "isAssigned": false,
     "roleScopeTagIds": [
         "0"

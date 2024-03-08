@@ -1,0 +1,46 @@
+[
+    {
+        "App": "Brave browser",
+        "URL": "https://raw.githubusercontent.com/directorcia/bp/main/Intune/Policies/Apps/Windows/brave.json"
+    },
+    {
+        "App": "Windows Terminal",
+        "URL": "https://raw.githubusercontent.com/directorcia/bp/main/Intune/Policies/Apps/Windows/win-terminal.json"
+    },
+    {
+        "App": "Office 365",
+        "URL": "https://raw.githubusercontent.com/directorcia/bp/main/Intune/Policies/Apps/Windows/officeapps.json"
+    },
+    {
+        "App": "Microsoft 365 (Office)",
+        "URL": "https://raw.githubusercontent.com/directorcia/bp/main/Intune/Policies/Apps/Windows/m365-office.json"
+    },
+    {
+        "App": "Clickchamp",
+        "URL": "https://raw.githubusercontent.com/directorcia/bp/main/Intune/Policies/Apps/Windows/clickchamp.json"
+    },
+    {
+        "App": "Microsoft Loop",
+        "URL": "https://raw.githubusercontent.com/directorcia/bp/main/Intune/Policies/Apps/Windows/loop.json"
+    },
+    {
+        "App": "Microsoft To Do",
+        "URL": "https://raw.githubusercontent.com/directorcia/bp/main/Intune/Policies/Apps/Windows/ms-to-do.json"
+    },
+    {
+        "App": "Microsoft Whiteboard",
+        "URL": "https://raw.githubusercontent.com/directorcia/bp/main/Intune/Policies/Apps/Windows/ms-whiteboard.json"
+    },
+    {
+        "App": "Mozilla Firefox",
+        "URL": "https://raw.githubusercontent.com/directorcia/bp/main/Intune/Policies/Apps/Windows/mozilla-firefox.json"
+    },
+    {
+        "App": "PowerShell",
+        "URL": "https://raw.githubusercontent.com/directorcia/bp/main/Intune/Policies/Apps/Windows/powershell.json"
+    },
+    {
+        "App": "Company Portal",
+        "URL": "https://raw.githubusercontent.com/directorcia/bp/main/Intune/Policies/Apps/Windows/company-portal.json"
+    }
+]

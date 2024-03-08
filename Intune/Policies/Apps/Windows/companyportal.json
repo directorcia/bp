@@ -1,0 +1,29 @@
+{
+    "@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceAppManagement/mobileApps/$entity",
+    "@odata.type":  "#microsoft.graph.winGetApp",
+    "id":  "d830a1dc-3682-4670-9301-8509fa58d1ba",
+    "displayName":  "Company Portal",
+    "description":  "Microsoft Intune helps organizations manage access to corporate apps, data, and resources. Company Portal is the app that lets you, as an employee of your company, securely access those resources.\r\n\r\nBefore you can use this app, make sure your IT admin has set up your work account. Your company must also have a subscription to Microsoft Intune.\r\n\r\nCompany Portal helps simplify the tasks you need to do for work:\r\n\r\n- Enroll your device to access corporate resources, including Office, email, and OneDrive for Business\r\n- Sign in to corporate resources with company-issued certificates\r\n- Reduce the number of times you need to sign in to corporate resources with single sign-on\r\n- Browse and install approved business apps from your IT department or the Microsoft Store for Business\r\n- View and manage your enrolled devices � and wipe them if they get lost or stolen\r\n- Get help directly from your IT department through available contact information\r\n \r\nA note about Intune: every organization has different access requirements, and will use Intune in ways that they determine will best manage their information. Some functionality might be unavailable in certain countries. If you have questions about how this app is being used within your organization, your company�s IT administrator should have those answers for you. Microsoft, your network provider, and your device�s manufacturer do not know how Intune will be used by your organization.",
+    "publisher":  "Microsoft Corporation",
+    "largeIcon":  null,
+    "isFeatured":  false,
+    "privacyInformationUrl":  "http://go.microsoft.com/fwlink/?LinkID=316999",
+    "informationUrl":  null,
+    "owner":  "",
+    "developer":  "",
+    "notes":  "",
+    "uploadState":  1,
+    "publishingState":  "published",
+    "isAssigned":  false,
+    "roleScopeTagIds":  [
+                            "0"
+                        ],
+    "dependentAppCount":  0,
+    "supersedingAppCount":  0,
+    "supersededAppCount":  0,
+    "manifestHash":  null,
+    "packageIdentifier":  "9WZDNCRFJ3PZ",
+    "installExperience":  {
+                              "runAsAccount":  "user"
+                          }
+}

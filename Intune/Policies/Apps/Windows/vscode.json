@@ -1,0 +1,108 @@
+{
+    "@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceAppManagement/mobileApps/$entity",
+    "@odata.type":  "#microsoft.graph.win32CatalogApp",
+    "id":  "c3eadf8f-4c66-4e55-b9d6-e409b40fa54a",
+    "displayName":  "Visual Studio Code (x64)",
+    "description":  "Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications.  Visual Studio Code is free and available on your favorite platform - Linux, macOS, and Windows.",
+    "publisher":  "Microsoft",
+    "largeIcon":  null,
+    "isFeatured":  false,
+    "privacyInformationUrl":  "",
+    "informationUrl":  null,
+    "owner":  "",
+    "developer":  "",
+    "notes":  "",
+    "uploadState":  1,
+    "publishingState":  "published",
+    "isAssigned":  false,
+    "roleScopeTagIds":  [
+                            "0"
+                        ],
+    "dependentAppCount":  0,
+    "supersedingAppCount":  0,
+    "supersededAppCount":  0,
+    "committedContentVersion":  "1",
+    "fileName":  "VSCodeSetup-x64-1.86.2.exe",
+    "size":  98444512,
+    "installCommandLine":  "\"VSCodeSetup-x64-1.86.2.exe\" /VERYSILENT /NORESTART /MERGETASKS=!runcode",
+    "uninstallCommandLine":  "\"%ProgramFiles%\\Microsoft VS Code\\unins000.exe\" /VERYSILENT",
+    "applicableArchitectures":  "x64",
+    "minimumFreeDiskSpaceInMB":  null,
+    "minimumMemoryInMB":  null,
+    "minimumNumberOfProcessors":  null,
+    "minimumCpuSpeedInMHz":  null,
+    "msiInformation":  null,
+    "setupFilePath":  "VSCodeSetup-x64-1.86.2.exe",
+    "minimumSupportedWindowsRelease":  "1607",
+    "displayVersion":  "1.86.2",
+    "allowAvailableUninstall":  true,
+    "mobileAppCatalogPackageId":  "e158b39f-2727-69dc-7f40-83068cfb245b",
+    "minimumSupportedOperatingSystem":  {
+                                            "v8_0":  false,
+                                            "v8_1":  false,
+                                            "v10_0":  false,
+                                            "v10_1607":  true,
+                                            "v10_1703":  false,
+                                            "v10_1709":  false,
+                                            "v10_1803":  false,
+                                            "v10_1809":  false,
+                                            "v10_1903":  false,
+                                            "v10_1909":  false,
+                                            "v10_2004":  false,
+                                            "v10_2H20":  false,
+                                            "v10_21H1":  false
+                                        },
+    "detectionRules":  [
+
+                       ],
+    "requirementRules":  [
+
+                         ],
+    "rules":  [
+                  {
+                      "@odata.type":  "#microsoft.graph.win32LobAppFileSystemRule",
+                      "ruleType":  "detection",
+                      "path":  "%ProgramFiles%\\Microsoft VS Code",
+                      "fileOrFolderName":  "Code.exe",
+                      "check32BitOn64System":  false,
+                      "operationType":  "sizeInBytes",
+                      "operator":  "equal",
+                      "comparisonValue":  "163789856"
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.win32LobAppFileSystemRule",
+                      "ruleType":  "detection",
+                      "path":  "%ProgramFiles%\\Microsoft VS Code",
+                      "fileOrFolderName":  "Code.exe",
+                      "check32BitOn64System":  false,
+                      "operationType":  "version",
+                      "operator":  "equal",
+                      "comparisonValue":  "1.86.2.0"
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.win32LobAppRegistryRule",
+                      "ruleType":  "detection",
+                      "check32BitOn64System":  false,
+                      "keyPath":  "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\{EA457B21-F73E-494C-ACAB-524FDE069978}_is1",
+                      "valueName":  "DisplayVersion",
+                      "operationType":  "string",
+                      "operator":  "equal",
+                      "comparisonValue":  "1.86.2"
+                  }
+              ],
+    "installExperience":  {
+                              "runAsAccount":  "system",
+                              "maxRunTimeInMinutes":  60,
+                              "deviceRestartBehavior":  "basedOnReturnCode"
+                          },
+    "returnCodes":  [
+                        {
+                            "returnCode":  0,
+                            "type":  "success"
+                        },
+                        {
+                            "returnCode":  3010,
+                            "type":  "softReboot"
+                        }
+                    ]
+}

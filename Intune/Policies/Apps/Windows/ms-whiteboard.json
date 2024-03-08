@@ -1,0 +1,26 @@
+{
+    "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceAppManagement/mobileApps/$entity",
+    "@odata.type": "#microsoft.graph.winGetApp",
+    "displayName": "Microsoft Whiteboard",
+    "description": "The collaborative digital canvas in Microsoft 365 for effective meetings and engaged learning.\n\n  Microsoft Whiteboard provides a freeform, intelligent canvas where?you and your team can ideate, create, and collaborate visually via the cloud. Designed for touch, type, and pen, it lets you write or draw as smoothly as you would with ink. You can type in text,?add an image, sticky notes,?or note grid?to express your?ideas and use reactions to visually communicate your thoughts. It enhances teamwork by allowing all team members to edit the canvas in real time,?no matter where they are.?Get started quickly by inserting a pre-built template or?drawing your own flowchart using our expansive shapes library. Trust that all your work stays safe in the cloud, ready to be picked back up from another location or device.",
+    "publisher": "Microsoft Corporation",
+    "largeIcon": null,
+    "isFeatured": false,
+    "privacyInformationUrl": "https://privacy.microsoft.com/en-us/privacystatement",
+    "informationUrl": null,
+    "owner": "",
+    "developer": "",
+    "notes": "",
+    "isAssigned": false,
+    "roleScopeTagIds": [
+        "0"
+    ],
+    "dependentAppCount": 0,
+    "supersedingAppCount": 0,
+    "supersededAppCount": 0,
+    "manifestHash": null,
+    "packageIdentifier": "9MSPC6MP8FM4",
+    "installExperience": {
+        "runAsAccount": "user"
+    }
+}
