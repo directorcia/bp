@@ -1,0 +1,6 @@
+SharePoint
+----------
+
+Microsoft Copilot for Microsoft 365 - best practices with SharePoint - https://learn.microsoft.com/en-us/SharePoint/sharepoint-copilot-best-practices
+Branding guidance for SharePoint Online portals - https://docs.microsoft.com/en-us/sharepoint/dev/solution-guidance/portal-branding
+Best practices for migrating to SharePoint and OneDrive - https://techcommunity.microsoft.com/t5/microsoft-onedrive-blog/best-practices-for-migrating-to-sharepoint-and-onedrive/ba-p/2221548
