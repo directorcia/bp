@@ -82,11 +82,6 @@ OneDrive
 Recommended OneDrive sync app configuration - https://docs.microsoft.com/en-us/onedrive/ideal-state-configuration
 Best practices for migrating to SharePoint and OneDrive - https://techcommunity.microsoft.com/t5/microsoft-onedrive-blog/best-practices-for-migrating-to-sharepoint-and-onedrive/ba-p/2221548
 
-SharePoint
-----------
-Branding guidance for SharePoint Online portals - https://docs.microsoft.com/en-us/sharepoint/dev/solution-guidance/portal-branding
-Best practices for migrating to SharePoint and OneDrive - https://techcommunity.microsoft.com/t5/microsoft-onedrive-blog/best-practices-for-migrating-to-sharepoint-and-onedrive/ba-p/2221548
-
 Azure AD
 --------
 Azure Active Directory feature deployment guide - https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-deployment-checklist-p2
