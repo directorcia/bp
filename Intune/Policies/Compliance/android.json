@@ -1,0 +1,49 @@
+{
+    "@odata.type":  "#microsoft.graph.androidCompliancePolicy",
+    "roleScopeTagIds":  [
+                            "0"
+                        ],
+    "id":  "6de042a0-1171-45e0-9274-4effef921730",
+    "description":  "Default Android Compliance Policy",
+    "displayName":  "Android Compliance Policy",
+    "version":  1,
+    "passwordRequired":  true,
+    "passwordMinimumLength":  4,
+    "passwordRequiredType":  "numeric",
+    "requiredPasswordComplexity":  "none",
+    "passwordMinutesOfInactivityBeforeLock":  15,
+    "passwordExpirationDays":  null,
+    "passwordPreviousPasswordBlockCount":  null,
+    "passwordSignInFailureCountBeforeFactoryReset":  null,
+    "securityPreventInstallAppsFromUnknownSources":  false,
+    "securityDisableUsbDebugging":  false,
+    "securityRequireVerifyApps":  true,
+    "deviceThreatProtectionEnabled":  true,
+    "deviceThreatProtectionRequiredSecurityLevel":  "low",
+    "advancedThreatProtectionRequiredSecurityLevel":  "unavailable",
+    "securityBlockJailbrokenDevices":  true,
+    "securityBlockDeviceAdministratorManagedDevices":  false,
+    "osMinimumVersion":  null,
+    "osMaximumVersion":  null,
+    "minAndroidSecurityPatchLevel":  null,
+    "storageRequireEncryption":  true,
+    "securityRequireSafetyNetAttestationBasicIntegrity":  false,
+    "securityRequireSafetyNetAttestationCertifiedDevice":  false,
+    "securityRequireGooglePlayServices":  true,
+    "securityRequireUpToDateSecurityProviders":  true,
+    "securityRequireCompanyPortalAppIntegrity":  false,
+    "conditionStatementId":  null,
+    "restrictedApps":  [
+
+                       ],
+    "scheduledActionsForRule":  [
+                                    {
+                                        "scheduledActionConfigurations":  [
+                                                                              {
+                                                                                  "actionType":  "block"
+                                                                              }
+                                                                          ],
+                                        "ruleName":  null
+                                    }
+                                ]
+}
