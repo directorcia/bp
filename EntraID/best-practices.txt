@@ -1,0 +1,3 @@
+EntraID
+--------
+Azure Active Directory feature deployment guide - https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-deployment-checklist-p2

@@ -77,15 +77,6 @@ MCAS
 ----
 Cloud App Security best practices - https://docs.microsoft.com/en-us/cloud-app-security/best-practices
 
-OneDrive
---------
-Recommended OneDrive sync app configuration - https://docs.microsoft.com/en-us/onedrive/ideal-state-configuration
-Best practices for migrating to SharePoint and OneDrive - https://techcommunity.microsoft.com/t5/microsoft-onedrive-blog/best-practices-for-migrating-to-sharepoint-and-onedrive/ba-p/2221548
-
-Azure AD
---------
-Azure Active Directory feature deployment guide - https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-deployment-checklist-p2
-
 Azure
 -----
 Resource naming and tagging decision guide - https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/decision-guides/resource-tagging/
