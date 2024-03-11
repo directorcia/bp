@@ -6,7 +6,7 @@
     "allowedToSignUpEmailBasedSubscriptions": true,
     "allowedToUseSSPR": true,
     "allowEmailVerifiedUsersToJoinOrganization": false,
-    "allowUserConsentForRiskyApps": null,
+    "allowUserConsentForRiskyApps": false,
     "blockMsolPowerShell": true,
     "displayName": "Authorization Policy",
     "description": "Used to manage authorization related settings across the company.",
