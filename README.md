@@ -1,1 +1,1 @@
-[![Alt text]([https://assets.digitalocean.com/articles/alligator/boo.svg](https://ciaopsbloghome.files.wordpress.com/2024/01/ko-fi.jpg?w=600)https://ciaopsbloghome.files.wordpress.com/2024/01/ko-fi.jpg?w=600)](Support)
+<img title="a title" alt="Alt text" src="(https://ciaopsbloghome.files.wordpress.com/2024/01/ko-fi.jpg">
