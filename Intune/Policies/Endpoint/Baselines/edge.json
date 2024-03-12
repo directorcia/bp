@@ -1,0 +1,125 @@
+{
+    "@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceManagement/intents(\u002758872967-58ef-4ae8-8e70-cfbe92626069\u0027)/settings",
+    "value":  [
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceManagementStringSettingInstance",
+                      "id":  "eda65cba-2286-490a-b1b9-0f26f4f71fc0",
+                      "definitionId":  "admx--microsoftedge_AuthSchemes",
+                      "valueJson":  "\"enabled\"",
+                      "value":  "enabled"
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceManagementCollectionSettingInstance",
+                      "id":  "7d217f09-a60e-409d-ab67-19193900ce4e",
+                      "definitionId":  "admx--microsoftedgeExtensionInstallBlocklist_ExtensionInstallBlocklistDesc",
+                      "valueJson":  "[]"
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceManagementStringSettingInstance",
+                      "id":  "6cb02eef-b1b6-4fa3-bfbb-298e5946588f",
+                      "definitionId":  "admx--microsoftedge_PreventSmartScreenPromptOverride",
+                      "valueJson":  "\"enabled\"",
+                      "value":  "enabled"
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceManagementStringSettingInstance",
+                      "id":  "6f29c060-1eec-415e-b0cb-364f5ce69767",
+                      "definitionId":  "admx--microsoftedge_SSLVersionMin",
+                      "valueJson":  "\"enabled\"",
+                      "value":  "enabled"
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceManagementStringSettingInstance",
+                      "id":  "182db246-ca67-4daa-9048-4d09ce10d379",
+                      "definitionId":  "admx--microsoftedge_PreventSmartScreenPromptOverrideForFiles",
+                      "valueJson":  "\"enabled\"",
+                      "value":  "enabled"
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceManagementStringSettingInstance",
+                      "id":  "da4a4b41-8e2e-480a-a891-578323ae6f5a",
+                      "definitionId":  "admx--microsoftedge_NativeMessagingUserLevelHosts",
+                      "valueJson":  "\"disabled\"",
+                      "value":  "disabled"
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceManagementStringSettingInstance",
+                      "id":  "37a3f88b-6eb0-414a-a06b-6449aa617f9e",
+                      "definitionId":  "admx--microsoftedgev85diff_EnableSha1ForLocalAnchors",
+                      "valueJson":  "\"disabled\"",
+                      "value":  "disabled"
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceManagementStringSettingInstance",
+                      "id":  "2f64d0ee-379f-4892-9ce9-728a66016c2d",
+                      "definitionId":  "admx--microsoftedgeDefaultPluginsSetting_DefaultPluginsSetting",
+                      "valueJson":  "\"2\"",
+                      "value":  "2"
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceManagementStringSettingInstance",
+                      "id":  "8e79fd49-af87-445f-88bf-8de77c05683a",
+                      "definitionId":  "admx--microsoftedge_ExtensionInstallBlocklist",
+                      "valueJson":  "\"notConfigured\"",
+                      "value":  "notConfigured"
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceManagementStringSettingInstance",
+                      "id":  "b0da71b9-78bb-4e6c-91b6-94ede795e637",
+                      "definitionId":  "admx--microsoftedgev80diff_SmartScreenPuaEnabled",
+                      "valueJson":  "\"enabled\"",
+                      "value":  "enabled"
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceManagementStringSettingInstance",
+                      "id":  "69b3f285-bc20-4f0c-b941-9b9bf5ab22ec",
+                      "definitionId":  "admx--microsoftedge_SSLErrorOverrideAllowed",
+                      "valueJson":  "\"disabled\"",
+                      "value":  "disabled"
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceManagementStringSettingInstance",
+                      "id":  "bdf20d26-7edc-4c8f-a678-9fa67ee450da",
+                      "definitionId":  "admx--microsoftedge_SitePerProcess",
+                      "valueJson":  "\"enabled\"",
+                      "value":  "enabled"
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceManagementStringSettingInstance",
+                      "id":  "ccf69f12-ff07-4cb0-9c24-a85fbc2a4ed5",
+                      "definitionId":  "admx--microsoftedgeSSLVersionMin_SSLVersionMin",
+                      "valueJson":  "\"tls1.2\"",
+                      "value":  "tls1.2"
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceManagementStringSettingInstance",
+                      "id":  "82e455d3-266e-4d18-8885-b7704dc2fbbb",
+                      "definitionId":  "admx--microsoftedge_SmartScreenEnabled",
+                      "valueJson":  "\"enabled\"",
+                      "value":  "enabled"
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceManagementStringSettingInstance",
+                      "id":  "3b48213e-f848-429f-b61d-c3b002e3e2c7",
+                      "definitionId":  "admx--microsoftedge_PasswordManagerEnabled",
+                      "valueJson":  "\"disabled\"",
+                      "value":  "disabled"
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceManagementStringSettingInstance",
+                      "id":  "d376bef2-1754-477a-9ec9-c8b3532d88ba",
+                      "definitionId":  "admx--microsoftedge_DefaultPluginsSetting",
+                      "valueJson":  "\"enabled\"",
+                      "value":  "enabled"
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceManagementCollectionSettingInstance",
+                      "id":  "0a90d71b-2561-4a5d-925f-fc75ce798131",
+                      "definitionId":  "admx--microsoftedgeAuthSchemes_AuthSchemes",
+                      "valueJson":  "[\"ntlm\",\"negotiate\"]"
+                  }
+              ],
+    "displayName":  "Security Baseline for Microsoft Edge",
+    "description":  null,
+    "templateid":  "a8d6fa0e-1e66-455b-bb51-8ce0dde1559e"
+}
