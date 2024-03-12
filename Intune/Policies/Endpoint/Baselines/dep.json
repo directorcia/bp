@@ -339,7 +339,7 @@
                       "value":  "enable"
                   }
               ],
-    "displayName":  "Security Baseline for Microsoft Edge",
+    "displayName":  "Security Baseline for Microsoft Defender for Endpoint",
     "description":  null,
     "templateid":  "2209e067-9c8c-462e-9981-5a8c79165dcc"
 }
