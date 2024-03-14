@@ -1,6 +1,6 @@
 {
     "@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceManagement/intents(\u0027c9b96f55-8693-4111-96b3-a40a41a111d5\u0027)/settings",
-    "value":  [
+    "settingsDelta":  [
                   {
                       "@odata.type":  "#microsoft.graph.deviceManagementStringSettingInstance",
                       "id":  "276509bd-9db4-4665-a43d-185cd15c863e",
@@ -107,7 +107,7 @@
                       "value":  false
                   }
               ],
-    "displayName":  "Account Protection",
-    "description":  null,
+    "displayName":  "BP - Endpoint Account Protection - Windows 10",
+    "description":  "Best Practices Endpoint Security Account Protection - Windows 10 Account Protection",
     "templateid":  "0f2b5d70-d4e9-4156-8c16-1397eb6c54a5"
 }
