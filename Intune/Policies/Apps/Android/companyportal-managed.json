@@ -19,7 +19,6 @@
     "supersededAppCount":  0,
     "packageId":  "com.microsoft.windowsintune.companyportal",
     "appIdentifier":  "com.microsoft.windowsintune.companyportal",
-    "totalLicenseCount":  0,
     "appStoreUrl":  "https://play.google.com/store/apps/details?id=com.microsoft.windowsintune.companyportal\u0026hl=en-AU",
     "isPrivate":  false,
     "isSystemApp":  false,
