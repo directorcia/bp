@@ -1,7 +1,6 @@
 {
     "@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceAppManagement/mobileApps/$entity",
     "@odata.type":  "#microsoft.graph.iosStoreApp",
-    "id":  "5517e0f8-e63b-414e-9b96-5a8432dbdf07",
     "displayName":  "Microsoft Outlook",
     "description":  "Outlook lets you bring all your email accounts and calendars in one convenient spot. Whether it\u0027s staying on top of your inbox or scheduling the next big thing, we make it easy to be your most productive, organized, and connected self.\n\nHere\u0027s what you\u0027ll love about Outlook for iOS:\n\n- Focus on the right things with our smart inbox - we help you sort between messages you need to act on straight away and everything else.\n\n- Swipe to quickly schedule, delete and archive messages.\n\n- Share your meeting availability with just a tap and easily find times to meet with others.\n\n- Find everything you\u0027re looking for with our new search experience, including files, contacts, and your upcoming trips.\n\n- View and attach any file from your email, OneDrive, Dropbox, and more, without having to download them to your phone.\n\n- Open Word, Excel, or other Office document attachments to edit them directly in the corresponding app and attach them back to an email.\n\n--\n\nOutlook for iOS works with Microsoft Exchange, Office 365, Outlook.com (including Hotmail and MSN), Gmail, Yahoo Mail, and iCloud.\n\n--\n\nTo make an in-app purchase of a Microsoft 365 Family or Personal subscription, open the app, go to Settings, and tap on Upgrade next to your Outlook.com or Hotmail.com account. Subscriptions begin at $6.99 a month in the US, and can vary by region. With a Microsoft 365 subscription, you get 1TB of storage for each user, access to all features in Word, Excel, and PowerPoint on iPad, iPhone, and iPod touch, and you can install Word, Excel, PowerPoint, Outlook and OneNote on PCs or Macs.\n\nMicrosoft 365 subscriptions purchased from the app will be charged to your iTunes account and will automatically renew within 24 hours prior to the end of the current subscription period, unless auto-renewal is disabled beforehand. To manage your subscriptions or to disable auto-renewal, after purchase, go to your iTunes account settings. A subscription cannot be cancelled during the active subscription period. Any unused portion of a free trial period, if offered will be forfeited when the user purchases a subscription to that publication, where applicable.\n\nPrivacy and Cookies: https://go.microsoft.com/fwlink/?LinkId=521839\nTerms of Use: http://go.microsoft.com/fwlink/?LinkID=530144\nContract Summary: https://www.microsoft.com/microsoft-365/outlook/contract-summary",
     "publisher":  "Microsoft Corporation",
@@ -11,8 +10,6 @@
     "owner":  "",
     "developer":  "",
     "notes":  "",
-    "uploadState":  1,
-    "publishingState":  "published",
     "isAssigned":  false,
     "roleScopeTagIds":  [
                             "0"

@@ -1,7 +1,6 @@
 {
     "@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceAppManagement/mobileApps/$entity",
     "@odata.type":  "#microsoft.graph.androidManagedStoreApp",
-    "id":  "a8d3e8ce-8470-4c1f-a63c-05d7d0ba6fd1",
     "displayName":  "Microsoft Outlook",
     "description":  "Microsoft Outlook is your personal organiser for your emails, calendar \u0026 files.",
     "publisher":  "Microsoft Corporation",
@@ -11,8 +10,6 @@
     "owner":  null,
     "developer":  null,
     "notes":  null,
-    "uploadState":  1,
-    "publishingState":  "published",
     "isAssigned":  false,
     "roleScopeTagIds":  [
                             "0"
