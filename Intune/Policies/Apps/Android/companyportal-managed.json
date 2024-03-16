@@ -20,7 +20,6 @@
     "packageId":  "com.microsoft.windowsintune.companyportal",
     "appIdentifier":  "com.microsoft.windowsintune.companyportal",
     "appStoreUrl":  "https://play.google.com/store/apps/details?id=com.microsoft.windowsintune.companyportal\u0026hl=en-AU",
-    "isPrivate":  false,
     "isSystemApp":  false,
     "supportsOemConfig":  false,
     "largeIcon":  {
