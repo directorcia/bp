@@ -24,6 +24,9 @@
     "appStoreUrl":  "https://play.google.com/store/apps/details?id=com.microsoft.windowsintune.companyportal\u0026hl=en-AU",
     "isPrivate":  false,
     "isSystemApp":  false,
+    "minimumSupportedOperatingSystem": {
+        "v4_0": true
+            },
     "supportsOemConfig":  false,
     "largeIcon":  {
                       "type":  "image/png",
