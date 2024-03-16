@@ -10,6 +10,8 @@
     "owner":  null,
     "developer":  null,
     "notes":  null,
+    "uploadState":  1,
+    "publishingState":  "published",
     "isAssigned":  false,
     "roleScopeTagIds":  [
                             "0"
