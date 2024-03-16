@@ -1,7 +1,6 @@
 {
     "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceAppManagement/mobileApps/$entity",
     "@odata.type": "#microsoft.graph.androidManagedStoreApp",
-    "id": "f442d2f8-112d-4721-b211-6872d66a69eb",
     "displayName": "Microsoft Authenticator",
     "description": "Use Microsoft Authenticator to sign in easily and securely with 2FA/MFA.",
     "publisher": "Microsoft Corporation",
@@ -11,8 +10,6 @@
     "owner": null,
     "developer": null,
     "notes": null,
-    "uploadState": 1,
-    "publishingState": "published",
     "isAssigned": false,
     "roleScopeTagIds": [
         "0"

@@ -1,7 +1,6 @@
 {
     "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceAppManagement/mobileApps/$entity",
     "@odata.type": "#microsoft.graph.androidManagedStoreApp",
-    "id": "d5ebba46-5f2c-4973-983c-453993778359",
     "displayName": "Microsoft Intune",
     "description": "Get access to your organization’s resources and keep them secure.",
     "publisher": "Microsoft Corporation",
@@ -11,8 +10,6 @@
     "owner": null,
     "developer": null,
     "notes": null,
-    "uploadState": 1,
-    "publishingState": "published",
     "isAssigned": false,
     "roleScopeTagIds": [
         "0"
