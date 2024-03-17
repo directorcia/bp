@@ -5,3 +5,4 @@ Microsoft Entra security operations guide - https://learn.microsoft.com/en-us/en
 EntraId Identity Protection - https://www.youtube.com/watch?v=8AQQrSCrLMI
 PIM - https://www.youtube.com/watch?v=JiVcCLY1jh0
 Manage emergency access accounts in Microsoft Entra ID - https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/security-emergency-access
+What are the default user permissions in Microsoft Entra ID? - https://learn.microsoft.com/en-us/entra/fundamentals/users-default-permissions
