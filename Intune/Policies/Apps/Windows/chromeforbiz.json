@@ -2,7 +2,6 @@
     "@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceAppManagement/mobileApps/$entity",
     "@odata.type":  "#microsoft.graph.win32CatalogApp",
     "displayName":  "Chrome for Business 64-bit",
-    "id":  "b29500fb-8525-4d9e-8c45-385982ae0cec",
     "description":  "Google Chrome is a cross-platform web browser developed by Google. It was first released in 2008 for Microsoft Windows, and was later ported to Linux, macOS, iOS, and Android where it is the default browser built into the OS.",
     "publisher":  "Google",
     "isFeatured":  false,
