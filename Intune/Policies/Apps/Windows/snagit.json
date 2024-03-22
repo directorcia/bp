@@ -1,0 +1,104 @@
+{
+    "@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceAppManagement/mobileApps/$entity",
+    "@odata.type":  "#microsoft.graph.win32CatalogApp",
+    "displayName":  "Snagit 2024",
+    "description":  "Get the ultimate screen capture and video recording on Windows and Mac. Snagit is simple, powerful software to capture images and record videos of your computer screen.",
+    "publisher":  "TechSmith Corporation",
+    "isFeatured":  false,
+    "privacyInformationUrl":  null,
+    "informationUrl":  null,
+    "owner":  "",
+    "developer":  "",
+    "notes":  "",
+    "isAssigned":  false,
+    "roleScopeTagIds":  [
+                            "0"
+                        ],
+    "dependentAppCount":  0,
+    "supersedingAppCount":  0,
+    "supersededAppCount":  0,
+    "committedContentVersion":  "1",
+    "fileName":  "snagit.msi",
+    "size":  471326912,
+    "installCommandLine":  "\"%SystemRoot%\\System32\\msiexec.exe\" /i \"snagit.msi\" /qn",
+    "uninstallCommandLine":  "\"%SystemRoot%\\System32\\msiexec.exe\" /X {A2C31E9F-7C0A-4ADB-9E67-8CAA058F872F} /qn",
+    "applicableArchitectures":  "x64",
+    "minimumFreeDiskSpaceInMB":  null,
+    "minimumMemoryInMB":  null,
+    "minimumNumberOfProcessors":  null,
+    "minimumCpuSpeedInMHz":  null,
+    "setupFilePath":  "snagit.msi",
+    "minimumSupportedWindowsRelease":  "1607",
+    "displayVersion":  "2024.1.1",
+    "allowAvailableUninstall":  true,
+    "mobileAppCatalogPackageId":  "ad20cc24-84cc-93ca-5507-8d3935868308",
+    "largeIcon":  {
+                      "type":  "image/png",
+                      "value":  "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"
+                  },
+    "minimumSupportedOperatingSystem":  {
+                                            "v8_0":  false,
+                                            "v8_1":  false,
+                                            "v10_0":  false,
+                                            "v10_1607":  true,
+                                            "v10_1703":  false,
+                                            "v10_1709":  false,
+                                            "v10_1803":  false,
+                                            "v10_1809":  false,
+                                            "v10_1903":  false,
+                                            "v10_1909":  false,
+                                            "v10_2004":  false,
+                                            "v10_2H20":  false,
+                                            "v10_21H1":  false
+                                        },
+    "detectionRules":  [
+
+                       ],
+    "requirementRules":  [
+
+                         ],
+    "rules":  [
+                  {
+                      "@odata.type":  "#microsoft.graph.win32LobAppFileSystemRule",
+                      "ruleType":  "detection",
+                      "path":  "%ProgramFiles%\\TechSmith\\Snagit 2024",
+                      "fileOrFolderName":  "SnagitCapture.exe",
+                      "check32BitOn64System":  false,
+                      "operationType":  "appVersion",
+                      "operator":  "greaterThanOrEqual",
+                      "comparisonValue":  "24.1.1.1964"
+                  }
+              ],
+    "installExperience":  {
+                              "runAsAccount":  "system",
+                              "maxRunTimeInMinutes":  60,
+                              "deviceRestartBehavior":  "basedOnReturnCode"
+                          },
+    "returnCodes":  [
+                        {
+                            "returnCode":  0,
+                            "type":  "success"
+                        },
+                        {
+                            "returnCode":  3010,
+                            "type":  "softReboot"
+                        },
+                        {
+                            "returnCode":  1618,
+                            "type":  "retry"
+                        },
+                        {
+                            "returnCode":  1707,
+                            "type":  "success"
+                        }
+                    ],
+    "msiInformation":  {
+                           "productCode":  "{A2C31E9F-7C0A-4ADB-9E67-8CAA058F872F}",
+                           "productVersion":  "2024.1.1",
+                           "upgradeCode":  "{6131DABB-A98B-4FCC-B0D5-DD42665E0289}",
+                           "requiresReboot":  false,
+                           "packageType":  "perMachine",
+                           "productName":  "TechSmith Snagit 2024",
+                           "publisher":  "TechSmith Corporation"
+                       }
+}
