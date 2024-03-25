@@ -2,7 +2,7 @@
     "@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceAppManagement/mobileApps/$entity",
     "@odata.type":  "#microsoft.graph.androidManagedStoreApp",
     "displayName":  "Intune Company Portal",
-    "description":  "Get access to your organization�s resources and keep them secure.",
+    "description":  "Get access to your organization's resources and keep them secure.",
     "publisher":  "Microsoft Corporation",
     "isFeatured":  false,
     "privacyInformationUrl":  null,
