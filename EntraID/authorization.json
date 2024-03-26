@@ -17,6 +17,8 @@
         "allowedToCreateTenants": false,
         "allowedToReadBitlockerKeysForOwnedDevice": true,
         "allowedToReadOtherUsers": true,
-        "permissionGrantPoliciesAssigned": []
+        "permissionGrantPoliciesAssigned": [
+            "managePermissionGrantsForSelf.microsoft-user-default-low"
+        ]
     }
 }
