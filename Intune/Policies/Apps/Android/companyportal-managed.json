@@ -1,9 +1,8 @@
 {
     "@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceAppManagement/mobileApps/$entity",
     "@odata.type":  "#microsoft.graph.androidManagedStoreApp",
-    "id":  "c15ac7a6-a2fa-46ae-a7d8-4a48d58cea36",
     "displayName":  "Intune Company Portal",
-    "description":  "Get access to your organization’s resources and keep them secure.",
+    "description":  "Get access to your organization's resources and keep them secure.",
     "publisher":  "Microsoft Corporation",
     "isFeatured":  false,
     "privacyInformationUrl":  null,
@@ -11,8 +10,6 @@
     "owner":  null,
     "developer":  null,
     "notes":  null,
-    "uploadState":  1,
-    "publishingState":  "published",
     "isAssigned":  false,
     "roleScopeTagIds":  [
                             "0"
@@ -27,6 +24,9 @@
     "appStoreUrl":  "https://play.google.com/store/apps/details?id=com.microsoft.windowsintune.companyportal\u0026hl=en-AU",
     "isPrivate":  false,
     "isSystemApp":  false,
+    "minimumSupportedOperatingSystem": {
+        "v4_0": true
+            },
     "supportsOemConfig":  false,
     "largeIcon":  {
                       "type":  "image/png",

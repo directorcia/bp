@@ -2,3 +2,4 @@ OneDrive for Business
 ----------
 
 Best practices for migrating to SharePoint and OneDrive - https://techcommunity.microsoft.com/t5/microsoft-onedrive-blog/best-practices-for-migrating-to-sharepoint-and-onedrive/ba-p/2221548
+Recommended OneDrive sync app configuration - https://docs.microsoft.com/en-us/onedrive/ideal-state-configuration

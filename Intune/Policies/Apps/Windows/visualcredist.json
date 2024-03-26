@@ -1,0 +1,105 @@
+{
+    "@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceAppManagement/mobileApps/$entity",
+    "@odata.type":  "#microsoft.graph.win32CatalogApp",
+    "displayName":  "Microsoft Visual C++ 2015-2022 Redistributable (x64)",
+    "description":  "Microsoft Visual C++ Redistributable Packages install runtime components of Visual C++ Libraries on a computer that does not have Visual C++ installed. The libraries are required to run applications that are developed by using the corresponding version of Visual C++.",
+    "publisher":  "Microsoft",
+    "largeIcon":  null,
+    "isFeatured":  false,
+    "privacyInformationUrl":  "",
+    "informationUrl":  null,
+    "owner":  "",
+    "developer":  "",
+    "notes":  "",
+    "isAssigned":  false,
+    "roleScopeTagIds":  [
+                            "0"
+                        ],
+    "dependentAppCount":  0,
+    "supersedingAppCount":  0,
+    "supersededAppCount":  0,
+    "committedContentVersion":  "1",
+    "fileName":  "VC_redist.x64.exe",
+    "size":  25201360,
+    "installCommandLine":  "\"VC_redist.x64.exe\" /install /quiet /norestart",
+    "uninstallCommandLine":  "\"VC_redist.x64.exe\" /uninstall /quiet /norestart",
+    "applicableArchitectures":  "x64",
+    "minimumFreeDiskSpaceInMB":  null,
+    "minimumMemoryInMB":  null,
+    "minimumNumberOfProcessors":  null,
+    "minimumCpuSpeedInMHz":  null,
+    "msiInformation":  null,
+    "setupFilePath":  "VC_redist.x64.exe",
+    "minimumSupportedWindowsRelease":  "1607",
+    "displayVersion":  "14.38.33130.0",
+    "allowAvailableUninstall":  true,
+    "mobileAppCatalogPackageId":  "3ad9f961-ec9e-044a-e6a4-8ecff6376445",
+    "minimumSupportedOperatingSystem":  {
+                                            "v8_0":  false,
+                                            "v8_1":  false,
+                                            "v10_0":  false,
+                                            "v10_1607":  true,
+                                            "v10_1703":  false,
+                                            "v10_1709":  false,
+                                            "v10_1803":  false,
+                                            "v10_1809":  false,
+                                            "v10_1903":  false,
+                                            "v10_1909":  false,
+                                            "v10_2004":  false,
+                                            "v10_2H20":  false,
+                                            "v10_21H1":  false
+                                        },
+    "detectionRules":  [
+
+                       ],
+    "requirementRules":  [
+
+                         ],
+    "rules":  [
+                  {
+                      "@odata.type":  "#microsoft.graph.win32LobAppFileSystemRule",
+                      "ruleType":  "detection",
+                      "path":  "%SystemRoot%\\System32",
+                      "fileOrFolderName":  "vcruntime140.dll",
+                      "check32BitOn64System":  false,
+                      "operationType":  "sizeInBytes",
+                      "operator":  "equal",
+                      "comparisonValue":  "119376"
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.win32LobAppFileSystemRule",
+                      "ruleType":  "detection",
+                      "path":  "%SystemRoot%\\System32",
+                      "fileOrFolderName":  "vcruntime140.dll",
+                      "check32BitOn64System":  false,
+                      "operationType":  "version",
+                      "operator":  "equal",
+                      "comparisonValue":  "14.38.33130.0"
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.win32LobAppRegistryRule",
+                      "ruleType":  "detection",
+                      "check32BitOn64System":  false,
+                      "keyPath":  "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\{1CA7421F-A225-4A9C-B320-A36981A2B789}",
+                      "valueName":  "DisplayVersion",
+                      "operationType":  "string",
+                      "operator":  "equal",
+                      "comparisonValue":  "14.38.33130"
+                  }
+              ],
+    "installExperience":  {
+                              "runAsAccount":  "system",
+                              "maxRunTimeInMinutes":  60,
+                              "deviceRestartBehavior":  "basedOnReturnCode"
+                          },
+    "returnCodes":  [
+                        {
+                            "returnCode":  0,
+                            "type":  "success"
+                        },
+                        {
+                            "returnCode":  3010,
+                            "type":  "softReboot"
+                        }
+                    ]
+}

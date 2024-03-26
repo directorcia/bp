@@ -1,0 +1,26 @@
+{
+    "@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceAppManagement/mobileApps/$entity",
+    "@odata.type":  "#microsoft.graph.winGetApp",
+    "displayName":  "Windows Terminal Preview",
+    "description":  "This is the preview build of the Windows Terminal, which contains the latest features as they are developed. The Windows Terminal is a modern, fast, efficient, powerful, and productive terminal application for users of command-line tools and shells like Command Prompt, PowerShell, and WSL. Its main features include multiple tabs, panes, Unicode and UTF-8 character support, a GPU accelerated text rendering engine, and custom themes, styles, and configurations.\n\nThis is an open source project and we welcome community participation. To participate please visit https://github.com/microsoft/terminal",
+    "publisher":  "Microsoft Corporation",
+    "largeIcon":  null,
+    "isFeatured":  false,
+    "privacyInformationUrl":  "https://privacy.microsoft.com/en-us/privacystatement",
+    "informationUrl":  null,
+    "owner":  "",
+    "developer":  "",
+    "notes":  "",
+    "isAssigned":  false,
+    "roleScopeTagIds":  [
+                            "0"
+                        ],
+    "dependentAppCount":  0,
+    "supersedingAppCount":  0,
+    "supersededAppCount":  0,
+    "manifestHash":  null,
+    "packageIdentifier":  "9N8G5RFZ9XK3",
+    "installExperience":  {
+                              "runAsAccount":  "user"
+                          }
+}
