@@ -1,21 +1,9 @@
 {
-    "creationSource": null,
-    "description": "",
-    "name": "Security Baseline for Windows 10 and later",
-    "platforms": "windows10",
-    "priorityMetaData": null,
-    "roleScopeTagIds": [
-        "0"
-    ],
-    "settingCount": 147,
-    "technologies": "mdm",
-    "templateReference": {
-        "templateId": "66df8dce-0166-4b82-92f7-1f74e3ca17a3_1",
-        "templateFamily": "baseline",
-        "templateDisplayName": "Security Baseline for Windows 10 and later",
-        "templateDisplayVersion": "Version 23H2"
-    },
-    "settings": [
+    "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies('57190794-c0d2-483b-a2a7-519adf33eddc')/settings",
+    "@odata.count": 25,
+    "@odata.nextLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies/57190794-c0d2-483b-a2a7-519adf33eddc/settings?$skiptoken=%255Bcosmosdb%255D%255B%257B%2522token%2522%253A%2522%252BRID%253AZ2JXAMoXzflxngAAAAAAAg%253D%253D%2523RT%253A1%2523SRC%253A25%2523TRC%253A25%2523ISV%253A2%2523IEO%253A65551%2523QCF%253A8%2523FPC%253AAXGeAAAAAAACcZ4AAAAAAAI%253D%2522%252C%2522range%2522%253A%257B%2522min%2522%253A%252210BDAD91DED48D9C42AF2317DD8D3692%2522%252C%2522max%2522%253A%25221FFC1CF7138AF77EC7859284C0EC9CCC%2522%257D%257D%255D",
+    "@microsoft.graph.tips": "Use $select to choose only the properties your app needs, as this can lead to performance improvements. For example: GET deviceManagement/configurationPolicies('<guid>')/settings?$select=settingInstance",
+    "value": [
         {
             "id": "0",
             "settingInstance": {
