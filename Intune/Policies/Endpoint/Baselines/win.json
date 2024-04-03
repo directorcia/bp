@@ -1,5 +1,20 @@
 {
-    "value": [
+    "description": "",
+    "name": "Security Baseline for Windows 10 and later",
+    "platforms": "windows10",
+    "priorityMetaData": null,
+    "roleScopeTagIds": [
+        "0"
+    ],
+    "settingCount": 147,
+    "technologies": "mdm",
+    "templateReference": {
+        "templateId": "66df8dce-0166-4b82-92f7-1f74e3ca17a3_1",
+        "templateFamily": "baseline",
+        "templateDisplayName": "Security Baseline for Windows 10 and later",
+        "templateDisplayVersion": "Version 23H2"
+    },
+    "settings": [
         {
             "id": "0",
             "settingInstance": {
