@@ -1,0 +1,345 @@
+{
+    "@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceManagement/intents(\u0027a799fcf2-c04f-4904-8abb-b6efbe7c568a\u0027)/settings",
+    "value":  [
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceManagementStringSettingInstance",
+                      "id":  "d3b09cac-e9b1-4cd9-baa0-00e7bc0cd871",
+                      "definitionId":  "deviceConfiguration--windows10EndpointProtectionConfiguration_defenderScriptDownloadedPayloadExecutionType",
+                      "valueJson":  "\"block\"",
+                      "value":  "block"
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceManagementStringSettingInstance",
+                      "id":  "c6ce680c-d3b6-4641-a9b8-0a419a49b855",
+                      "definitionId":  "deviceConfiguration--windows10GeneralConfiguration_defenderScheduleScanDay",
+                      "valueJson":  "\"everyday\"",
+                      "value":  "everyday"
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceManagementStringSettingInstance",
+                      "id":  "a739dda1-43b8-4d63-a9c7-0e1236aa1d3d",
+                      "definitionId":  "deviceConfiguration--windows10EndpointProtectionConfiguration_defenderOfficeAppsExecutableContentCreationOrLaunchType",
+                      "valueJson":  "\"block\"",
+                      "value":  "block"
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceManagementStringSettingInstance",
+                      "id":  "dbc48710-06cc-45b7-9a21-10b0ea4a08bd",
+                      "definitionId":  "admx--microsoftedgev80diff_SmartScreenPuaEnabled",
+                      "valueJson":  "\"enabled\"",
+                      "value":  "enabled"
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceManagementBooleanSettingInstance",
+                      "id":  "6b938073-f5b0-4887-8563-1157d9ac0a87",
+                      "definitionId":  "deviceConfiguration--windows10EndpointProtectionConfiguration_firewallBlockStatefulFTP",
+                      "valueJson":  "true",
+                      "value":  true
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceManagementStringSettingInstance",
+                      "id":  "91d61ce2-f862-401c-982f-1265eeb9c844",
+                      "definitionId":  "deviceConfiguration--windows10EndpointProtectionConfiguration_firewallCertificateRevocationListCheckMethod",
+                      "valueJson":  "\"deviceDefault\"",
+                      "value":  "deviceDefault"
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceManagementBooleanSettingInstance",
+                      "id":  "44c10bc3-749c-4c67-946f-201deee2afc8",
+                      "definitionId":  "deviceConfiguration--windows10GeneralConfiguration_defenderRequireCloudProtection",
+                      "valueJson":  "true",
+                      "value":  true
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceManagementStringSettingInstance",
+                      "id":  "13ef729c-1b4b-4ffc-b0fe-2a2d3d86b5d3",
+                      "definitionId":  "deviceConfiguration--windows10EndpointProtectionConfiguration_defenderOfficeMacroCodeAllowWin32ImportsType",
+                      "valueJson":  "\"block\"",
+                      "value":  "block"
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceManagementBooleanSettingInstance",
+                      "id":  "0e7248d9-761f-4a12-905e-316f6d37d62b",
+                      "definitionId":  "deviceConfiguration--windows10EndpointProtectionConfiguration_smartScreenBlockOverrideForFiles",
+                      "valueJson":  "true",
+                      "value":  true
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceManagementStringSettingInstance",
+                      "id":  "b765b14e-c265-4be4-8d6d-324e1356a30e",
+                      "definitionId":  "deviceConfiguration--windows10EndpointProtectionConfiguration_defenderOfficeAppsLaunchChildProcessType",
+                      "valueJson":  "\"block\"",
+                      "value":  "block"
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceManagementStringSettingInstance",
+                      "id":  "f8f1c4dc-e679-4f44-a257-3422d1a2cedb",
+                      "definitionId":  "deviceConfiguration--windows10EndpointProtectionConfiguration_dmaGuardDeviceEnumerationPolicy",
+                      "valueJson":  "\"blockAll\"",
+                      "value":  "blockAll"
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceManagementStringSettingInstance",
+                      "id":  "78b3084d-42a5-4809-aab0-3628432004f8",
+                      "definitionId":  "deviceConfiguration--windows10EndpointProtectionConfiguration_defenderEmailContentExecutionType",
+                      "valueJson":  "\"block\"",
+                      "value":  "block"
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceManagementStringSettingInstance",
+                      "id":  "e7680cbd-d63e-476e-a09d-3d43fa62e294",
+                      "definitionId":  "deviceConfiguration--windows10EndpointProtectionConfiguration_firewallPreSharedKeyEncodingMethod",
+                      "valueJson":  "\"uTF8\"",
+                      "value":  "uTF8"
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceManagementComplexSettingInstance",
+                      "id":  "0d4bc5e8-3fb9-4b04-983c-3d95854d7549",
+                      "definitionId":  "deviceConfiguration--windows10EndpointProtectionConfiguration_firewallProfilePrivate",
+                      "valueJson":  "{\"inboundConnectionsBlocked\":true,\"outboundConnectionsRequired\":true,\"inboundNotificationsBlocked\":true,\"policyRulesFromGroupPolicyNotMerged\":true,\"firewallEnabled\":\"allowed\",\"incomingTrafficRequired\":true,\"unicastResponsesToMulticastBroadcastsRequired\":true,\"authorizedApplicationRulesFromGroupPolicyNotMerged\":true,\"globalPortRulesFromGroupPolicyMerged\":true,\"connectionSecurityRulesFromGroupPolicyNotMerged\":true}"
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceManagementBooleanSettingInstance",
+                      "id":  "9339c5dd-08a0-4ef9-bd20-412b7fb748fb",
+                      "definitionId":  "deviceConfiguration--windows10GeneralConfiguration_defenderScanDownloads",
+                      "valueJson":  "true",
+                      "value":  true
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceManagementAbstractComplexSettingInstance",
+                      "id":  "5ed3e24c-89d4-4dfd-a2df-41849695a110",
+                      "definitionId":  "deviceConfiguration--windows10GeneralConfiguration_hardwareDeviceInstallationBySetupClasses",
+                      "valueJson":  "{\"$implementationId\":\"deviceConfiguration--hardwareDeviceInstallationBlocked\",\"removeMatchingHardwareDevices\":true,\"identifiers\":[\"{d48179be-ec20-11d1-b6b8-00c04fa372a7}\"]}",
+                      "implementationId":  "deviceConfiguration--hardwareDeviceInstallationBlocked"
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceManagementBooleanSettingInstance",
+                      "id":  "c004189a-613b-4d96-abc5-437d24a3d3a7",
+                      "definitionId":  "deviceConfiguration--windows10GeneralConfiguration_smartScreenBlockPromptOverrideForFiles",
+                      "valueJson":  "true",
+                      "value":  true
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceManagementIntegerSettingInstance",
+                      "id":  "33431715-b786-4b70-91b1-43c9c2a0dc11",
+                      "definitionId":  "deviceConfiguration--windows10EndpointProtectionConfiguration_firewallIdleTimeoutForSecurityAssociationInSeconds",
+                      "valueJson":  "300",
+                      "value":  300
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceManagementStringSettingInstance",
+                      "id":  "5b8e7a30-0524-4ded-888d-46843c8d2ddf",
+                      "definitionId":  "admx--microsoftedge_PreventSmartScreenPromptOverrideForFiles",
+                      "valueJson":  "\"enabled\"",
+                      "value":  "enabled"
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceManagementStringSettingInstance",
+                      "id":  "b734c226-d5d1-44ac-aeed-4a1700d59e14",
+                      "definitionId":  "deviceConfiguration--windows10EndpointProtectionConfiguration_defenderAdobeReaderLaunchChildProcess",
+                      "valueJson":  "\"enable\"",
+                      "value":  "enable"
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceManagementBooleanSettingInstance",
+                      "id":  "bae099bd-9d23-4e16-a461-4ab84dd8bfd5",
+                      "definitionId":  "deviceConfiguration--windows10GeneralConfiguration_defenderRequireRealTimeMonitoring",
+                      "valueJson":  "true",
+                      "value":  true
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceManagementStringSettingInstance",
+                      "id":  "66d087f7-4b92-4f0a-9d74-53a0ce9746b5",
+                      "definitionId":  "admx--microsoftedge_PreventSmartScreenPromptOverride",
+                      "valueJson":  "\"enabled\"",
+                      "value":  "enabled"
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceManagementStringSettingInstance",
+                      "id":  "a6f98113-eb42-4f06-8dee-56b1bd3a5a96",
+                      "definitionId":  "deviceConfiguration--windows10GeneralConfiguration_defenderCloudBlockLevel",
+                      "valueJson":  "\"high\"",
+                      "value":  "high"
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceManagementStringSettingInstance",
+                      "id":  "8a30775d-b6a0-4b35-b499-582aee8deb06",
+                      "definitionId":  "deviceConfiguration--windows10EndpointProtectionConfiguration_defenderOfficeAppsOtherProcessInjectionType",
+                      "valueJson":  "\"block\"",
+                      "value":  "block"
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceManagementStringSettingInstance",
+                      "id":  "70f53161-957c-45a6-9a95-5a9ca09c2c54",
+                      "definitionId":  "deviceConfiguration--windows10EndpointProtectionConfiguration_deviceGuardLocalSystemAuthorityCredentialGuardSettings",
+                      "valueJson":  "\"enableWithUEFILock\"",
+                      "value":  "enableWithUEFILock"
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceManagementStringSettingInstance",
+                      "id":  "5954f4d9-545a-4da9-a3c4-622356c39e34",
+                      "definitionId":  "deviceConfiguration--windows10EndpointProtectionConfiguration_firewallPacketQueueingMethod",
+                      "valueJson":  "\"deviceDefault\"",
+                      "value":  "deviceDefault"
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceManagementStringSettingInstance",
+                      "id":  "184ffc1c-97cf-4e2e-885a-6fe1ede99e08",
+                      "definitionId":  "deviceConfiguration--windows10EndpointProtectionConfiguration_defenderNetworkProtectionType",
+                      "valueJson":  "\"enable\"",
+                      "value":  "enable"
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceManagementStringSettingInstance",
+                      "id":  "14575c15-1ce6-41b2-83de-73dd6d265120",
+                      "definitionId":  "deviceConfiguration--windows10GeneralConfiguration_defenderPotentiallyUnwantedAppAction",
+                      "valueJson":  "\"block\"",
+                      "value":  "block"
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceManagementBooleanSettingInstance",
+                      "id":  "adae0aae-d697-4a0c-bde7-809e4b45a168",
+                      "definitionId":  "deviceConfiguration--windows10GeneralConfiguration_smartScreenBlockPromptOverride",
+                      "valueJson":  "true",
+                      "value":  true
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceManagementIntegerSettingInstance",
+                      "id":  "f1b263a6-0656-4bb1-952b-81ab52a327d2",
+                      "definitionId":  "deviceConfiguration--windows10GeneralConfiguration_defenderCloudExtendedTimeout",
+                      "valueJson":  "50",
+                      "value":  50
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceManagementStringSettingInstance",
+                      "id":  "33a25e3a-86d7-463a-a539-87af9128d60f",
+                      "definitionId":  "deviceConfiguration--windows10GeneralConfiguration_defenderScanType",
+                      "valueJson":  "\"quick\"",
+                      "value":  "quick"
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceManagementBooleanSettingInstance",
+                      "id":  "06078a2c-0093-452d-beaa-8983104e0b74",
+                      "definitionId":  "deviceConfiguration--windows10EndpointProtectionConfiguration_bitLockerEncryptDevice",
+                      "valueJson":  "true",
+                      "value":  true
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceManagementStringSettingInstance",
+                      "id":  "474399e4-4c70-49fe-b679-92d63e48510f",
+                      "definitionId":  "deviceConfiguration--windows10EndpointProtectionConfiguration_defenderScriptObfuscatedMacroCodeType",
+                      "valueJson":  "\"block\"",
+                      "value":  "block"
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceManagementStringSettingInstance",
+                      "id":  "cf80a988-0eec-4a03-ac7e-a4e9c6035e0d",
+                      "definitionId":  "deviceConfiguration--windows10GeneralConfiguration_powerStandbyStatesWhenSleepingWhileOnBattery",
+                      "valueJson":  "\"disabled\"",
+                      "value":  "disabled"
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceManagementStringSettingInstance",
+                      "id":  "fb7b9d1d-3c89-43e4-af90-a8f07f9d9fc1",
+                      "definitionId":  "deviceConfiguration--windows10GeneralConfiguration_defenderSubmitSamplesConsentType",
+                      "valueJson":  "\"sendSafeSamplesAutomatically\"",
+                      "value":  "sendSafeSamplesAutomatically"
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceManagementStringSettingInstance",
+                      "id":  "627c6647-0b37-41e3-9a18-a9192a8e5e32",
+                      "definitionId":  "deviceConfiguration--windows10EndpointProtectionConfiguration_defenderUntrustedUSBProcessType",
+                      "valueJson":  "\"block\"",
+                      "value":  "block"
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceManagementStringSettingInstance",
+                      "id":  "ac6e169c-ea3f-452d-9f1b-aaef50b7c7c3",
+                      "definitionId":  "deviceConfiguration--windows10GeneralConfiguration_powerStandbyStatesWhenSleepingWhilePluggedIn",
+                      "valueJson":  "\"disabled\"",
+                      "value":  "disabled"
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceManagementBooleanSettingInstance",
+                      "id":  "9386462f-28ea-4083-9a57-acb7d9d711a1",
+                      "definitionId":  "deviceConfiguration--windows10GeneralConfiguration_defenderScanRemovableDrivesDuringFullScan",
+                      "valueJson":  "true",
+                      "value":  true
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceManagementComplexSettingInstance",
+                      "id":  "23698bb8-ec61-41b1-9a8c-b1cdcb7eaf12",
+                      "definitionId":  "deviceConfiguration--windows10EndpointProtectionConfiguration_bitLockerRemovableDrivePolicy",
+                      "valueJson":  "{\"encryptionMethod\":null,\"requireEncryptionForWriteAccess\":false}"
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceManagementComplexSettingInstance",
+                      "id":  "30dd6ac3-e2b0-4c77-ae8e-b89b596837e9",
+                      "definitionId":  "deviceConfiguration--windows10EndpointProtectionConfiguration_firewallProfilePublic",
+                      "valueJson":  "{\"policyRulesFromGroupPolicyNotMerged\":true,\"inboundConnectionsBlocked\":true,\"outboundConnectionsRequired\":true,\"inboundNotificationsBlocked\":true,\"firewallEnabled\":\"allowed\",\"incomingTrafficRequired\":true,\"unicastResponsesToMulticastBroadcastsRequired\":true,\"authorizedApplicationRulesFromGroupPolicyMerged\":true,\"globalPortRulesFromGroupPolicyMerged\":true,\"connectionSecurityRulesFromGroupPolicyNotMerged\":true}"
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceManagementComplexSettingInstance",
+                      "id":  "e4a0b0b2-211d-4d94-8858-c9ba0cdf3903",
+                      "definitionId":  "deviceConfiguration--windows10EndpointProtectionConfiguration_firewallProfileDomain",
+                      "valueJson":  "{\"firewallEnabled\":\"allowed\",\"inboundNotificationsBlocked\":true,\"unicastResponsesToMulticastBroadcastsRequired\":true,\"policyRulesFromGroupPolicyNotMerged\":true,\"authorizedApplicationRulesFromGroupPolicyMerged\":true,\"globalPortRulesFromGroupPolicyMerged\":true,\"connectionSecurityRulesFromGroupPolicyNotMerged\":true}"
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceManagementBooleanSettingInstance",
+                      "id":  "5cf6c037-0e1e-49c9-bd6b-c9ecdc10e417",
+                      "definitionId":  "deviceConfiguration--windows10EndpointProtectionConfiguration_smartScreenEnableInShell",
+                      "valueJson":  "true",
+                      "value":  true
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceManagementBooleanSettingInstance",
+                      "id":  "5771eb29-96bf-4fe5-95ef-dadc7b2f6bdf",
+                      "definitionId":  "deviceConfiguration--windows10GeneralConfiguration_edgeRequireSmartScreen",
+                      "valueJson":  "true",
+                      "value":  true
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceManagementStringSettingInstance",
+                      "id":  "4acecfe4-fc06-4fc4-9acd-dc0160519c24",
+                      "definitionId":  "admx--microsoftedge_SmartScreenEnabled",
+                      "valueJson":  "\"enabled\"",
+                      "value":  "enabled"
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceManagementComplexSettingInstance",
+                      "id":  "ddd4c0c7-90b7-47ef-b6fa-dd83a49aaf49",
+                      "definitionId":  "deviceConfiguration--windows10EndpointProtectionConfiguration_bitLockerSystemDrivePolicy",
+                      "valueJson":  "{\"startupAuthenticationRequired\":true,\"encryptionMethod\":null,\"startupAuthenticationTpmPinUsage\":\"allowed\",\"startupAuthenticationBlockWithoutTpmChip\":true,\"startupAuthenticationTpmKeyUsage\":\"required\"}"
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceManagementStringSettingInstance",
+                      "id":  "56f2b4b5-4aa7-440e-8ca1-e0200862eaff",
+                      "definitionId":  "deviceConfiguration--windows10EndpointProtectionConfiguration_defenderOfficeCommunicationAppsLaunchChildProcess",
+                      "valueJson":  "\"enable\"",
+                      "value":  "enable"
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceManagementStringSettingInstance",
+                      "id":  "23aa0916-97c0-45df-8208-e9572e0d7e46",
+                      "definitionId":  "deviceConfiguration--windows10GeneralConfiguration_defenderScheduledScanTime",
+                      "valueJson":  "\"t2AM\"",
+                      "value":  "t2AM"
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceManagementComplexSettingInstance",
+                      "id":  "f17f5271-d3b2-4c0a-831b-ecbb679d4a17",
+                      "definitionId":  "deviceConfiguration--windows10EndpointProtectionConfiguration_bitLockerFixedDrivePolicy",
+                      "valueJson":  "{\"requireEncryptionForWriteAccess\":true,\"encryptionMethod\":\"xtsAes128\"}"
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceManagementStringSettingInstance",
+                      "id":  "2d0b6e81-6be5-4a32-bd4d-ee75ee5427c7",
+                      "definitionId":  "deviceConfiguration--windows10EndpointProtectionConfiguration_defenderPreventCredentialStealingType",
+                      "valueJson":  "\"enable\"",
+                      "value":  "enable"
+                  }
+              ],
+    "displayName":  "Security Baseline for Microsoft Defender for Endpoint",
+    "description":  null,
+    "templateid":  "2209e067-9c8c-462e-9981-5a8c79165dcc"
+}
