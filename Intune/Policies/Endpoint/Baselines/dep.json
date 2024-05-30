@@ -12,7 +12,6 @@
     },
     "priorityMetaData": null,
     "name": "Windows Defender for Endpoint Security Baseline",
-    "id": "beec4db2-6f9d-4829-a1db-d34a6b0fc766",
     "description": "",
     "platforms": "windows10",
     "settingCount": 64,
