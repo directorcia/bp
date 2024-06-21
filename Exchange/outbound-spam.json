@@ -1,0 +1,12 @@
+{
+    "AutoFowardingMode": "Automatic",
+    "notifyoutboundspam": true,
+    "identity": "Best Practices Outbound Spam Policy",
+    "ActionWhenThresholdReached": "Blockuser",
+    "RecipientLimitExternalPerHour": 90,
+    "bccsuspiciousoutboundadditionalrecipients": "",
+    "RecipientLimitInternalPerHour": 90,
+    "RecipientLimitPerDay": 750,
+    "NotifyOutboundSpamRecipients": "",
+    "bccsuspiciousoutboundmail": true
+}
