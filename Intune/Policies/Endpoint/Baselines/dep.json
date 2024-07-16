@@ -2,7 +2,6 @@
     "roleScopeTagIds": [
         "0"
     ],
-    "creationSource": null,
     "technologies": "mdm",
     "templateReference": {
         "templateFamily": "baseline",
