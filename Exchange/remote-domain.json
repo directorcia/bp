@@ -1,0 +1,12 @@
+{
+    "TrustedMailOutboundEnabled": false,
+    "AllowedOOFType": "External",
+    "Name": "Remote Domain Policy",
+    "TNEFEnabled": false,
+    "AutoForwardEnabled": false,
+    "MeetingForwardNotificationEnabled": true,
+    "TrustedMailInboundEnabled": false,
+    "AutoReplyEnabled": true,
+    "DeliveryReportEnabled": true,
+    "Domainname": "*"
+}
