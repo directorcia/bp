@@ -6,7 +6,7 @@
     "BlockedSenderDomains" : "",
     "Bulkspamaction" :  "Quarantine",
     "BulkQuarantineTag" : "BP - QuarantinePolicy",
-    "EnableEndUserSpamNotifications" : "True",
+    "EnableEndUserSpamNotifications" : "1",
     "EndUserSpamNotificationFrequency" : "1",
     "bulkthreshold" :  "4",
     "HighConfidencePhishAction" : "Quarantine",
