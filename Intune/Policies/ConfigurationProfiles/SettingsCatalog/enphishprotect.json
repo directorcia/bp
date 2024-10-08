@@ -1,0 +1,88 @@
+{
+    "settingCount": 5,
+    "id": "98f86151-ddb9-4ad9-9a31-797a2e2f1c1d",
+    "priorityMetaData": null,
+    "createdDateTime": "2024-10-08T07:03:34.3269709Z",
+    "platforms": "windows10",
+    "technologies": "mdm",
+    "roleScopeTagIds": [
+        "0"
+    ],
+    "templateReference": {
+        "templateDisplayName": null,
+        "templateFamily": "none",
+        "templateDisplayVersion": null,
+        "templateId": ""
+    },
+    "creationSource": null,
+    "lastModifiedDateTime": "2024-10-08T07:03:34.3269709Z",
+    "name": "Enhanced Phishing Protection",
+    "description": "",
+    "settings": [
+        {
+            "id": "0",
+            "settingInstance": {
+                "choiceSettingValue": {
+                    "settingValueTemplateReference": null,
+                    "children": [],
+                    "value": "device_vendor_msft_policy_config_webthreatdefense_automaticdatacollection_1"
+                },
+                "settingInstanceTemplateReference": null,
+                "settingDefinitionId": "device_vendor_msft_policy_config_webthreatdefense_automaticdatacollection",
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            }
+        },
+        {
+            "id": "1",
+            "settingInstance": {
+                "choiceSettingValue": {
+                    "settingValueTemplateReference": null,
+                    "children": [],
+                    "value": "device_vendor_msft_policy_config_webthreatdefense_notifymalicious_1"
+                },
+                "settingInstanceTemplateReference": null,
+                "settingDefinitionId": "device_vendor_msft_policy_config_webthreatdefense_notifymalicious",
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            }
+        },
+        {
+            "id": "2",
+            "settingInstance": {
+                "choiceSettingValue": {
+                    "settingValueTemplateReference": null,
+                    "children": [],
+                    "value": "device_vendor_msft_policy_config_webthreatdefense_notifypasswordreuse_1"
+                },
+                "settingInstanceTemplateReference": null,
+                "settingDefinitionId": "device_vendor_msft_policy_config_webthreatdefense_notifypasswordreuse",
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            }
+        },
+        {
+            "id": "3",
+            "settingInstance": {
+                "choiceSettingValue": {
+                    "settingValueTemplateReference": null,
+                    "children": [],
+                    "value": "device_vendor_msft_policy_config_webthreatdefense_notifyunsafeapp_1"
+                },
+                "settingInstanceTemplateReference": null,
+                "settingDefinitionId": "device_vendor_msft_policy_config_webthreatdefense_notifyunsafeapp",
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            }
+        },
+        {
+            "id": "4",
+            "settingInstance": {
+                "choiceSettingValue": {
+                    "settingValueTemplateReference": null,
+                    "children": [],
+                    "value": "device_vendor_msft_policy_config_webthreatdefense_serviceenabled_1"
+                },
+                "settingInstanceTemplateReference": null,
+                "settingDefinitionId": "device_vendor_msft_policy_config_webthreatdefense_serviceenabled",
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            }
+        }
+    ]
+}
