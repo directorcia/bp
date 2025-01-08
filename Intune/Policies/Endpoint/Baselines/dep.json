@@ -13,7 +13,7 @@
     "creationSource": null,
     "priorityMetaData": null,
     "platforms": "windows10",
-    "displayname": "Microsoft Defender for Endpoint Security Baseline",
+    "name": "Microsoft Defender for Endpoint Security Baseline",
     "description": "Microsoft Defender for Endpoint Security Baseline",
     "settings": [
         {
