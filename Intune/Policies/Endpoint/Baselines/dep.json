@@ -3,7 +3,7 @@
     "roleScopeTagIds": [
         "0"
     ],
-    "settingCount": 25,
+    "settingCount": 65,
     "templateReference": {
         "templateDisplayName": "Microsoft Defender for Endpoint Security Baseline",
         "templateId": "49b8320f-e179-472e-8e2c-2fde00289ca2_1",
