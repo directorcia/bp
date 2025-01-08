@@ -4,7 +4,6 @@
         "0"
     ],
     "settingCount": 25,
-    "id": "0a4c7898-61c3-4384-8970-e3221e0c7a12",
     "templateReference": {
         "templateDisplayName": "Microsoft Defender for Endpoint Security Baseline",
         "templateId": "49b8320f-e179-472e-8e2c-2fde00289ca2_1",
@@ -15,7 +14,7 @@
     "priorityMetaData": null,
     "platforms": "windows10",
     "name": "Microsoft Defender for Endpoint Security Baseline",
-    "description": "",
+    "description": "Microsoft Defender for Endpoint Security Baseline",
     "settings": [
         {
             "id": "0",
