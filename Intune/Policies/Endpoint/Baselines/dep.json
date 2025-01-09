@@ -1449,6 +1449,168 @@
                     "children": []
                 }
             }
-        }        
+        },
+        {
+            "id": "41",
+            "settingInstance": {
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                "settingDefinitionId": "device_vendor_msft_policy_config_defender_realtimescandirection",
+                "settingInstanceTemplateReference": {
+                    "settingInstanceTemplateId": "7bba3966-73f2-46a7-a0b8-cb8017ac14a2"
+                },
+                "choiceSettingValue": {
+                    "value": "device_vendor_msft_policy_config_defender_realtimescandirection_0",
+                    "settingValueTemplateReference": {
+                        "settingValueTemplateId": "5efcb76f-71c2-482b-9b0c-e92a87a70ce9",
+                        "useTemplateDefault": false
+                    },
+                    "children": []
+                }
+            }
+        },
+        {
+            "id": "42",
+            "settingInstance": {
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                "settingDefinitionId": "device_vendor_msft_policy_config_defender_scanparameter",
+                "settingInstanceTemplateReference": {
+                    "settingInstanceTemplateId": "53dd1377-80d8-4a68-a40f-df78a870d9cf"
+                },
+                "choiceSettingValue": {
+                    "value": "device_vendor_msft_policy_config_defender_scanparameter_1",
+                    "settingValueTemplateReference": {
+                        "settingValueTemplateId": "bcaec511-9698-49e9-a794-e3cdbce2f606",
+                        "useTemplateDefault": false
+                    },
+                    "children": []
+                }
+            }
+        },
+        {
+            "id": "43",
+            "settingInstance": {
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+                "settingDefinitionId": "device_vendor_msft_policy_config_defender_schedulequickscantime",
+                "settingInstanceTemplateReference": {
+                    "settingInstanceTemplateId": "2c460ad6-23cd-45e9-a601-1b8293e15061"
+                },
+                "simpleSettingValue": {
+                    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+                    "value": 120,
+                    "settingValueTemplateReference": {
+                        "settingValueTemplateId": "5accefc3-fe1b-435a-8cef-c6ca7601d160",
+                        "useTemplateDefault": false
+                    }
+                }
+            }
+        },
+        {
+            "id": "44",
+            "settingInstance": {
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                "settingDefinitionId": "device_vendor_msft_policy_config_defender_schedulescanday",
+                "settingInstanceTemplateReference": {
+                    "settingInstanceTemplateId": "87634bb8-cff1-4f25-97f3-f8d100870de2"
+                },
+                "choiceSettingValue": {
+                    "value": "device_vendor_msft_policy_config_defender_schedulescanday_0",
+                    "settingValueTemplateReference": {
+                        "settingValueTemplateId": "4a0c57c6-e741-4efe-bd07-47719c928dd5",
+                        "useTemplateDefault": false
+                    },
+                    "children": []
+                }
+            }
+        },
+        {
+            "id": "45",
+            "settingInstance": {
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+                "settingDefinitionId": "device_vendor_msft_policy_config_defender_schedulescantime",
+                "settingInstanceTemplateReference": {
+                    "settingInstanceTemplateId": "3a546569-d14c-4af9-9ed6-7fff81ea899b"
+                },
+                "simpleSettingValue": {
+                    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+                    "value": 120,
+                    "settingValueTemplateReference": {
+                        "settingValueTemplateId": "5c1f90ad-6fef-4e83-bdef-af422af22d51",
+                        "useTemplateDefault": false
+                    }
+                }
+            }
+        },
+        {
+            "id": "46",
+            "settingInstance": {
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+                "settingDefinitionId": "device_vendor_msft_policy_config_defender_signatureupdateinterval",
+                "settingInstanceTemplateReference": {
+                    "settingInstanceTemplateId": "d2774c98-982c-449a-8451-9181a69ee28e"
+                },
+                "simpleSettingValue": {
+                    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+                    "value": 4,
+                    "settingValueTemplateReference": {
+                        "settingValueTemplateId": "3cbffe65-7801-4a80-a0ac-07c50fda3807",
+                        "useTemplateDefault": false
+                    }
+                }
+            }
+        },
+        {
+            "id": "47",
+            "settingInstance": {
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                "settingDefinitionId": "device_vendor_msft_policy_config_defender_submitsamplesconsent",
+                "settingInstanceTemplateReference": {
+                    "settingInstanceTemplateId": "22595133-83c1-402f-acb5-b285e051161d"
+                },
+                "choiceSettingValue": {
+                    "value": "device_vendor_msft_policy_config_defender_submitsamplesconsent_3",
+                    "settingValueTemplateReference": {
+                        "settingValueTemplateId": "5b447fce-83eb-409c-8a5d-4fe9a9b0e13c",
+                        "useTemplateDefault": false
+                    },
+                    "children": []
+                }
+            }
+        },
+        {
+            "id": "48",
+            "settingInstance": {
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                "settingDefinitionId": "device_vendor_msft_policy_config_deviceguard_lsacfgflags",
+                "settingInstanceTemplateReference": {
+                    "settingInstanceTemplateId": "9c840fb2-c96b-4a0e-8055-4059dbdfbc52"
+                },
+                "choiceSettingValue": {
+                    "value": "device_vendor_msft_policy_config_deviceguard_lsacfgflags_1",
+                    "settingValueTemplateReference": {
+                        "settingValueTemplateId": "02461f54-5471-46c2-b39d-5daee9a166b6",
+                        "useTemplateDefault": false
+                    },
+                    "children": []
+                }
+            }
+        },
+        {
+            "id": "49",
+            "settingInstance": {
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                "settingDefinitionId": "device_vendor_msft_policy_config_dmaguard_deviceenumerationpolicy",
+                "settingInstanceTemplateReference": {
+                    "settingInstanceTemplateId": "a4aa6b0c-e539-4dab-bc4b-eeacbfd7916d"
+                },
+                "choiceSettingValue": {
+                    "value": "device_vendor_msft_policy_config_dmaguard_deviceenumerationpolicy_0",
+                    "settingValueTemplateReference": {
+                        "settingValueTemplateId": "58025354-ea20-49e6-bd7e-b41455011ae5",
+                        "useTemplateDefault": false
+                    },
+                    "children": []
+                }
+            }
+        }
     ]
 }
