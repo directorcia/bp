@@ -2126,6 +2126,168 @@
                     ]
                 }
             }
+        },
+        {
+            "id": "56",
+            "settingInstance": {
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                "settingDefinitionId": "vendor_msft_firewall_mdmstore_global_presharedkeyencoding",
+                "settingInstanceTemplateReference": {
+                    "settingInstanceTemplateId": "c009d4bf-b362-4d4c-b935-1c028c8fa8c7"
+                },
+                "choiceSettingValue": {
+                    "value": "vendor_msft_firewall_mdmstore_global_presharedkeyencoding_1",
+                    "settingValueTemplateReference": {
+                        "settingValueTemplateId": "8c2b2ead-9cd0-4bf2-8e98-a6b54fb59e9b",
+                        "useTemplateDefault": false
+                    },
+                    "children": []
+                }
+            }
+        },
+        {
+            "id": "57",
+            "settingInstance": {
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+                "settingDefinitionId": "vendor_msft_firewall_mdmstore_global_saidletime",
+                "settingInstanceTemplateReference": {
+                    "settingInstanceTemplateId": "5136680e-6c1d-4aeb-8658-fd51649445be"
+                },
+                "simpleSettingValue": {
+                    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+                    "value": 300,
+                    "settingValueTemplateReference": {
+                        "settingValueTemplateId": "38b42090-cd6b-4e43-acd6-e4e9f297256b",
+                        "useTemplateDefault": false
+                    }
+                }
+            }
+        },
+        {
+            "id": "58",
+            "settingInstance": {
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                "settingDefinitionId": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~smartscreen_smartscreenenabled",
+                "settingInstanceTemplateReference": {
+                    "settingInstanceTemplateId": "9494b3dd-d859-4fa3-8937-c1ea14853976"
+                },
+                "choiceSettingValue": {
+                    "value": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~smartscreen_smartscreenenabled_1",
+                    "settingValueTemplateReference": {
+                        "settingValueTemplateId": "ba4bc12a-4c4c-499c-9f0e-924e6d2c5b30",
+                        "useTemplateDefault": false
+                    },
+                    "children": []
+                }
+            }
+        },
+        {
+            "id": "59",
+            "settingInstance": {
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                "settingDefinitionId": "device_vendor_msft_policy_config_microsoft_edgev80diff~policy~microsoft_edge~smartscreen_smartscreenpuaenabled",
+                "settingInstanceTemplateReference": {
+                    "settingInstanceTemplateId": "40f986ab-922f-488c-b25f-7ad3efa3d3db"
+                },
+                "choiceSettingValue": {
+                    "value": "device_vendor_msft_policy_config_microsoft_edgev80diff~policy~microsoft_edge~smartscreen_smartscreenpuaenabled_1",
+                    "settingValueTemplateReference": {
+                        "settingValueTemplateId": "9d9216a9-fc58-4f91-b2a4-580d777dd705",
+                        "useTemplateDefault": false
+                    },
+                    "children": []
+                }
+            }
+        },
+        {
+            "id": "60",
+            "settingInstance": {
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                "settingDefinitionId": "device_vendor_msft_policy_config_microsoft_edgev97~policy~microsoft_edge~smartscreen_smartscreendnsrequestsenabled",
+                "settingInstanceTemplateReference": {
+                    "settingInstanceTemplateId": "c203af5f-ca42-402b-8061-c5555ead7694"
+                },
+                "choiceSettingValue": {
+                    "value": "device_vendor_msft_policy_config_microsoft_edgev97~policy~microsoft_edge~smartscreen_smartscreendnsrequestsenabled_1",
+                    "settingValueTemplateReference": {
+                        "settingValueTemplateId": "5cc052be-1889-445f-822f-ac73b175cc8f",
+                        "useTemplateDefault": false
+                    },
+                    "children": []
+                }
+            }
+        },
+        {
+            "id": "61",
+            "settingInstance": {
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                "settingDefinitionId": "device_vendor_msft_policy_config_microsoft_edgev95~policy~microsoft_edge~smartscreen_newsmartscreenlibraryenabled",
+                "settingInstanceTemplateReference": {
+                    "settingInstanceTemplateId": "e0111f00-1843-4df3-97d5-a90b350f88cd"
+                },
+                "choiceSettingValue": {
+                    "value": "device_vendor_msft_policy_config_microsoft_edgev95~policy~microsoft_edge~smartscreen_newsmartscreenlibraryenabled_1",
+                    "settingValueTemplateReference": {
+                        "settingValueTemplateId": "dc5ebc02-de95-4528-92fe-a51219eb2e40",
+                        "useTemplateDefault": false
+                    },
+                    "children": []
+                }
+            }
+        },
+        {
+            "id": "62",
+            "settingInstance": {
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                "settingDefinitionId": "device_vendor_msft_policy_config_microsoft_edgev78diff~policy~microsoft_edge~smartscreen_smartscreenfortrusteddownloadsenabled",
+                "settingInstanceTemplateReference": {
+                    "settingInstanceTemplateId": "4daa59bf-7828-45a8-9b12-eeac27b7b31f"
+                },
+                "choiceSettingValue": {
+                    "value": "device_vendor_msft_policy_config_microsoft_edgev78diff~policy~microsoft_edge~smartscreen_smartscreenfortrusteddownloadsenabled_1",
+                    "settingValueTemplateReference": {
+                        "settingValueTemplateId": "e0e76cf1-c502-4393-a1e9-f6f7ba84be58",
+                        "useTemplateDefault": false
+                    },
+                    "children": []
+                }
+            }
+        },
+        {
+            "id": "63",
+            "settingInstance": {
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                "settingDefinitionId": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~smartscreen_preventsmartscreenpromptoverride",
+                "settingInstanceTemplateReference": {
+                    "settingInstanceTemplateId": "97362a65-b46f-4366-8283-812319daf05a"
+                },
+                "choiceSettingValue": {
+                    "value": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~smartscreen_preventsmartscreenpromptoverride_1",
+                    "settingValueTemplateReference": {
+                        "settingValueTemplateId": "265a0466-95f3-4966-9470-edc298baa774",
+                        "useTemplateDefault": false
+                    },
+                    "children": []
+                }
+            }
+        },
+        {
+            "id": "64",
+            "settingInstance": {
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                "settingDefinitionId": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~smartscreen_preventsmartscreenpromptoverrideforfiles",
+                "settingInstanceTemplateReference": {
+                    "settingInstanceTemplateId": "d184ba06-889f-4572-a814-26ec95d091ec"
+                },
+                "choiceSettingValue": {
+                    "value": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~smartscreen_preventsmartscreenpromptoverrideforfiles_1",
+                    "settingValueTemplateReference": {
+                        "settingValueTemplateId": "45461f6d-b05b-4327-9664-9c3b1dc61c98",
+                        "useTemplateDefault": false
+                    },
+                    "children": []
+                }
+            }
         }
     ]
 }
