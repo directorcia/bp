@@ -15,7 +15,7 @@
     "templateFamily": "baseline",
     "templateDisplayVersion": "Version 24H2"
   },
-  "Settings": [
+  "settings": [
     {
       "id": "0",
       "settingInstance": {
