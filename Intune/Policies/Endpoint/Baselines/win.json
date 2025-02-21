@@ -1,11 +1,11 @@
 {
-  "description": "",
+  "description": "BP - Windows Baseline 24H2",
   "priorityMetaData": null,
   "roleScopeTagIds": [
     "0"
   ],
   "creationSource": null,
-  "name": "ABCD Test",
+  "name": "BP - Windows Baseline 24H2",
   "platforms": "windows10",
   "technologies": "mdm",
   "settingCount": 314,
