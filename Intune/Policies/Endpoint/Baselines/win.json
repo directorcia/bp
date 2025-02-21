@@ -3939,19 +3939,6 @@
           "children": []
         }
       }
-    },
-    {
-      "id": "185",
-      "settingInstance": {
-        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-        "settingDefinitionId": "device_vendor_msft_policy_config_audit_accountlogon_auditcredentialvalidation",
-        "settingInstanceTemplateReference": null,
-        "choiceSettingValue": {
-          "settingValueTemplateReference": null,
-          "value": "device_vendor_msft_policy_config_audit_accountlogon_auditcredentialvalidation_3",
-          "children": []
-        }
-      }
     }
   ]
 }
