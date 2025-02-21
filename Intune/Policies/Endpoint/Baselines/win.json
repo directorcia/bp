@@ -1,20 +1,20 @@
 {
     "creationSource": null,
-    "description": "",
-    "name": "Security Baseline 24H2 - Administrative Templates",
+    "technologies": "mdm",
+    "templateReference": {
+        "templateId": "66df8dce-0166-4b82-92f7-1f74e3ca17a3_4",
+        "templateDisplayName": "Security Baseline for Windows 10 and later",
+        "templateFamily": "baseline",
+        "templateDisplayVersion": "Version 24H2"
+    },
     "platforms": "windows10",
-    "priorityMetaData": null,
+    "description": "Security Baseline for Windows v24H2",
+    "name": "Security Baseline for Windows v24H2",
+    "settingCount": 314,
     "roleScopeTagIds": [
         "0"
     ],
-    "settingCount": 185,
-    "technologies": "mdm",
-    "templateReference": {
-        "templateId": "",
-        "templateFamily": "none",
-        "templateDisplayName": null,
-        "templateDisplayVersion": null
-    },
+    "priorityMetaData": null,
     "settings": [
         {
             "id": "0",
