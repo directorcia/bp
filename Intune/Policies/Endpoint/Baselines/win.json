@@ -749,30 +749,6 @@
         "settingDefinitionId": "device_vendor_msft_policy_config_deviceinstallation_preventinstallationofmatchingdevicesetupclasses"
       },
       "id": "24"
-    },
-    {
-      "id": "25",
-      "settingInstance": {
-        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-        "settingDefinitionId": "device_vendor_msft_policy_config_system_bootstartdriverinitialization",
-        "settingInstanceTemplateReference": null,
-        "choiceSettingValue": {
-          "settingValueTemplateReference": null,
-          "value": "device_vendor_msft_policy_config_system_bootstartdriverinitialization_1",
-          "children": [
-            {
-              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-              "settingDefinitionId": "device_vendor_msft_policy_config_system_bootstartdriverinitialization_selectdriverloadpolicy",
-              "settingInstanceTemplateReference": null,
-              "choiceSettingValue": {
-                "settingValueTemplateReference": null,
-                "value": "device_vendor_msft_policy_config_system_bootstartdriverinitialization_selectdriverloadpolicy_3",
-                "children": []
-              }
-            }
-          ]
-        }
-      }
     }
   ]
 }
