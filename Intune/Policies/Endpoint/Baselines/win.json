@@ -750,7 +750,7 @@
         }
       }
     },
-    {
+        {
       "id": "25",
       "settingInstance": {
         "choiceSettingValue": {
@@ -6358,24 +6358,6 @@
         "settingDefinitionId": "device_vendor_msft_policy_config_deviceguard_requireplatformsecurityfeatures",
         "settingInstanceTemplateReference": {
           "settingInstanceTemplateId": "0dd32130-3939-446a-85ef-80c65a9f204a"
-        }
-      }
-    },
-    {
-      "id": "241",
-      "settingInstance": {
-        "choiceSettingValue": {
-          "value": "device_vendor_msft_policy_config_deviceguard_machineidentityisolation_0",
-          "children": [],
-          "settingValueTemplateReference": {
-            "useTemplateDefault": false,
-            "settingValueTemplateId": "6a208e4b-0e34-4d12-a821-3173e99f3ce0"
-          }
-        },
-        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-        "settingDefinitionId": "device_vendor_msft_policy_config_deviceguard_machineidentityisolation",
-        "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "1fa97457-2a1f-4e33-b3c2-9a4c8930510d"
         }
       }
     },
