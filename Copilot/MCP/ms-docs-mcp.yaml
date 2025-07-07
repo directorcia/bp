@@ -1,0 +1,22 @@
+swagger: '2.0'
+info:
+  title: Microsoft Docs MCP
+  description: Streams Microsoft official documentation to AI agents via Model Context Protocol.
+  version: 1.0.0
+host: learn.microsoft.com
+basePath: /api
+schemes:
+  - https
+paths:
+  /mcp:
+    post:
+      summary: Invoke Microsoft Docs MCP server
+      x-ms-agentic-protocol: mcp-streamable-1.0
+      operationId: InvokeDocsMcp
+      consumes:
+        - application/json
+      produces:
+        - application/json
+      responses:
+        '200':
+          description: Success
