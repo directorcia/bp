@@ -1,0 +1,13 @@
+{
+  "SentTOMemberOf": null,
+  "Identity": "BP - Defender for O365 Safe Links Rule",
+  "SentTo": null,
+  "ExceptIfRecipientDomainIs": null,
+  "RecipientDomainIs": null,
+  "Name": "BP - Defender for O365 Safe Links Rule",
+  "ExceptIfSentToMemberOf": null,
+  "Enabled": true,
+  "SafeLinksPolicy": null,
+  "ExceptIfSentTo": null,
+  "Priority": 0
+}
