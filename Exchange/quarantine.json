@@ -1,0 +1,7 @@
+{
+  "EndUserQuarantinePermissionsValue": 27,
+  "EndUserSpamNotificationFrequency": "04:00:00",
+  "AdminDisplayName": "Best Practices Email Quarantine Policy",
+  "ESNEnabled": true,
+  "Name": "BP - QuarantinePolicy"
+}
