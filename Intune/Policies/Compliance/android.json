@@ -33,9 +33,7 @@
     "securityRequireUpToDateSecurityProviders":  true,
     "securityRequireCompanyPortalAppIntegrity":  false,
     "conditionStatementId":  null,
-    "restrictedApps":  [
-
-                       ],
+    "restrictedApps":  [],
     "scheduledActionsForRule":  [
                                     {
                                         "scheduledActionConfigurations":  [
