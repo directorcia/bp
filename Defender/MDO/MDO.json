@@ -1,0 +1,7 @@
+{
+  "AllowSafeDocsOpen": false,
+  "Name": "BP - Defender for O365 Policy",
+  "EnableATPForSPOTeamsODB": true,
+  "Identity": "BP - Defender for O365 Policy",
+  "EnableSafeDocs": true
+}

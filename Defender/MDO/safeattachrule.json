@@ -1,0 +1,13 @@
+{
+  "Comments": "Defender for Office 365 Safe Attachments Rule",
+  "Identity": "BP - Defender for O365 Safe Attachments Rule",
+  "SentTo": null,
+  "ExceptIfRecipientDomainIs": null,
+  "RecipientDomainIs": null,
+  "Name": "BP - Defender for O365 Safe Attachments Rule",
+  "ExceptIfSentToMemberOf": null,
+  "SentTOMemberOf": null,
+  "SafeLinksPolicy": null,
+  "ExceptIfSentTo": null,
+  "Priority": 0
+}

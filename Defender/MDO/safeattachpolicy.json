@@ -1,0 +1,11 @@
+{
+  "QuarantineTag": "BP - QuarantinePolicy",
+  "Identity": "BP - Defender for O365 Safe Attachments Policy",
+  "Enable": true,
+  "Redirectaddress": null,
+  "Redirect": false,
+  "Name": "BP - Defender for O365 Safe Attachments Policy",
+  "ActionOnError": true,
+  "AdminDisplayName": "Best Practices Defender for O365 Safe Attachments Policy",
+  "Action": "Block"
+}

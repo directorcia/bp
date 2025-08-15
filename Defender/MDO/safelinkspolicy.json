@@ -1,0 +1,14 @@
+{
+  "EnableOrganizationBranding": true,
+  "DisableURLRewrite": false,
+  "DeliverMessageAfterScan": true,
+  "EnableSafeLinksforEmail": true,
+  "AllowClickThrough": false,
+  "TrackClicks": true,
+  "Name": "BP - Defender for O365 Safe Links Policy",
+  "EnableSafeLinksforTeams": true,
+  "DoNotRewriteUrls": null,
+  "AdminDisplayName": "Best Practices Defender for O365 Safe Links Policy",
+  "ScanUrls": true,
+  "EnableForInternalSenders": true
+}
