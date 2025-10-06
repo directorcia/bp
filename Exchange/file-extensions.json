@@ -28,6 +28,20 @@
       "CommonUse": "File compression with high efficiency"
     },
     {
+      "Extension": "7zip",
+      "Description": "7-Zip Archive - Alternate extension for 7-Zip compressed archive",
+      "Category": "Archive/Compression",
+      "RelatedTypes": [
+        "7z",
+        "zip",
+        "rar",
+        "tar",
+        "gz"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "File compression with high efficiency"
+    },
+    {
       "Extension": "a",
       "Description": "Static Library - Unix/Linux static library archive",
       "Category": "Library/Development",
@@ -976,6 +990,20 @@
         "bz2",
         "zip",
         "rar",
+        "7z"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "File compression, especially on Unix/Linux systems"
+    },
+    {
+      "Extension": "gzip",
+      "Description": "Gzip Compressed File - Alternate extension for gzip compressed files",
+      "Category": "Archive/Compression",
+      "RelatedTypes": [
+        "gz",
+        "tar",
+        "bz2",
+        "zip",
         "7z"
       ],
       "RiskLevel": "Low",
@@ -4070,5 +4098,5 @@
       "CommonUse": "Fast compression with high ratio"
     }
   ],
-  "TotalExtensions": 322
+  "TotalExtensions": 324
 }
