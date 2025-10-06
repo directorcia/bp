@@ -1,0 +1,4074 @@
+{
+  "FileExtensions": [
+    {
+      "Extension": "001",
+      "Description": "Split Archive Part 1 - First part of split archive",
+      "Category": "Archive/Split",
+      "RelatedTypes": [
+        "002",
+        "003",
+        "7z",
+        "rar"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Large files split across multiple parts"
+    },
+    {
+      "Extension": "7z",
+      "Description": "7-Zip Archive - Compressed archive with high compression ratio",
+      "Category": "Archive/Compression",
+      "RelatedTypes": [
+        "zip",
+        "rar",
+        "tar",
+        "gz",
+        "bz2"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "File compression with high efficiency"
+    },
+    {
+      "Extension": "a",
+      "Description": "Static Library - Unix/Linux static library archive",
+      "Category": "Library/Development",
+      "RelatedTypes": [
+        "lib",
+        "so",
+        "o",
+        "dylib"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Unix/Linux static libraries for linking"
+    },
+    {
+      "Extension": "accdb",
+      "Description": "Access Database - Microsoft Access database file",
+      "Category": "Office Database",
+      "RelatedTypes": [
+        "accde",
+        "mdb",
+        "mde",
+        "accdt"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Microsoft Access database applications"
+    },
+    {
+      "Extension": "accde",
+      "Description": "Access Execute Only - Compiled Access database",
+      "Category": "Office Database/Executable",
+      "RelatedTypes": [
+        "accdb",
+        "mde",
+        "mdb"
+      ],
+      "RiskLevel": "High",
+      "CommonUse": "Compiled Microsoft Access databases (executable code)"
+    },
+    {
+      "Extension": "ace",
+      "Description": "WinAce Archive - Compressed archive format that can contain executable files",
+      "Category": "Archive/Compression",
+      "RelatedTypes": [
+        "rar",
+        "zip",
+        "7z",
+        "arj",
+        "lzh"
+      ],
+      "RiskLevel": "High",
+      "CommonUse": "File compression and archiving"
+    },
+    {
+      "Extension": "action",
+      "Description": "macOS Automator Action - Automator action",
+      "Category": "Script/macOS",
+      "RelatedTypes": [
+        "workflow",
+        "app",
+        "scpt"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "macOS Automator action plugins"
+    },
+    {
+      "Extension": "ade",
+      "Description": "Microsoft Access Project Extension - Access database extension file",
+      "Category": "Database Extension",
+      "RelatedTypes": [
+        "mdb",
+        "accdb",
+        "mde",
+        "adp"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Microsoft Access database extensions"
+    },
+    {
+      "Extension": "adp",
+      "Description": "Microsoft Access Data Project - Database project file",
+      "Category": "Database Project",
+      "RelatedTypes": [
+        "mdb",
+        "accdb",
+        "ade",
+        "mde"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Access database projects"
+    },
+    {
+      "Extension": "ani",
+      "Description": "Animated Cursor - Windows animated cursor file",
+      "Category": "System/Cursor",
+      "RelatedTypes": [
+        "cur",
+        "ico",
+        "scr"
+      ],
+      "RiskLevel": "High",
+      "CommonUse": "Windows animated cursors (can contain executable code)"
+    },
+    {
+      "Extension": "apk",
+      "Description": "Android Package - Android application package",
+      "Category": "Mobile App",
+      "RelatedTypes": [
+        "ipa",
+        "xapk",
+        "apkm"
+      ],
+      "RiskLevel": "High",
+      "CommonUse": "Android mobile applications"
+    },
+    {
+      "Extension": "apkm",
+      "Description": "APK Mirror Bundle - Multiple APK files bundled",
+      "Category": "Mobile App",
+      "RelatedTypes": [
+        "apk",
+        "xapk"
+      ],
+      "RiskLevel": "High",
+      "CommonUse": "Split Android application packages"
+    },
+    {
+      "Extension": "app",
+      "Description": "Executable Application - Mac OS application bundle or Windows application",
+      "Category": "Executable",
+      "RelatedTypes": [
+        "exe",
+        "com",
+        "scr",
+        "pif",
+        "dmg"
+      ],
+      "RiskLevel": "High",
+      "CommonUse": "Application installation and execution"
+    },
+    {
+      "Extension": "applescript",
+      "Description": "AppleScript File - macOS automation script",
+      "Category": "Script/macOS",
+      "RelatedTypes": [
+        "scpt",
+        "app",
+        "workflow"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "macOS automation and scripting"
+    },
+    {
+      "Extension": "application",
+      "Description": "Generic Application File - Various application formats",
+      "Category": "Executable",
+      "RelatedTypes": [
+        "exe",
+        "app",
+        "run",
+        "bin"
+      ],
+      "RiskLevel": "High",
+      "CommonUse": "Application execution"
+    },
+    {
+      "Extension": "appx",
+      "Description": "Windows App Package - Universal Windows Platform app",
+      "Category": "Package/Windows",
+      "RelatedTypes": [
+        "msix",
+        "appxbundle",
+        "msi"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Windows Store applications"
+    },
+    {
+      "Extension": "appxbundle",
+      "Description": "Windows App Bundle - Bundle of Windows app packages",
+      "Category": "Package/Windows",
+      "RelatedTypes": [
+        "appx",
+        "msix",
+        "msixbundle"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Windows Store app bundles"
+    },
+    {
+      "Extension": "arc",
+      "Description": "ARC Archive - Legacy compressed archive format",
+      "Category": "Archive/Compressed",
+      "RelatedTypes": [
+        "zip",
+        "arj",
+        "lzh"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Legacy file compression and archiving"
+    },
+    {
+      "Extension": "arj",
+      "Description": "ARJ Archive - Compressed archive format",
+      "Category": "Archive/Compression",
+      "RelatedTypes": [
+        "rar",
+        "zip",
+        "ace",
+        "lzh",
+        "7z"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "File compression (legacy format)"
+    },
+    {
+      "Extension": "asa",
+      "Description": "ASP Configuration File - Active Server Pages configuration",
+      "Category": "Web/Configuration",
+      "RelatedTypes": [
+        "asp",
+        "aspx",
+        "config"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "ASP application configuration"
+    },
+    {
+      "Extension": "ascx",
+      "Description": "ASP.NET User Control - ASP.NET web control",
+      "Category": "Web/Component",
+      "RelatedTypes": [
+        "aspx",
+        "asmx",
+        "ashx"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "ASP.NET reusable web components"
+    },
+    {
+      "Extension": "asf",
+      "Description": "Advanced Systems Format - Microsoft streaming media container",
+      "Category": "Media/Video",
+      "RelatedTypes": [
+        "wmv",
+        "wma",
+        "avi"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Windows Media streaming video and audio"
+    },
+    {
+      "Extension": "ashx",
+      "Description": "ASP.NET Handler - ASP.NET HTTP handler",
+      "Category": "Web/Script",
+      "RelatedTypes": [
+        "aspx",
+        "asmx",
+        "ascx"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "ASP.NET HTTP request handlers"
+    },
+    {
+      "Extension": "asmx",
+      "Description": "ASP.NET Web Service - ASP.NET web service",
+      "Category": "Web/Service",
+      "RelatedTypes": [
+        "aspx",
+        "ashx",
+        "svc"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "ASP.NET web services"
+    },
+    {
+      "Extension": "asp",
+      "Description": "Active Server Pages - Microsoft ASP script",
+      "Category": "Web/Script",
+      "RelatedTypes": [
+        "aspx",
+        "asa",
+        "php",
+        "jsp"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Classic ASP web server scripting"
+    },
+    {
+      "Extension": "aspx",
+      "Description": "ASP.NET Web Page - ASP.NET dynamic web page",
+      "Category": "Web/Script",
+      "RelatedTypes": [
+        "asp",
+        "asmx",
+        "ascx",
+        "ashx"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "ASP.NET web applications"
+    },
+    {
+      "Extension": "avi",
+      "Description": "Audio Video Interleave - Windows video file format",
+      "Category": "Media/Video",
+      "RelatedTypes": [
+        "mp4",
+        "wmv",
+        "mov",
+        "mkv"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Windows video files"
+    },
+    {
+      "Extension": "awk",
+      "Description": "AWK Script - AWK pattern scanning and processing",
+      "Category": "Script/Text Processing",
+      "RelatedTypes": [
+        "sed",
+        "sh",
+        "pl"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Text processing and data extraction"
+    },
+    {
+      "Extension": "bas",
+      "Description": "BASIC Source Code - Programming language source file",
+      "Category": "Source Code",
+      "RelatedTypes": [
+        "vb",
+        "vbs",
+        "frm",
+        "cls"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "BASIC programming language development"
+    },
+    {
+      "Extension": "bat",
+      "Description": "Batch File - Windows command script that can execute system commands",
+      "Category": "Script/Executable",
+      "RelatedTypes": [
+        "cmd",
+        "ps1",
+        "vbs",
+        "js",
+        "wsf"
+      ],
+      "RiskLevel": "High",
+      "CommonUse": "Windows automation and scripting"
+    },
+    {
+      "Extension": "bin",
+      "Description": "Binary File - Generic binary executable or data file",
+      "Category": "Binary/Executable",
+      "RelatedTypes": [
+        "exe",
+        "com",
+        "run",
+        "application"
+      ],
+      "RiskLevel": "High",
+      "CommonUse": "Binary data, firmware, or executable files"
+    },
+    {
+      "Extension": "bundle",
+      "Description": "Bundle - macOS application bundle or plugin",
+      "Category": "Package/macOS",
+      "RelatedTypes": [
+        "app",
+        "plugin",
+        "framework",
+        "dylib"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "macOS loadable bundles and plugins"
+    },
+    {
+      "Extension": "bz",
+      "Description": "Bzip Compressed File - Bzip compression format",
+      "Category": "Compressed",
+      "RelatedTypes": [
+        "bz2",
+        "gz",
+        "xz"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "File compression"
+    },
+    {
+      "Extension": "bz2",
+      "Description": "Bzip2 Archive - Compressed file using bzip2 algorithm",
+      "Category": "Archive/Compression",
+      "RelatedTypes": [
+        "gz",
+        "tar",
+        "zip",
+        "rar",
+        "7z"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "File compression, especially on Unix/Linux systems"
+    },
+    {
+      "Extension": "bzip2",
+      "Description": "Bzip2 Compressed - Bzip2 compression format",
+      "Category": "Compressed",
+      "RelatedTypes": [
+        "bz2",
+        "gz",
+        "xz",
+        "tar"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Bzip2 compressed files"
+    },
+    {
+      "Extension": "cab",
+      "Description": "Cabinet File - Microsoft archive format often used for software distribution",
+      "Category": "Archive/Installer",
+      "RelatedTypes": [
+        "msi",
+        "msp",
+        "zip",
+        "rar"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Software installation and Windows updates"
+    },
+    {
+      "Extension": "caction",
+      "Description": "Automator Action - macOS Automator custom action",
+      "Category": "Script/macOS",
+      "RelatedTypes": [
+        "action",
+        "workflow",
+        "app"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "macOS Automator custom actions"
+    },
+    {
+      "Extension": "cer",
+      "Description": "Certificate File - Digital security certificate",
+      "Category": "Certificate/Security",
+      "RelatedTypes": [
+        "crt",
+        "pem",
+        "pfx",
+        "p12"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Digital certificates and SSL/TLS"
+    },
+    {
+      "Extension": "cfg",
+      "Description": "Configuration File - Application settings file",
+      "Category": "Configuration",
+      "RelatedTypes": [
+        "ini",
+        "conf",
+        "config",
+        "txt"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Application and system configuration"
+    },
+    {
+      "Extension": "chm",
+      "Description": "Compiled HTML Help - Microsoft help file format that can contain scripts",
+      "Category": "Document/Help",
+      "RelatedTypes": [
+        "hlp",
+        "pdf",
+        "doc",
+        "html"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Software documentation and help systems"
+    },
+    {
+      "Extension": "class",
+      "Description": "Java Class File - Compiled Java bytecode",
+      "Category": "Compiled Code",
+      "RelatedTypes": [
+        "jar",
+        "java",
+        "war",
+        "ear"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Java application components"
+    },
+    {
+      "Extension": "cmd",
+      "Description": "Command Script - Windows command line batch file",
+      "Category": "Script/Executable",
+      "RelatedTypes": [
+        "bat",
+        "ps1",
+        "vbs",
+        "com"
+      ],
+      "RiskLevel": "High",
+      "CommonUse": "Windows command automation"
+    },
+    {
+      "Extension": "com",
+      "Description": "Command File - Legacy DOS/Windows executable format",
+      "Category": "Executable",
+      "RelatedTypes": [
+        "exe",
+        "bat",
+        "cmd",
+        "scr",
+        "pif"
+      ],
+      "RiskLevel": "High",
+      "CommonUse": "Legacy executable programs"
+    },
+    {
+      "Extension": "command",
+      "Description": "Terminal Command File - macOS/Linux executable command",
+      "Category": "Script/Unix",
+      "RelatedTypes": [
+        "sh",
+        "terminal",
+        "bat",
+        "cmd"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Unix/macOS executable command scripts"
+    },
+    {
+      "Extension": "conf",
+      "Description": "Configuration File - Unix/Linux configuration file",
+      "Category": "Configuration",
+      "RelatedTypes": [
+        "cfg",
+        "ini",
+        "config",
+        "txt"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Unix/Linux system and application configuration"
+    },
+    {
+      "Extension": "config",
+      "Description": "Configuration File - Application configuration file",
+      "Category": "Configuration",
+      "RelatedTypes": [
+        "cfg",
+        "ini",
+        "conf",
+        "xml"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Application configuration settings"
+    },
+    {
+      "Extension": "cpl",
+      "Description": "Control Panel Item - Windows system configuration executable",
+      "Category": "System/Executable",
+      "RelatedTypes": [
+        "exe",
+        "dll",
+        "sys",
+        "msc"
+      ],
+      "RiskLevel": "High",
+      "CommonUse": "Windows Control Panel applets"
+    },
+    {
+      "Extension": "crt",
+      "Description": "Certificate File - Security certificate (can be executable in some contexts)",
+      "Category": "Certificate/Security",
+      "RelatedTypes": [
+        "cer",
+        "p12",
+        "pfx",
+        "pem"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Digital certificates and security"
+    },
+    {
+      "Extension": "crx",
+      "Description": "Chrome Extension - Google Chrome browser extension",
+      "Category": "Browser Extension",
+      "RelatedTypes": [
+        "xpi",
+        "zip"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Chrome browser extensions"
+    },
+    {
+      "Extension": "csh",
+      "Description": "C Shell Script - Unix/Linux C shell script file",
+      "Category": "Script",
+      "RelatedTypes": [
+        "sh",
+        "bash",
+        "ksh",
+        "zsh"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Unix/Linux shell scripting"
+    },
+    {
+      "Extension": "css",
+      "Description": "Cascading Style Sheet - Web page styling file",
+      "Category": "Web/Stylesheet",
+      "RelatedTypes": [
+        "html",
+        "scss",
+        "less",
+        "sass"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Web page styling and design"
+    },
+    {
+      "Extension": "csv",
+      "Description": "Comma-Separated Values - Plain text data table",
+      "Category": "Data",
+      "RelatedTypes": [
+        "txt",
+        "xls",
+        "xlsx",
+        "tsv"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Tabular data export and import"
+    },
+    {
+      "Extension": "db",
+      "Description": "Database File - Generic database file",
+      "Category": "Database",
+      "RelatedTypes": [
+        "sqlite",
+        "mdb",
+        "accdb",
+        "sql"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Database storage"
+    },
+    {
+      "Extension": "dbf",
+      "Description": "dBASE Database File - Legacy database format",
+      "Category": "Database",
+      "RelatedTypes": [
+        "mdb",
+        "accdb",
+        "db",
+        "xls"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Legacy database applications"
+    },
+    {
+      "Extension": "deb",
+      "Description": "Debian Package - Linux software package for Debian-based systems",
+      "Category": "Package/Installer",
+      "RelatedTypes": [
+        "rpm",
+        "pkg",
+        "msi",
+        "dmg"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Linux software installation (Debian/Ubuntu)"
+    },
+    {
+      "Extension": "der",
+      "Description": "Distinguished Encoding Rules - Binary certificate format",
+      "Category": "Certificate/Security",
+      "RelatedTypes": [
+        "cer",
+        "crt",
+        "pem",
+        "p7b"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Binary X.509 certificates"
+    },
+    {
+      "Extension": "dex",
+      "Description": "Dalvik Executable - Android executable bytecode",
+      "Category": "Mobile/Executable",
+      "RelatedTypes": [
+        "apk",
+        "jar",
+        "class"
+      ],
+      "RiskLevel": "High",
+      "CommonUse": "Android application executables"
+    },
+    {
+      "Extension": "dgz",
+      "Description": "DGZ Compressed Archive - Compressed archive format",
+      "Category": "Archive/Compressed",
+      "RelatedTypes": [
+        "gz",
+        "zip",
+        "tar"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Compressed archive files"
+    },
+    {
+      "Extension": "dll",
+      "Description": "Dynamic Link Library - Windows library file that can contain executable code",
+      "Category": "Library/Executable",
+      "RelatedTypes": [
+        "exe",
+        "sys",
+        "ocx",
+        "cpl"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Software libraries and system components"
+    },
+    {
+      "Extension": "dmg",
+      "Description": "Apple Disk Image - Mac OS disk image file that can contain applications",
+      "Category": "Disk Image/Installer",
+      "RelatedTypes": [
+        "iso",
+        "img",
+        "app",
+        "pkg"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Mac software distribution and installation"
+    },
+    {
+      "Extension": "doc",
+      "Description": "Word Document (Legacy) - Older Word document format",
+      "Category": "Office Document",
+      "RelatedTypes": [
+        "docx",
+        "docm",
+        "dot"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Legacy Microsoft Word documents"
+    },
+    {
+      "Extension": "docm",
+      "Description": "Word Macro-Enabled Document - Word document that can contain macros",
+      "Category": "Office Document/Macro",
+      "RelatedTypes": [
+        "doc",
+        "docx",
+        "dotm",
+        "xlsm",
+        "pptm"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Microsoft Word documents with macros"
+    },
+    {
+      "Extension": "docx",
+      "Description": "Word Document - Modern Word document format",
+      "Category": "Office Document",
+      "RelatedTypes": [
+        "doc",
+        "docm",
+        "txt"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Microsoft Word documents (2007+)"
+    },
+    {
+      "Extension": "dot",
+      "Description": "Word Template (Legacy) - Older Word template format",
+      "Category": "Office Template",
+      "RelatedTypes": [
+        "dotx",
+        "dotm",
+        "doc"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Legacy Microsoft Word templates"
+    },
+    {
+      "Extension": "dotm",
+      "Description": "Word Macro-Enabled Template - Word template that can contain macros",
+      "Category": "Office Template/Macro",
+      "RelatedTypes": [
+        "docm",
+        "dot",
+        "dotx",
+        "potm",
+        "xltm"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Microsoft Word templates with macros"
+    },
+    {
+      "Extension": "dotx",
+      "Description": "Word Template - Modern Word template format",
+      "Category": "Office Template",
+      "RelatedTypes": [
+        "dot",
+        "dotm",
+        "docx"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Microsoft Word templates (2007+)"
+    },
+    {
+      "Extension": "drv",
+      "Description": "Device Driver - System driver file",
+      "Category": "System Driver",
+      "RelatedTypes": [
+        "sys",
+        "dll",
+        "inf",
+        "cat"
+      ],
+      "RiskLevel": "High",
+      "CommonUse": "Hardware device drivers"
+    },
+    {
+      "Extension": "dtox",
+      "Description": "DTOX File - Specific application data format",
+      "Category": "Data",
+      "RelatedTypes": [
+        "xml",
+        "dat"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Application-specific data files"
+    },
+    {
+      "Extension": "dylib",
+      "Description": "Dynamic Library - macOS dynamic shared library",
+      "Category": "Library/macOS",
+      "RelatedTypes": [
+        "so",
+        "dll",
+        "framework",
+        "bundle"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "macOS dynamic shared libraries"
+    },
+    {
+      "Extension": "ear",
+      "Description": "Enterprise Archive - Java EE application archive",
+      "Category": "Archive/Application",
+      "RelatedTypes": [
+        "jar",
+        "war",
+        "zip",
+        "class"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Java Enterprise application deployment"
+    },
+    {
+      "Extension": "elf",
+      "Description": "Executable and Linkable Format - Linux/Unix executable file",
+      "Category": "Executable/Unix",
+      "RelatedTypes": [
+        "bin",
+        "so",
+        "exe"
+      ],
+      "RiskLevel": "High",
+      "CommonUse": "Linux/Unix compiled programs and executables"
+    },
+    {
+      "Extension": "eml",
+      "Description": "Email Message - RFC 822 email message file",
+      "Category": "Email",
+      "RelatedTypes": [
+        "msg",
+        "mht",
+        "emlx"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Saved email messages"
+    },
+    {
+      "Extension": "exe",
+      "Description": "Executable File - Windows application or program file",
+      "Category": "Executable",
+      "RelatedTypes": [
+        "com",
+        "scr",
+        "pif",
+        "bat",
+        "msi"
+      ],
+      "RiskLevel": "High",
+      "CommonUse": "Software applications and programs"
+    },
+    {
+      "Extension": "font",
+      "Description": "Font File - Generic font file",
+      "Category": "Font",
+      "RelatedTypes": [
+        "ttf",
+        "otf",
+        "woff",
+        "fon"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Font files for text rendering"
+    },
+    {
+      "Extension": "fxp",
+      "Description": "FoxPro Compiled Program - Microsoft FoxPro compiled executable",
+      "Category": "Compiled Program",
+      "RelatedTypes": [
+        "prg",
+        "dbf",
+        "exe",
+        "app"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "FoxPro database applications"
+    },
+    {
+      "Extension": "gadget",
+      "Description": "Windows Gadget - Desktop gadget for Windows Sidebar",
+      "Category": "Executable/Gadget",
+      "RelatedTypes": [
+        "exe",
+        "msi",
+        "app"
+      ],
+      "RiskLevel": "High",
+      "CommonUse": "Windows desktop gadgets (deprecated in Windows 8+)"
+    },
+    {
+      "Extension": "gz",
+      "Description": "Gzip Archive - Compressed file using gzip algorithm",
+      "Category": "Archive/Compression",
+      "RelatedTypes": [
+        "tar",
+        "bz2",
+        "zip",
+        "rar",
+        "7z"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "File compression, especially on Unix/Linux systems"
+    },
+    {
+      "Extension": "hlp",
+      "Description": "Help File - Windows help documentation file",
+      "Category": "Documentation",
+      "RelatedTypes": [
+        "chm",
+        "pdf",
+        "doc",
+        "txt"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Application help and documentation"
+    },
+    {
+      "Extension": "hta",
+      "Description": "HTML Application - Microsoft HTML-based application with elevated privileges",
+      "Category": "Web Application",
+      "RelatedTypes": [
+        "html",
+        "htm",
+        "js",
+        "vbs",
+        "wsf"
+      ],
+      "RiskLevel": "High",
+      "CommonUse": "Rich internet applications with system access"
+    },
+    {
+      "Extension": "htm",
+      "Description": "HTML File - HyperText Markup Language web page (alternate extension)",
+      "Category": "Web",
+      "RelatedTypes": [
+        "html",
+        "xml",
+        "js",
+        "css"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Web pages and web applications"
+    },
+    {
+      "Extension": "html",
+      "Description": "HTML File - HyperText Markup Language web page",
+      "Category": "Web",
+      "RelatedTypes": [
+        "htm",
+        "xml",
+        "js",
+        "css"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Web pages and web applications"
+    },
+    {
+      "Extension": "ical",
+      "Description": "iCalendar File - Calendar file (alternate extension)",
+      "Category": "Calendar",
+      "RelatedTypes": [
+        "ics",
+        "vcs"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Calendar events and appointments"
+    },
+    {
+      "Extension": "ics",
+      "Description": "iCalendar File - Calendar and scheduling information",
+      "Category": "Calendar",
+      "RelatedTypes": [
+        "ical",
+        "vcs",
+        "vcf"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Calendar events and appointments"
+    },
+    {
+      "Extension": "img",
+      "Description": "Disk Image - Raw disk or CD/DVD image file",
+      "Category": "Disk Image",
+      "RelatedTypes": [
+        "iso",
+        "dmg",
+        "vhd",
+        "toast"
+      ],
+      "RiskLevel": "High",
+      "CommonUse": "Disk and CD/DVD images"
+    },
+    {
+      "Extension": "imp",
+      "Description": "Implementation File - Various implementation formats",
+      "Category": "Development",
+      "RelatedTypes": [
+        "lib",
+        "dll",
+        "def"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Library implementation files"
+    },
+    {
+      "Extension": "inf",
+      "Description": "Setup Information File - Windows installation configuration file",
+      "Category": "Configuration/Installer",
+      "RelatedTypes": [
+        "ini",
+        "reg",
+        "msi",
+        "cab"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Device drivers and software installation"
+    },
+    {
+      "Extension": "ini",
+      "Description": "Initialization File - Configuration file format",
+      "Category": "Configuration",
+      "RelatedTypes": [
+        "cfg",
+        "conf",
+        "config",
+        "txt"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Application configuration settings"
+    },
+    {
+      "Extension": "ins",
+      "Description": "Internet Communication Settings - Internet Explorer configuration file",
+      "Category": "Configuration",
+      "RelatedTypes": [
+        "inf",
+        "reg",
+        "ini",
+        "cfg"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Internet Explorer settings configuration"
+    },
+    {
+      "Extension": "ipa",
+      "Description": "iOS App Store Package - iOS application package",
+      "Category": "Mobile App",
+      "RelatedTypes": [
+        "apk",
+        "app",
+        "plist"
+      ],
+      "RiskLevel": "High",
+      "CommonUse": "iOS mobile applications"
+    },
+    {
+      "Extension": "iso",
+      "Description": "ISO Disk Image - CD/DVD disk image file",
+      "Category": "Disk Image",
+      "RelatedTypes": [
+        "img",
+        "dmg",
+        "bin",
+        "cue"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Disk image distribution and mounting"
+    },
+    {
+      "Extension": "isp",
+      "Description": "Internet Service Provider Settings - ISP configuration",
+      "Category": "Configuration/Internet",
+      "RelatedTypes": [
+        "ins",
+        "inf",
+        "isp"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Internet service provider setup files"
+    },
+    {
+      "Extension": "its",
+      "Description": "Internet Translation - Internet document translation",
+      "Category": "Web/Translation",
+      "RelatedTypes": [
+        "xml",
+        "html"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Document translation and content transformation"
+    },
+    {
+      "Extension": "jar",
+      "Description": "Java Archive - Compressed archive containing Java applications",
+      "Category": "Archive/Executable",
+      "RelatedTypes": [
+        "zip",
+        "war",
+        "ear",
+        "class"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Java application distribution"
+    },
+    {
+      "Extension": "java",
+      "Description": "Java Source Code - Java programming language source",
+      "Category": "Programming/Source",
+      "RelatedTypes": [
+        "class",
+        "jar",
+        "jsp"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Java application source code"
+    },
+    {
+      "Extension": "jnlp",
+      "Description": "Java Network Launch Protocol - Java Web Start application",
+      "Category": "Web Application/Java",
+      "RelatedTypes": [
+        "jar",
+        "java",
+        "class"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Java Web Start applications launched from browser"
+    },
+    {
+      "Extension": "js",
+      "Description": "JavaScript File - Script file that can execute in browsers or system",
+      "Category": "Script",
+      "RelatedTypes": [
+        "vbs",
+        "wsf",
+        "jse",
+        "hta",
+        "html"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Web scripting and automation"
+    },
+    {
+      "Extension": "jse",
+      "Description": "JScript Encoded File - Encoded JavaScript file",
+      "Category": "Script",
+      "RelatedTypes": [
+        "js",
+        "vbs",
+        "vbe",
+        "wsf"
+      ],
+      "RiskLevel": "High",
+      "CommonUse": "Obfuscated JavaScript execution"
+    },
+    {
+      "Extension": "json",
+      "Description": "JSON File - JavaScript Object Notation data file",
+      "Category": "Data",
+      "RelatedTypes": [
+        "xml",
+        "yaml",
+        "txt",
+        "js"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Data exchange and configuration"
+    },
+    {
+      "Extension": "jsp",
+      "Description": "JavaServer Pages - Java web page script",
+      "Category": "Web/Script",
+      "RelatedTypes": [
+        "jspx",
+        "java",
+        "asp",
+        "php"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Java web server scripting"
+    },
+    {
+      "Extension": "jspx",
+      "Description": "JavaServer Pages XML - XML format JSP",
+      "Category": "Web/Script",
+      "RelatedTypes": [
+        "jsp",
+        "java",
+        "xml"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "XML-based Java web scripting"
+    },
+    {
+      "Extension": "kext",
+      "Description": "Kernel Extension - macOS kernel extension/driver",
+      "Category": "System/Driver/macOS",
+      "RelatedTypes": [
+        "sys",
+        "drv",
+        "app"
+      ],
+      "RiskLevel": "High",
+      "CommonUse": "macOS system-level extensions and drivers"
+    },
+    {
+      "Extension": "key",
+      "Description": "Private Key File - Cryptographic private key",
+      "Category": "Security/Key",
+      "RelatedTypes": [
+        "pem",
+        "cer",
+        "pfx",
+        "pub"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Cryptographic private keys"
+    },
+    {
+      "Extension": "ksh",
+      "Description": "Korn Shell Script - Unix/Linux Korn shell script",
+      "Category": "Script",
+      "RelatedTypes": [
+        "sh",
+        "bash",
+        "csh",
+        "zsh"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Unix/Linux shell scripting"
+    },
+    {
+      "Extension": "lha",
+      "Description": "LHA Archive - LHarc/LHA compressed archive",
+      "Category": "Archive/Compressed",
+      "RelatedTypes": [
+        "lzh",
+        "zip",
+        "arj",
+        "arc"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Legacy compression format popular in Japan"
+    },
+    {
+      "Extension": "lib",
+      "Description": "Static Library - Compiled library file",
+      "Category": "Library/Development",
+      "RelatedTypes": [
+        "dll",
+        "a",
+        "so",
+        "dylib"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Static libraries for software development"
+    },
+    {
+      "Extension": "library",
+      "Description": "Library File - macOS library bundle",
+      "Category": "Library/macOS",
+      "RelatedTypes": [
+        "lib",
+        "dylib",
+        "framework",
+        "bundle"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "macOS library resources and frameworks"
+    },
+    {
+      "Extension": "lnk",
+      "Description": "Windows Shortcut - Link file that can execute programs or scripts",
+      "Category": "Shortcut/Executable",
+      "RelatedTypes": [
+        "url",
+        "pif",
+        "exe",
+        "bat"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Desktop and menu shortcuts"
+    },
+    {
+      "Extension": "log",
+      "Description": "Log File - Application or system log file",
+      "Category": "Data/Log",
+      "RelatedTypes": [
+        "txt",
+        "csv",
+        "xml"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Application and system logging"
+    },
+    {
+      "Extension": "lqy",
+      "Description": "Query File - Various database query files",
+      "Category": "Database/Query",
+      "RelatedTypes": [
+        "sql",
+        "qry",
+        "query"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Database query definitions"
+    },
+    {
+      "Extension": "lua",
+      "Description": "Lua Script - Lua programming language script",
+      "Category": "Script/Programming",
+      "RelatedTypes": [
+        "luac",
+        "py",
+        "rb"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Lua scripting and game development"
+    },
+    {
+      "Extension": "luac",
+      "Description": "Lua Compiled Script - Compiled Lua bytecode",
+      "Category": "Script/Compiled",
+      "RelatedTypes": [
+        "lua",
+        "pyc"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Compiled Lua bytecode"
+    },
+    {
+      "Extension": "lz",
+      "Description": "Lzip Compressed File - Lzip compression format",
+      "Category": "Compressed",
+      "RelatedTypes": [
+        "lzma",
+        "xz",
+        "gz",
+        "bz2"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "File compression"
+    },
+    {
+      "Extension": "lzh",
+      "Description": "LZH Archive - Compressed archive format",
+      "Category": "Archive/Compression",
+      "RelatedTypes": [
+        "rar",
+        "zip",
+        "ace",
+        "arj",
+        "7z"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "File compression (legacy format)"
+    },
+    {
+      "Extension": "lzma",
+      "Description": "LZMA Compressed File - Lempel-Ziv-Markov chain algorithm compression",
+      "Category": "Compressed",
+      "RelatedTypes": [
+        "xz",
+        "7z",
+        "lz",
+        "gz"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "High-ratio file compression"
+    },
+    {
+      "Extension": "lzo",
+      "Description": "LZO Compressed File - Lempel-Ziv-Oberhumer compression",
+      "Category": "Compressed",
+      "RelatedTypes": [
+        "lz",
+        "gz",
+        "xz"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Fast compression/decompression"
+    },
+    {
+      "Extension": "macho",
+      "Description": "Mach-O Executable - macOS/iOS executable format",
+      "Category": "Executable/macOS",
+      "RelatedTypes": [
+        "app",
+        "dylib",
+        "exe",
+        "elf"
+      ],
+      "RiskLevel": "High",
+      "CommonUse": "macOS and iOS compiled executables"
+    },
+    {
+      "Extension": "mad",
+      "Description": "Microsoft Access Module - Access VBA module file",
+      "Category": "Database Module",
+      "RelatedTypes": [
+        "mdb",
+        "accdb",
+        "bas",
+        "cls"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Microsoft Access VBA modules"
+    },
+    {
+      "Extension": "maf",
+      "Description": "Microsoft Access Form - Access form file",
+      "Category": "Database Form",
+      "RelatedTypes": [
+        "mdb",
+        "accdb",
+        "mad",
+        "mar"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Microsoft Access forms"
+    },
+    {
+      "Extension": "mag",
+      "Description": "Microsoft Access Diagram - Access relationship diagram",
+      "Category": "Database Diagram",
+      "RelatedTypes": [
+        "mdb",
+        "accdb",
+        "maf",
+        "mar"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Microsoft Access database diagrams"
+    },
+    {
+      "Extension": "mam",
+      "Description": "Microsoft Access Macro - Access macro file",
+      "Category": "Database Macro",
+      "RelatedTypes": [
+        "mdb",
+        "accdb",
+        "mad",
+        "maf"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Microsoft Access macros"
+    },
+    {
+      "Extension": "maq",
+      "Description": "Microsoft Access Query - Access query file",
+      "Category": "Database Query",
+      "RelatedTypes": [
+        "mdb",
+        "accdb",
+        "sql",
+        "maf"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Microsoft Access queries"
+    },
+    {
+      "Extension": "mar",
+      "Description": "Microsoft Access Report - Access report file",
+      "Category": "Database Report",
+      "RelatedTypes": [
+        "mdb",
+        "accdb",
+        "maf",
+        "maq"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Microsoft Access reports"
+    },
+    {
+      "Extension": "markdown",
+      "Description": "Markdown File - Lightweight markup language document",
+      "Category": "Document/Text",
+      "RelatedTypes": [
+        "md",
+        "txt",
+        "html",
+        "rst"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Documentation and formatted text"
+    },
+    {
+      "Extension": "mas",
+      "Description": "Microsoft Access Stored Procedures - Access stored procedure",
+      "Category": "Database Procedure",
+      "RelatedTypes": [
+        "mdb",
+        "accdb",
+        "sql",
+        "maq"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Microsoft Access stored procedures"
+    },
+    {
+      "Extension": "mat",
+      "Description": "Microsoft Access Table - Access table file",
+      "Category": "Database Table",
+      "RelatedTypes": [
+        "mdb",
+        "accdb",
+        "dbf",
+        "csv"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Microsoft Access tables"
+    },
+    {
+      "Extension": "mau",
+      "Description": "Media Attachment Unit - Network or media attachment file",
+      "Category": "Media/Network",
+      "RelatedTypes": [
+        "img",
+        "iso",
+        "bin"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Media or network attachment files"
+    },
+    {
+      "Extension": "mav",
+      "Description": "Microsoft Access View - Access database view",
+      "Category": "Database View",
+      "RelatedTypes": [
+        "mdb",
+        "accdb",
+        "maq",
+        "mat"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Microsoft Access database views"
+    },
+    {
+      "Extension": "maw",
+      "Description": "Microsoft Access Web Page - Access web page file",
+      "Category": "Database Web",
+      "RelatedTypes": [
+        "html",
+        "htm",
+        "mdb",
+        "accdb"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Microsoft Access web pages"
+    },
+    {
+      "Extension": "mbox",
+      "Description": "Mailbox File - Unix email mailbox format",
+      "Category": "Email/Database",
+      "RelatedTypes": [
+        "pst",
+        "eml",
+        "msg"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Unix/Linux email storage"
+    },
+    {
+      "Extension": "md",
+      "Description": "Markdown File - Lightweight markup language document",
+      "Category": "Document/Text",
+      "RelatedTypes": [
+        "txt",
+        "markdown",
+        "html",
+        "rst"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Documentation and formatted text"
+    },
+    {
+      "Extension": "mda",
+      "Description": "Microsoft Access Add-in - Access database add-in",
+      "Category": "Database Add-in",
+      "RelatedTypes": [
+        "mdb",
+        "accdb",
+        "mde",
+        "ade"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Microsoft Access add-ins and libraries"
+    },
+    {
+      "Extension": "mdb",
+      "Description": "Microsoft Access Database - Database file that can contain macros",
+      "Category": "Database",
+      "RelatedTypes": [
+        "accdb",
+        "mde",
+        "mdw",
+        "xls",
+        "xlsm"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Database applications and data storage"
+    },
+    {
+      "Extension": "mde",
+      "Description": "Microsoft Access MDE Database - Compiled Access database",
+      "Category": "Database Compiled",
+      "RelatedTypes": [
+        "mdb",
+        "accdb",
+        "ade",
+        "mda"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Compiled Microsoft Access databases"
+    },
+    {
+      "Extension": "mdt",
+      "Description": "Microsoft Access Add-in Data - Access add-in data file",
+      "Category": "Database Data",
+      "RelatedTypes": [
+        "mdb",
+        "accdb",
+        "mda",
+        "mde"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Microsoft Access add-in data"
+    },
+    {
+      "Extension": "mdw",
+      "Description": "Microsoft Access Workgroup - Access security workgroup file",
+      "Category": "Database Security",
+      "RelatedTypes": [
+        "mdb",
+        "accdb",
+        "mde",
+        "mda"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Microsoft Access security and user management"
+    },
+    {
+      "Extension": "mdz",
+      "Description": "Microsoft Access Wizard Template - Access wizard template",
+      "Category": "Database Template",
+      "RelatedTypes": [
+        "mdb",
+        "accdb",
+        "mdt",
+        "mda"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Microsoft Access wizard templates"
+    },
+    {
+      "Extension": "mht",
+      "Description": "MHTML Document - Web archive with embedded resources",
+      "Category": "Web/Archive",
+      "RelatedTypes": [
+        "mhtml",
+        "html",
+        "htm",
+        "eml"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Saved web pages with all resources"
+    },
+    {
+      "Extension": "mhtml",
+      "Description": "MIME HTML - Web archive (alternate extension)",
+      "Category": "Web/Archive",
+      "RelatedTypes": [
+        "mht",
+        "html",
+        "htm",
+        "eml"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Saved web pages with embedded content"
+    },
+    {
+      "Extension": "msc",
+      "Description": "Microsoft Management Console Snap-in - Administrative tool file",
+      "Category": "Administrative Tool",
+      "RelatedTypes": [
+        "msp",
+        "cpl",
+        "exe",
+        "dll"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Windows administrative tools"
+    },
+    {
+      "Extension": "mscompress",
+      "Description": "Microsoft Compressed File - Microsoft compression format",
+      "Category": "Compressed/Microsoft",
+      "RelatedTypes": [
+        "cab",
+        "zip",
+        "msi"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Microsoft compressed installation files"
+    },
+    {
+      "Extension": "msg",
+      "Description": "Outlook Message - Microsoft Outlook email message",
+      "Category": "Email",
+      "RelatedTypes": [
+        "eml",
+        "oft",
+        "pst"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Microsoft Outlook saved messages"
+    },
+    {
+      "Extension": "msh",
+      "Description": "Microsoft Shell Script - PowerShell or shell script file",
+      "Category": "Script",
+      "RelatedTypes": [
+        "ps1",
+        "bat",
+        "cmd",
+        "vbs"
+      ],
+      "RiskLevel": "High",
+      "CommonUse": "Microsoft shell scripting"
+    },
+    {
+      "Extension": "msh1",
+      "Description": "Microsoft Shell Script v1 - PowerShell version 1 script",
+      "Category": "Script",
+      "RelatedTypes": [
+        "ps1",
+        "msh",
+        "bat",
+        "cmd"
+      ],
+      "RiskLevel": "High",
+      "CommonUse": "PowerShell v1 scripting"
+    },
+    {
+      "Extension": "msh1xml",
+      "Description": "PowerShell 1.0 XML - PowerShell console file (XML)",
+      "Category": "Script/PowerShell",
+      "RelatedTypes": [
+        "ps1xml",
+        "psc1",
+        "ps1"
+      ],
+      "RiskLevel": "High",
+      "CommonUse": "PowerShell 1.0 configuration (deprecated)"
+    },
+    {
+      "Extension": "msh2",
+      "Description": "Microsoft Shell Script v2 - PowerShell version 2 script",
+      "Category": "Script",
+      "RelatedTypes": [
+        "ps1",
+        "msh",
+        "msh1",
+        "cmd"
+      ],
+      "RiskLevel": "High",
+      "CommonUse": "PowerShell v2 scripting"
+    },
+    {
+      "Extension": "msh2xml",
+      "Description": "PowerShell 2.0 XML - PowerShell console file (XML)",
+      "Category": "Script/PowerShell",
+      "RelatedTypes": [
+        "ps1xml",
+        "psc1",
+        "ps1"
+      ],
+      "RiskLevel": "High",
+      "CommonUse": "PowerShell 2.0 configuration (deprecated)"
+    },
+    {
+      "Extension": "mshxml",
+      "Description": "Microsoft Shell XML Script - PowerShell XML-based script",
+      "Category": "Script/XML",
+      "RelatedTypes": [
+        "ps1",
+        "xml",
+        "msh",
+        "wsf"
+      ],
+      "RiskLevel": "High",
+      "CommonUse": "PowerShell XML scripting"
+    },
+    {
+      "Extension": "msi",
+      "Description": "Windows Installer Package - Software installation package",
+      "Category": "Installer",
+      "RelatedTypes": [
+        "msp",
+        "exe",
+        "cab",
+        "zip"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Software installation and deployment"
+    },
+    {
+      "Extension": "msix",
+      "Description": "MSIX Package - Modern Windows app package",
+      "Category": "Package/Windows",
+      "RelatedTypes": [
+        "appx",
+        "msixbundle",
+        "msi"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Modern Windows application packaging"
+    },
+    {
+      "Extension": "msixbundle",
+      "Description": "MSIX Bundle - Bundle of MSIX packages",
+      "Category": "Package/Windows",
+      "RelatedTypes": [
+        "msix",
+        "appx",
+        "appxbundle"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Modern Windows app bundles"
+    },
+    {
+      "Extension": "msp",
+      "Description": "Windows Installer Patch - Software update/patch file",
+      "Category": "Installer/Patch",
+      "RelatedTypes": [
+        "msi",
+        "exe",
+        "cab",
+        "zip"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Software updates and patches"
+    },
+    {
+      "Extension": "mst",
+      "Description": "Windows Installer Transform - Installation customization file",
+      "Category": "Installer Configuration",
+      "RelatedTypes": [
+        "msi",
+        "msp",
+        "cab"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "MSI installation customization"
+    },
+    {
+      "Extension": "nupkg",
+      "Description": "NuGet Package - .NET package manager package",
+      "Category": "Package/.NET",
+      "RelatedTypes": [
+        "dll",
+        "exe",
+        "zip"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": ".NET library and tool distribution"
+    },
+    {
+      "Extension": "o",
+      "Description": "Object File - Compiled but not linked object code",
+      "Category": "Compiled/Development",
+      "RelatedTypes": [
+        "obj",
+        "a",
+        "lib",
+        "so"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Intermediate compiled object files"
+    },
+    {
+      "Extension": "obj",
+      "Description": "Object File - Windows compiled object code",
+      "Category": "Compiled/Development",
+      "RelatedTypes": [
+        "o",
+        "lib",
+        "dll"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Windows compiled object files"
+    },
+    {
+      "Extension": "ocx",
+      "Description": "OLE Control Extension - ActiveX control component",
+      "Category": "ActiveX/Component",
+      "RelatedTypes": [
+        "dll",
+        "exe",
+        "cab",
+        "ax"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "ActiveX controls and COM components"
+    },
+    {
+      "Extension": "odp",
+      "Description": "OpenDocument Presentation - Open source presentation format",
+      "Category": "Presentation",
+      "RelatedTypes": [
+        "ppt",
+        "pptx",
+        "odt",
+        "pdf"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "OpenOffice/LibreOffice presentations"
+    },
+    {
+      "Extension": "ods",
+      "Description": "OpenDocument Spreadsheet - Open source spreadsheet format",
+      "Category": "Spreadsheet",
+      "RelatedTypes": [
+        "xls",
+        "xlsx",
+        "odt",
+        "csv"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "OpenOffice/LibreOffice spreadsheets"
+    },
+    {
+      "Extension": "odt",
+      "Description": "OpenDocument Text - Open source document format",
+      "Category": "Document",
+      "RelatedTypes": [
+        "doc",
+        "docx",
+        "ods",
+        "odp"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "OpenOffice/LibreOffice text documents"
+    },
+    {
+      "Extension": "oft",
+      "Description": "Outlook Template - Microsoft Outlook email template",
+      "Category": "Email/Template",
+      "RelatedTypes": [
+        "msg",
+        "eml"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Microsoft Outlook message templates"
+    },
+    {
+      "Extension": "one",
+      "Description": "OneNote File - Microsoft OneNote notebook section",
+      "Category": "Office Document",
+      "RelatedTypes": [
+        "onetoc2",
+        "docx",
+        "txt"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Microsoft OneNote notes and notebooks"
+    },
+    {
+      "Extension": "onenote",
+      "Description": "OneNote Package - OneNote notebook package",
+      "Category": "Office Document/Package",
+      "RelatedTypes": [
+        "one",
+        "onepkg",
+        "docx"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Microsoft OneNote notebook packages"
+    },
+    {
+      "Extension": "ops",
+      "Description": "Office Profile Settings - Microsoft Office settings file",
+      "Category": "Office Configuration",
+      "RelatedTypes": [
+        "prf",
+        "reg",
+        "ini",
+        "xml"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Microsoft Office profile settings"
+    },
+    {
+      "Extension": "ost",
+      "Description": "Outlook Offline Data - Microsoft Outlook offline cache",
+      "Category": "Email/Database",
+      "RelatedTypes": [
+        "pst",
+        "msg"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Microsoft Outlook offline mailbox cache"
+    },
+    {
+      "Extension": "ova",
+      "Description": "Open Virtual Appliance - Virtual machine package",
+      "Category": "Virtual Machine",
+      "RelatedTypes": [
+        "ovf",
+        "vmdk",
+        "vhd"
+      ],
+      "RiskLevel": "High",
+      "CommonUse": "Virtual machine export/import packages"
+    },
+    {
+      "Extension": "ovf",
+      "Description": "Open Virtualization Format - Virtual machine descriptor",
+      "Category": "Virtual Machine",
+      "RelatedTypes": [
+        "ova",
+        "vmdk",
+        "vhd"
+      ],
+      "RiskLevel": "High",
+      "CommonUse": "Virtual machine configurations"
+    },
+    {
+      "Extension": "oxps",
+      "Description": "Open XPS Document - Open XML Paper Specification",
+      "Category": "Document",
+      "RelatedTypes": [
+        "xps",
+        "pdf",
+        "doc"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Open XPS documents"
+    },
+    {
+      "Extension": "p12",
+      "Description": "PKCS #12 Certificate - Certificate archive format",
+      "Category": "Certificate/Security",
+      "RelatedTypes": [
+        "pfx",
+        "cer",
+        "pem",
+        "crt"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Certificate and key storage"
+    },
+    {
+      "Extension": "package",
+      "Description": "Package File - Generic package or installer",
+      "Category": "Package/Installer",
+      "RelatedTypes": [
+        "pkg",
+        "msi",
+        "deb",
+        "rpm"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Software packages and installers"
+    },
+    {
+      "Extension": "pages",
+      "Description": "Apple Pages Document - Apple iWork Pages document",
+      "Category": "Document/macOS",
+      "RelatedTypes": [
+        "doc",
+        "docx",
+        "pdf",
+        "rtf"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Apple Pages word processing documents"
+    },
+    {
+      "Extension": "pak",
+      "Description": "PAK Archive - Package archive file",
+      "Category": "Archive",
+      "RelatedTypes": [
+        "zip",
+        "7z",
+        "rar"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Game data and software packages"
+    },
+    {
+      "Extension": "part",
+      "Description": "Split Archive Part - Partial download or split archive",
+      "Category": "Archive/Split",
+      "RelatedTypes": [
+        "zip",
+        "rar",
+        "7z",
+        "001"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Partial downloads and split archives"
+    },
+    {
+      "Extension": "pbix",
+      "Description": "Power BI Desktop File - Power BI report file",
+      "Category": "Office Data/BI",
+      "RelatedTypes": [
+        "xlsx",
+        "pbit",
+        "pbix"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Microsoft Power BI Desktop reports and data models"
+    },
+    {
+      "Extension": "pcd",
+      "Description": "Photo CD Image - Kodak Photo CD format or program data",
+      "Category": "Image/Data",
+      "RelatedTypes": [
+        "iso",
+        "img",
+        "bin",
+        "cue"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Photo CD image storage or program data"
+    },
+    {
+      "Extension": "pdb",
+      "Description": "Program Database - Debug symbols and information",
+      "Category": "Development/Debug",
+      "RelatedTypes": [
+        "exe",
+        "dll",
+        "obj"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Debugging symbols for Windows programs"
+    },
+    {
+      "Extension": "pdf",
+      "Description": "Portable Document Format - Universal document format",
+      "Category": "Document",
+      "RelatedTypes": [
+        "doc",
+        "docx",
+        "xps",
+        "txt"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Universal document exchange and viewing"
+    },
+    {
+      "Extension": "pem",
+      "Description": "PEM Certificate - Privacy Enhanced Mail certificate format",
+      "Category": "Certificate/Security",
+      "RelatedTypes": [
+        "cer",
+        "crt",
+        "key",
+        "pfx"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "SSL/TLS certificates and keys"
+    },
+    {
+      "Extension": "pfx",
+      "Description": "Personal Information Exchange - Certificate with private key",
+      "Category": "Certificate/Security",
+      "RelatedTypes": [
+        "p12",
+        "cer",
+        "pem",
+        "crt"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Certificate import/export with private keys"
+    },
+    {
+      "Extension": "php",
+      "Description": "PHP Script - PHP Hypertext Preprocessor script",
+      "Category": "Web/Script",
+      "RelatedTypes": [
+        "php3",
+        "php4",
+        "php5",
+        "phtml",
+        "asp"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Web server scripting and dynamic web pages"
+    },
+    {
+      "Extension": "php3",
+      "Description": "PHP 3 Script - PHP version 3 script file",
+      "Category": "Web/Script",
+      "RelatedTypes": [
+        "php",
+        "php4",
+        "php5",
+        "phtml"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Legacy PHP web scripting"
+    },
+    {
+      "Extension": "php4",
+      "Description": "PHP 4 Script - PHP version 4 script file",
+      "Category": "Web/Script",
+      "RelatedTypes": [
+        "php",
+        "php3",
+        "php5",
+        "phtml"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Legacy PHP web scripting"
+    },
+    {
+      "Extension": "php5",
+      "Description": "PHP 5 Script - PHP version 5 script file",
+      "Category": "Web/Script",
+      "RelatedTypes": [
+        "php",
+        "php3",
+        "php4",
+        "phtml"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "PHP web scripting"
+    },
+    {
+      "Extension": "phtml",
+      "Description": "PHP HTML File - PHP embedded in HTML",
+      "Category": "Web/Script",
+      "RelatedTypes": [
+        "php",
+        "html",
+        "asp",
+        "jsp"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "PHP-enhanced web pages"
+    },
+    {
+      "Extension": "pif",
+      "Description": "Program Information File - Windows shortcut for DOS programs",
+      "Category": "Shortcut/Executable",
+      "RelatedTypes": [
+        "lnk",
+        "exe",
+        "com",
+        "bat"
+      ],
+      "RiskLevel": "High",
+      "CommonUse": "DOS program shortcuts and configuration"
+    },
+    {
+      "Extension": "pkg",
+      "Description": "Package File - Software package for various operating systems",
+      "Category": "Package/Installer",
+      "RelatedTypes": [
+        "deb",
+        "rpm",
+        "msi",
+        "dmg"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Software package distribution"
+    },
+    {
+      "Extension": "pl",
+      "Description": "Perl Script - Perl programming language script",
+      "Category": "Script/Programming",
+      "RelatedTypes": [
+        "pm",
+        "py",
+        "sh",
+        "rb"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Perl scripting and automation"
+    },
+    {
+      "Extension": "plugin",
+      "Description": "Plugin File - Application plugin or extension",
+      "Category": "Plugin/Extension",
+      "RelatedTypes": [
+        "dll",
+        "bundle",
+        "dylib",
+        "so"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Application plugins and extensions"
+    },
+    {
+      "Extension": "pm",
+      "Description": "Perl Module - Perl code module",
+      "Category": "Script/Programming",
+      "RelatedTypes": [
+        "pl",
+        "py",
+        "rb"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Perl module libraries"
+    },
+    {
+      "Extension": "pot",
+      "Description": "PowerPoint Template (Legacy) - Older PowerPoint template format",
+      "Category": "Office Template",
+      "RelatedTypes": [
+        "potx",
+        "potm",
+        "ppt"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Legacy Microsoft PowerPoint templates"
+    },
+    {
+      "Extension": "potm",
+      "Description": "PowerPoint Macro-Enabled Template - PowerPoint template with macros",
+      "Category": "Office Template/Macro",
+      "RelatedTypes": [
+        "pptm",
+        "pot",
+        "potx",
+        "dotm",
+        "xltm"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Microsoft PowerPoint templates with macros"
+    },
+    {
+      "Extension": "potx",
+      "Description": "PowerPoint Template - Modern PowerPoint template format",
+      "Category": "Office Template",
+      "RelatedTypes": [
+        "pot",
+        "potm",
+        "pptx"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Microsoft PowerPoint templates (2007+)"
+    },
+    {
+      "Extension": "ppa",
+      "Description": "PowerPoint Add-in (Legacy) - Older PowerPoint add-in",
+      "Category": "Office Add-in",
+      "RelatedTypes": [
+        "ppam",
+        "ppt",
+        "pptm"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Legacy Microsoft PowerPoint add-ins"
+    },
+    {
+      "Extension": "ppam",
+      "Description": "PowerPoint Add-in - PowerPoint add-in that can contain macros",
+      "Category": "Office Add-in/Macro",
+      "RelatedTypes": [
+        "pptm",
+        "potm",
+        "xlam",
+        "ppam"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Microsoft PowerPoint add-ins"
+    },
+    {
+      "Extension": "pps",
+      "Description": "PowerPoint Show (Legacy) - Older slideshow format",
+      "Category": "Office Presentation",
+      "RelatedTypes": [
+        "ppsx",
+        "ppt",
+        "pptx"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Legacy Microsoft PowerPoint slideshows"
+    },
+    {
+      "Extension": "ppsm",
+      "Description": "PowerPoint Macro-Enabled Show - Slideshow with macros",
+      "Category": "Office Presentation/Macro",
+      "RelatedTypes": [
+        "pptm",
+        "ppsx",
+        "pps"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Microsoft PowerPoint slideshows with macros"
+    },
+    {
+      "Extension": "ppsx",
+      "Description": "PowerPoint Show - PowerPoint slideshow format",
+      "Category": "Office Presentation",
+      "RelatedTypes": [
+        "pptx",
+        "pps",
+        "pptm"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Microsoft PowerPoint slideshows"
+    },
+    {
+      "Extension": "ppt",
+      "Description": "PowerPoint Presentation (Legacy) - Older PowerPoint format",
+      "Category": "Office Presentation",
+      "RelatedTypes": [
+        "pptx",
+        "pptm",
+        "pot"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Legacy Microsoft PowerPoint presentations"
+    },
+    {
+      "Extension": "pptm",
+      "Description": "PowerPoint Macro-Enabled Presentation - PowerPoint that can contain macros",
+      "Category": "Office Presentation/Macro",
+      "RelatedTypes": [
+        "ppt",
+        "pptx",
+        "potm",
+        "docm",
+        "xlsm"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Microsoft PowerPoint presentations with macros"
+    },
+    {
+      "Extension": "pptx",
+      "Description": "PowerPoint Presentation - Modern PowerPoint format",
+      "Category": "Office Presentation",
+      "RelatedTypes": [
+        "ppt",
+        "pptm",
+        "ppsx"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Microsoft PowerPoint presentations (2007+)"
+    },
+    {
+      "Extension": "prf",
+      "Description": "Profile File - Application or system profile configuration",
+      "Category": "Profile/Configuration",
+      "RelatedTypes": [
+        "ini",
+        "cfg",
+        "conf",
+        "reg"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Application and system profiles"
+    },
+    {
+      "Extension": "prg",
+      "Description": "Program File - Various programming language source or executable",
+      "Category": "Program/Source",
+      "RelatedTypes": [
+        "exe",
+        "bas",
+        "fxp",
+        "com"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Programming language source code or executables"
+    },
+    {
+      "Extension": "ps1",
+      "Description": "PowerShell Script - Windows PowerShell script file",
+      "Category": "Script",
+      "RelatedTypes": [
+        "ps2",
+        "psm1",
+        "psd1",
+        "bat",
+        "cmd"
+      ],
+      "RiskLevel": "High",
+      "CommonUse": "Windows PowerShell automation and administration"
+    },
+    {
+      "Extension": "ps1xml",
+      "Description": "PowerShell XML Configuration - PowerShell formatting/type configuration",
+      "Category": "Script Configuration",
+      "RelatedTypes": [
+        "ps1",
+        "xml",
+        "psd1",
+        "psm1"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "PowerShell configuration and formatting"
+    },
+    {
+      "Extension": "ps2",
+      "Description": "PowerShell 2.0 Script - PowerShell version 2.0 script",
+      "Category": "Script",
+      "RelatedTypes": [
+        "ps1",
+        "psm1",
+        "psd1",
+        "msh2"
+      ],
+      "RiskLevel": "High",
+      "CommonUse": "PowerShell 2.0 scripting"
+    },
+    {
+      "Extension": "ps2xml",
+      "Description": "PowerShell 2.0 XML Configuration - PowerShell 2.0 XML configuration",
+      "Category": "Script Configuration",
+      "RelatedTypes": [
+        "ps2",
+        "ps1xml",
+        "xml",
+        "psd1"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "PowerShell 2.0 configuration"
+    },
+    {
+      "Extension": "psc1",
+      "Description": "PowerShell Console Configuration - PowerShell console settings",
+      "Category": "Script Configuration",
+      "RelatedTypes": [
+        "ps1",
+        "psd1",
+        "psm1",
+        "xml"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "PowerShell console configuration"
+    },
+    {
+      "Extension": "psc2",
+      "Description": "PowerShell 2.0 Console Configuration - PowerShell 2.0 console settings",
+      "Category": "Script Configuration",
+      "RelatedTypes": [
+        "psc1",
+        "ps2",
+        "psd1",
+        "xml"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "PowerShell 2.0 console configuration"
+    },
+    {
+      "Extension": "psd1",
+      "Description": "PowerShell Data File - PowerShell module manifest or data",
+      "Category": "Script Data",
+      "RelatedTypes": [
+        "ps1",
+        "psm1",
+        "psc1",
+        "xml"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "PowerShell module manifests and data"
+    },
+    {
+      "Extension": "psm1",
+      "Description": "PowerShell Module - PowerShell script module file",
+      "Category": "Script Module",
+      "RelatedTypes": [
+        "ps1",
+        "psd1",
+        "dll",
+        "pssc"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "PowerShell modules and libraries"
+    },
+    {
+      "Extension": "pssc",
+      "Description": "PowerShell Session Configuration - PowerShell session config file",
+      "Category": "Script Configuration",
+      "RelatedTypes": [
+        "ps1",
+        "psd1",
+        "psm1",
+        "xml"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "PowerShell session configuration"
+    },
+    {
+      "Extension": "pst",
+      "Description": "Outlook Data File - Microsoft Outlook mailbox data",
+      "Category": "Email/Database",
+      "RelatedTypes": [
+        "ost",
+        "msg",
+        "mbox"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Microsoft Outlook mailbox storage"
+    },
+    {
+      "Extension": "pub",
+      "Description": "Public Key File - Cryptographic public key",
+      "Category": "Security/Key",
+      "RelatedTypes": [
+        "key",
+        "pem",
+        "cer"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Cryptographic public keys"
+    },
+    {
+      "Extension": "py",
+      "Description": "Python Script - Python programming language script",
+      "Category": "Script/Programming",
+      "RelatedTypes": [
+        "pyw",
+        "pyc",
+        "pyo",
+        "pl",
+        "rb"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Python scripting and automation"
+    },
+    {
+      "Extension": "pyc",
+      "Description": "Python Compiled Bytecode - Compiled Python script",
+      "Category": "Script/Compiled",
+      "RelatedTypes": [
+        "py",
+        "pyo",
+        "pyd"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Compiled Python bytecode"
+    },
+    {
+      "Extension": "pyd",
+      "Description": "Python Dynamic Module - Python extension module (Windows DLL)",
+      "Category": "Script/Module",
+      "RelatedTypes": [
+        "dll",
+        "so",
+        "py",
+        "pyc"
+      ],
+      "RiskLevel": "High",
+      "CommonUse": "Python compiled extensions for Windows"
+    },
+    {
+      "Extension": "pyo",
+      "Description": "Python Optimized Bytecode - Optimized compiled Python",
+      "Category": "Script/Compiled",
+      "RelatedTypes": [
+        "py",
+        "pyc",
+        "pyd"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Optimized Python bytecode"
+    },
+    {
+      "Extension": "pyw",
+      "Description": "Python Windows Script - Python script without console window",
+      "Category": "Script/Programming",
+      "RelatedTypes": [
+        "py",
+        "pyc",
+        "pyo"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Python GUI applications on Windows"
+    },
+    {
+      "Extension": "qcow",
+      "Description": "QEMU Copy-On-Write - QEMU virtual disk image",
+      "Category": "Disk Image/Virtual",
+      "RelatedTypes": [
+        "qcow2",
+        "vmdk",
+        "vdi"
+      ],
+      "RiskLevel": "High",
+      "CommonUse": "QEMU/KVM virtual machine disks"
+    },
+    {
+      "Extension": "qcow2",
+      "Description": "QEMU Copy-On-Write v2 - QEMU virtual disk image",
+      "Category": "Disk Image/Virtual",
+      "RelatedTypes": [
+        "qcow",
+        "vmdk",
+        "vdi",
+        "vhd"
+      ],
+      "RiskLevel": "High",
+      "CommonUse": "QEMU/KVM virtual machine disks"
+    },
+    {
+      "Extension": "r00",
+      "Description": "RAR Split Archive Part - Multi-volume RAR archive part",
+      "Category": "Archive/Split",
+      "RelatedTypes": [
+        "rar",
+        "r01",
+        "r02"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Multi-volume RAR archives"
+    },
+    {
+      "Extension": "rar",
+      "Description": "RAR Archive - Compressed archive format",
+      "Category": "Archive/Compression",
+      "RelatedTypes": [
+        "zip",
+        "7z",
+        "ace",
+        "arj",
+        "lzh"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "File compression and archiving"
+    },
+    {
+      "Extension": "rb",
+      "Description": "Ruby Script - Ruby programming language script",
+      "Category": "Script/Programming",
+      "RelatedTypes": [
+        "rbw",
+        "rake",
+        "py",
+        "pl"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Ruby scripting and automation"
+    },
+    {
+      "Extension": "rbw",
+      "Description": "Ruby Windows Script - Ruby script without console window",
+      "Category": "Script/Programming",
+      "RelatedTypes": [
+        "rb",
+        "rake"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Ruby GUI applications on Windows"
+    },
+    {
+      "Extension": "reg",
+      "Description": "Registry File - Windows registry entries that modify system settings",
+      "Category": "System Configuration",
+      "RelatedTypes": [
+        "inf",
+        "ini",
+        "cfg",
+        "pol"
+      ],
+      "RiskLevel": "High",
+      "CommonUse": "Windows registry modifications"
+    },
+    {
+      "Extension": "rev",
+      "Description": "Revise File - Various applications use this extension",
+      "Category": "Data/Revision",
+      "RelatedTypes": [
+        "bak",
+        "tmp",
+        "old"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Backup or revision files from various applications"
+    },
+    {
+      "Extension": "rpm",
+      "Description": "Red Hat Package Manager - Linux package for Red Hat-based systems",
+      "Category": "Package/Installer",
+      "RelatedTypes": [
+        "deb",
+        "pkg",
+        "msi",
+        "tar"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Linux software installation (Red Hat/CentOS/Fedora)"
+    },
+    {
+      "Extension": "rtf",
+      "Description": "Rich Text Format - Cross-platform formatted text document",
+      "Category": "Document",
+      "RelatedTypes": [
+        "doc",
+        "docx",
+        "txt",
+        "pdf"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Formatted text documents"
+    },
+    {
+      "Extension": "s7z",
+      "Description": "7-Zip Split Archive - Split 7z archive part",
+      "Category": "Archive/Split",
+      "RelatedTypes": [
+        "7z",
+        "z01",
+        "zip"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Large files split for distribution"
+    },
+    {
+      "Extension": "scf",
+      "Description": "Windows Explorer Command - Shell command file",
+      "Category": "Shell Command",
+      "RelatedTypes": [
+        "lnk",
+        "pif",
+        "bat",
+        "cmd"
+      ],
+      "RiskLevel": "High",
+      "CommonUse": "Windows Explorer shell commands"
+    },
+    {
+      "Extension": "scpt",
+      "Description": "Compiled AppleScript - Compiled macOS script",
+      "Category": "Script/macOS",
+      "RelatedTypes": [
+        "applescript",
+        "app",
+        "workflow"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Compiled macOS automation scripts"
+    },
+    {
+      "Extension": "scr",
+      "Description": "Screen Saver - Executable screen saver file",
+      "Category": "Executable/Screen Saver",
+      "RelatedTypes": [
+        "exe",
+        "com",
+        "pif",
+        "dll"
+      ],
+      "RiskLevel": "High",
+      "CommonUse": "Windows screen savers"
+    },
+    {
+      "Extension": "sct",
+      "Description": "Windows Script Component - COM component with script",
+      "Category": "Script/Component",
+      "RelatedTypes": [
+        "wsf",
+        "vbs",
+        "js",
+        "dll",
+        "ocx"
+      ],
+      "RiskLevel": "High",
+      "CommonUse": "Windows script components and COM objects"
+    },
+    {
+      "Extension": "sea",
+      "Description": "Self-Extracting Archive - Archive that extracts itself",
+      "Category": "Archive/Self-Extracting",
+      "RelatedTypes": [
+        "exe",
+        "bin",
+        "zip"
+      ],
+      "RiskLevel": "High",
+      "CommonUse": "Self-extracting compressed files"
+    },
+    {
+      "Extension": "sed",
+      "Description": "SED Script - Stream Editor script",
+      "Category": "Script/Text Processing",
+      "RelatedTypes": [
+        "awk",
+        "sh",
+        "pl"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Stream editing and text transformation"
+    },
+    {
+      "Extension": "service",
+      "Description": "Service - macOS service or Windows service",
+      "Category": "Service/System",
+      "RelatedTypes": [
+        "app",
+        "bundle",
+        "exe"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "System services and background processes"
+    },
+    {
+      "Extension": "sh",
+      "Description": "Shell Script - Unix/Linux shell script",
+      "Category": "Script",
+      "RelatedTypes": [
+        "bash",
+        "csh",
+        "ksh",
+        "zsh"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Unix/Linux shell scripting and automation"
+    },
+    {
+      "Extension": "shb",
+      "Description": "Windows Shortcut Document - Shell scrap object file",
+      "Category": "Shortcut",
+      "RelatedTypes": [
+        "lnk",
+        "url",
+        "pif"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Windows shell shortcuts"
+    },
+    {
+      "Extension": "shs",
+      "Description": "Shell Scrap Object - Windows shell clipboard file",
+      "Category": "Shell Object",
+      "RelatedTypes": [
+        "shb",
+        "lnk",
+        "url"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Windows shell clipboard operations"
+    },
+    {
+      "Extension": "shtm",
+      "Description": "Server-Side Include HTML - HTML with server includes",
+      "Category": "Web/Server",
+      "RelatedTypes": [
+        "shtml",
+        "html",
+        "htm",
+        "asp"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "HTML pages with server-side includes"
+    },
+    {
+      "Extension": "shx",
+      "Description": "Shape File - AutoCAD compiled shape/font file",
+      "Category": "CAD/Graphics",
+      "RelatedTypes": [
+        "shp",
+        "dwg",
+        "dxf"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "AutoCAD shape and font files"
+    },
+    {
+      "Extension": "sldm",
+      "Description": "PowerPoint Macro-Enabled Slide - Individual slide with macros",
+      "Category": "Office Presentation/Macro",
+      "RelatedTypes": [
+        "pptm",
+        "sldx",
+        "ppt"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Microsoft PowerPoint slides with macros"
+    },
+    {
+      "Extension": "sldx",
+      "Description": "PowerPoint Slide - Individual PowerPoint slide",
+      "Category": "Office Presentation",
+      "RelatedTypes": [
+        "pptx",
+        "sldm",
+        "ppt"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Microsoft PowerPoint individual slides"
+    },
+    {
+      "Extension": "so",
+      "Description": "Shared Object - Linux/Unix shared library",
+      "Category": "Library/Unix",
+      "RelatedTypes": [
+        "dll",
+        "dylib",
+        "a",
+        "o"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Linux/Unix dynamic shared libraries"
+    },
+    {
+      "Extension": "sql",
+      "Description": "SQL Script - Structured Query Language script",
+      "Category": "Database/Script",
+      "RelatedTypes": [
+        "db",
+        "sqlite",
+        "mdb",
+        "accdb"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Database queries and scripts"
+    },
+    {
+      "Extension": "sqlite",
+      "Description": "SQLite Database - Lightweight database file",
+      "Category": "Database",
+      "RelatedTypes": [
+        "db",
+        "sql",
+        "sqlite3"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Embedded database storage"
+    },
+    {
+      "Extension": "svg",
+      "Description": "Scalable Vector Graphics - XML-based vector image format",
+      "Category": "Image/Vector",
+      "RelatedTypes": [
+        "xml",
+        "html",
+        "png",
+        "jpg"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Vector graphics and web images"
+    },
+    {
+      "Extension": "sys",
+      "Description": "System File - Windows system driver or configuration file",
+      "Category": "System Driver",
+      "RelatedTypes": [
+        "dll",
+        "drv",
+        "exe",
+        "inf"
+      ],
+      "RiskLevel": "High",
+      "CommonUse": "Windows system drivers and core files"
+    },
+    {
+      "Extension": "tar",
+      "Description": "Tape Archive - Unix/Linux archive format",
+      "Category": "Archive",
+      "RelatedTypes": [
+        "gz",
+        "bz2",
+        "zip",
+        "rar",
+        "7z"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Unix/Linux file archiving"
+    },
+    {
+      "Extension": "tarz",
+      "Description": "Compressed Tar Archive - Tar archive with compression",
+      "Category": "Archive/Compressed",
+      "RelatedTypes": [
+        "tar",
+        "tgz",
+        "tbz",
+        "txz"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Compressed tar archives"
+    },
+    {
+      "Extension": "tbz",
+      "Description": "Bzipped Tar Archive - Combined tar and bzip2 archive",
+      "Category": "Archive/Compressed",
+      "RelatedTypes": [
+        "tar",
+        "bz2",
+        "tgz",
+        "tbz2"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Unix/Linux compressed archives"
+    },
+    {
+      "Extension": "tbz2",
+      "Description": "Bzipped Tar Archive - Combined tar and bzip2 archive (alternate extension)",
+      "Category": "Archive/Compressed",
+      "RelatedTypes": [
+        "tar",
+        "bz2",
+        "tgz",
+        "tbz"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Unix/Linux compressed archives"
+    },
+    {
+      "Extension": "tcl",
+      "Description": "Tcl Script - Tool Command Language script",
+      "Category": "Script/Programming",
+      "RelatedTypes": [
+        "tk",
+        "sh",
+        "pl"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Tcl scripting and automation"
+    },
+    {
+      "Extension": "terminal",
+      "Description": "Terminal Script - Unix terminal script",
+      "Category": "Script/Unix",
+      "RelatedTypes": [
+        "sh",
+        "command",
+        "bash"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Unix/Linux terminal scripts"
+    },
+    {
+      "Extension": "tgz",
+      "Description": "Gzipped Tar Archive - Combined tar and gzip archive",
+      "Category": "Archive/Compressed",
+      "RelatedTypes": [
+        "tar",
+        "gz",
+        "tbz",
+        "txz"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Unix/Linux compressed archives"
+    },
+    {
+      "Extension": "tk",
+      "Description": "Tk Script - Tk GUI toolkit script",
+      "Category": "Script/Programming",
+      "RelatedTypes": [
+        "tcl",
+        "py",
+        "rb"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Tk graphical interface scripting"
+    },
+    {
+      "Extension": "toast",
+      "Description": "Toast Disk Image - Roxio Toast disc image",
+      "Category": "Disk Image",
+      "RelatedTypes": [
+        "img",
+        "iso",
+        "dmg",
+        "cdr"
+      ],
+      "RiskLevel": "High",
+      "CommonUse": "macOS disc images"
+    },
+    {
+      "Extension": "tool",
+      "Description": "Tool - macOS/Unix command-line tool or utility",
+      "Category": "Executable/Unix",
+      "RelatedTypes": [
+        "exe",
+        "elf",
+        "app",
+        "bin"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Command-line utilities and tools"
+    },
+    {
+      "Extension": "torrent",
+      "Description": "BitTorrent File - Torrent download descriptor",
+      "Category": "Download/P2P",
+      "RelatedTypes": [
+        "magnet",
+        "part"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "BitTorrent peer-to-peer downloads"
+    },
+    {
+      "Extension": "tsv",
+      "Description": "Tab-Separated Values - Plain text data table with tabs",
+      "Category": "Data",
+      "RelatedTypes": [
+        "csv",
+        "txt",
+        "xls",
+        "xlsx"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Tabular data export and import"
+    },
+    {
+      "Extension": "txt",
+      "Description": "Text File - Plain text file",
+      "Category": "Document/Text",
+      "RelatedTypes": [
+        "log",
+        "ini",
+        "cfg",
+        "md"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Plain text documents and notes"
+    },
+    {
+      "Extension": "txz",
+      "Description": "XZ Compressed Tar Archive - Combined tar and XZ archive",
+      "Category": "Archive/Compressed",
+      "RelatedTypes": [
+        "tar",
+        "xz",
+        "tgz",
+        "tbz"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Unix/Linux compressed archives"
+    },
+    {
+      "Extension": "uif",
+      "Description": "Universal Image Format - MagicISO disk image",
+      "Category": "Disk Image",
+      "RelatedTypes": [
+        "iso",
+        "img",
+        "nrg",
+        "mdf"
+      ],
+      "RiskLevel": "High",
+      "CommonUse": "MagicISO Universal Image Format disk images"
+    },
+    {
+      "Extension": "url",
+      "Description": "Internet Shortcut - Link to web resources or local files",
+      "Category": "Shortcut/Web",
+      "RelatedTypes": [
+        "lnk",
+        "webloc",
+        "html",
+        "htm"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Website shortcuts and bookmarks"
+    },
+    {
+      "Extension": "vb",
+      "Description": "VBScript File - Visual Basic script file",
+      "Category": "Script",
+      "RelatedTypes": [
+        "vbs",
+        "vbe",
+        "js",
+        "wsf"
+      ],
+      "RiskLevel": "High",
+      "CommonUse": "Windows automation and scripting"
+    },
+    {
+      "Extension": "vbe",
+      "Description": "VBScript Encoded File - Encoded Visual Basic script",
+      "Category": "Script",
+      "RelatedTypes": [
+        "vbs",
+        "vb",
+        "jse",
+        "wsf"
+      ],
+      "RiskLevel": "High",
+      "CommonUse": "Obfuscated VBScript execution"
+    },
+    {
+      "Extension": "vbs",
+      "Description": "VBScript File - Visual Basic script for Windows automation",
+      "Category": "Script",
+      "RelatedTypes": [
+        "vb",
+        "vbe",
+        "js",
+        "wsf",
+        "bat"
+      ],
+      "RiskLevel": "High",
+      "CommonUse": "Windows automation and system scripting"
+    },
+    {
+      "Extension": "vcard",
+      "Description": "vCard File - Electronic business card (alternate extension)",
+      "Category": "Contact",
+      "RelatedTypes": [
+        "vcf",
+        "csv",
+        "ldif"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Contact information exchange"
+    },
+    {
+      "Extension": "vcf",
+      "Description": "vCard File - Electronic business card",
+      "Category": "Contact",
+      "RelatedTypes": [
+        "vcard",
+        "csv",
+        "ldif"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Contact information exchange"
+    },
+    {
+      "Extension": "vcs",
+      "Description": "vCalendar File - Calendar information (legacy format)",
+      "Category": "Calendar",
+      "RelatedTypes": [
+        "ics",
+        "ical",
+        "vcf"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Legacy calendar events"
+    },
+    {
+      "Extension": "vdi",
+      "Description": "Virtual Disk Image - VirtualBox virtual disk",
+      "Category": "Disk Image/Virtual",
+      "RelatedTypes": [
+        "vhd",
+        "vmdk",
+        "qcow2"
+      ],
+      "RiskLevel": "High",
+      "CommonUse": "VirtualBox virtual machine disks"
+    },
+    {
+      "Extension": "vhd",
+      "Description": "Virtual Hard Disk - Microsoft virtual disk image",
+      "Category": "Disk Image/Virtual",
+      "RelatedTypes": [
+        "vhdx",
+        "vmdk",
+        "vdi",
+        "img"
+      ],
+      "RiskLevel": "High",
+      "CommonUse": "Virtual machine hard disk images"
+    },
+    {
+      "Extension": "vhdx",
+      "Description": "Virtual Hard Disk v2 - Microsoft virtual disk image (Hyper-V)",
+      "Category": "Disk Image/Virtual",
+      "RelatedTypes": [
+        "vhd",
+        "vmdk",
+        "vdi"
+      ],
+      "RiskLevel": "High",
+      "CommonUse": "Hyper-V virtual machine disks"
+    },
+    {
+      "Extension": "vmdk",
+      "Description": "Virtual Machine Disk - VMware virtual disk image",
+      "Category": "Disk Image/Virtual",
+      "RelatedTypes": [
+        "vhd",
+        "vdi",
+        "qcow2"
+      ],
+      "RiskLevel": "High",
+      "CommonUse": "VMware virtual machine disks"
+    },
+    {
+      "Extension": "vsd",
+      "Description": "Visio Drawing - Microsoft Visio diagram file",
+      "Category": "Document/Diagram",
+      "RelatedTypes": [
+        "vsdx",
+        "vsdm",
+        "vst"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Microsoft Visio diagrams and flowcharts"
+    },
+    {
+      "Extension": "vsdm",
+      "Description": "Visio Macro-Enabled Drawing - Visio file that can contain macros",
+      "Category": "Document/Macro",
+      "RelatedTypes": [
+        "vsd",
+        "vsdx",
+        "docm",
+        "xlsm"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Microsoft Visio diagrams with macros"
+    },
+    {
+      "Extension": "vsdx",
+      "Description": "Visio Drawing - Modern Visio diagram format",
+      "Category": "Document/Diagram",
+      "RelatedTypes": [
+        "vsd",
+        "vsdm",
+        "vst"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Microsoft Visio diagrams (2013+)"
+    },
+    {
+      "Extension": "vsix",
+      "Description": "Visual Studio Extension - Visual Studio extension package",
+      "Category": "Package/Development",
+      "RelatedTypes": [
+        "zip",
+        "dll",
+        "exe"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Visual Studio extensions"
+    },
+    {
+      "Extension": "vsmacros",
+      "Description": "Visual Studio Macros - Visual Studio macro project",
+      "Category": "Development/Macro",
+      "RelatedTypes": [
+        "vb",
+        "vbs",
+        "js"
+      ],
+      "RiskLevel": "High",
+      "CommonUse": "Visual Studio automation macros (executable)"
+    },
+    {
+      "Extension": "vss",
+      "Description": "Visio Stencil - Microsoft Visio stencil file",
+      "Category": "Office Template/Visio",
+      "RelatedTypes": [
+        "vsd",
+        "vsdx",
+        "vst",
+        "vssx"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Microsoft Visio stencils and shapes"
+    },
+    {
+      "Extension": "vssm",
+      "Description": "Visio Macro-Enabled Stencil - Visio stencil with macros",
+      "Category": "Office Template/Macro",
+      "RelatedTypes": [
+        "vsdm",
+        "vssx",
+        "vss"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Microsoft Visio stencils with macros"
+    },
+    {
+      "Extension": "vssx",
+      "Description": "Visio Stencil - Modern Visio stencil format",
+      "Category": "Office Template/Visio",
+      "RelatedTypes": [
+        "vss",
+        "vsdx",
+        "vstx"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Microsoft Visio stencils (2013+)"
+    },
+    {
+      "Extension": "vst",
+      "Description": "Visio Template - Template file for Microsoft Visio",
+      "Category": "Template/Diagram",
+      "RelatedTypes": [
+        "vsd",
+        "vsdx",
+        "vsdm"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Microsoft Visio templates"
+    },
+    {
+      "Extension": "vstm",
+      "Description": "Visio Macro-Enabled Template - Visio template with macros",
+      "Category": "Template/Macro",
+      "RelatedTypes": [
+        "vsdm",
+        "dotm",
+        "xltm"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Microsoft Visio templates with macros"
+    },
+    {
+      "Extension": "vstx",
+      "Description": "Visio Template - Modern Visio template format",
+      "Category": "Office Template/Visio",
+      "RelatedTypes": [
+        "vst",
+        "vstm",
+        "vsdx"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Microsoft Visio templates (2013+)"
+    },
+    {
+      "Extension": "vsw",
+      "Description": "Visio Workspace - Visio workspace file",
+      "Category": "Office Document/Visio",
+      "RelatedTypes": [
+        "vsd",
+        "vsdx",
+        "vdx"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Microsoft Visio workspace layouts"
+    },
+    {
+      "Extension": "vxd",
+      "Description": "Virtual Device Driver - Windows 9x/ME virtual device driver",
+      "Category": "System/Driver",
+      "RelatedTypes": [
+        "sys",
+        "drv",
+        "dll"
+      ],
+      "RiskLevel": "High",
+      "CommonUse": "Legacy Windows 95/98/ME device drivers"
+    },
+    {
+      "Extension": "war",
+      "Description": "Web Application Archive - Java web application archive",
+      "Category": "Web Archive",
+      "RelatedTypes": [
+        "jar",
+        "ear",
+        "zip",
+        "class"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Java web application deployment"
+    },
+    {
+      "Extension": "workflow",
+      "Description": "macOS Automator Workflow - Automator automation",
+      "Category": "Script/macOS",
+      "RelatedTypes": [
+        "app",
+        "scpt",
+        "applescript"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "macOS Automator workflows"
+    },
+    {
+      "Extension": "wps",
+      "Description": "Microsoft Works Word Processor - Works document format",
+      "Category": "Document",
+      "RelatedTypes": [
+        "doc",
+        "docx",
+        "rtf"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Microsoft Works documents (legacy)"
+    },
+    {
+      "Extension": "ws",
+      "Description": "Windows Script - Generic Windows script file",
+      "Category": "Script",
+      "RelatedTypes": [
+        "wsf",
+        "vbs",
+        "js",
+        "bat"
+      ],
+      "RiskLevel": "High",
+      "CommonUse": "Windows scripting and automation"
+    },
+    {
+      "Extension": "wsc",
+      "Description": "Windows Script Component - Scriptlet component file",
+      "Category": "Script/Component",
+      "RelatedTypes": [
+        "wsf",
+        "sct",
+        "vbs",
+        "js"
+      ],
+      "RiskLevel": "High",
+      "CommonUse": "Windows script components"
+    },
+    {
+      "Extension": "wsf",
+      "Description": "Windows Script File - XML-based script file for Windows Script Host",
+      "Category": "Script",
+      "RelatedTypes": [
+        "vbs",
+        "js",
+        "wsc",
+        "sct"
+      ],
+      "RiskLevel": "High",
+      "CommonUse": "Advanced Windows scripting"
+    },
+    {
+      "Extension": "wsh",
+      "Description": "Windows Script Host Settings - Configuration for script execution",
+      "Category": "Script Configuration",
+      "RelatedTypes": [
+        "wsf",
+        "vbs",
+        "js",
+        "ini"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Windows Script Host configuration"
+    },
+    {
+      "Extension": "xapk",
+      "Description": "Extended APK - Android app with additional data",
+      "Category": "Mobile App",
+      "RelatedTypes": [
+        "apk",
+        "ipa",
+        "apkm"
+      ],
+      "RiskLevel": "High",
+      "CommonUse": "Android apps with OBB data files"
+    },
+    {
+      "Extension": "xhtml",
+      "Description": "Extensible HTML - XML-based HTML format",
+      "Category": "Web",
+      "RelatedTypes": [
+        "html",
+        "xml",
+        "htm"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Standards-compliant web pages"
+    },
+    {
+      "Extension": "xla",
+      "Description": "Excel Add-in (Legacy) - Older Excel add-in format",
+      "Category": "Office Add-in",
+      "RelatedTypes": [
+        "xlam",
+        "xls",
+        "xlt"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Legacy Microsoft Excel add-ins"
+    },
+    {
+      "Extension": "xlam",
+      "Description": "Excel Add-in - Excel add-in that can contain macros",
+      "Category": "Office Add-in/Macro",
+      "RelatedTypes": [
+        "xlsm",
+        "xltm",
+        "xla",
+        "ppam"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Microsoft Excel add-ins"
+    },
+    {
+      "Extension": "xll",
+      "Description": "Excel Add-in (DLL) - Excel add-in based on DLL",
+      "Category": "Office Add-in/Executable",
+      "RelatedTypes": [
+        "xlam",
+        "xla",
+        "dll",
+        "exe"
+      ],
+      "RiskLevel": "High",
+      "CommonUse": "Excel add-ins with compiled code (can execute)"
+    },
+    {
+      "Extension": "xls",
+      "Description": "Excel Spreadsheet (Legacy) - Older Excel workbook format",
+      "Category": "Office Spreadsheet",
+      "RelatedTypes": [
+        "xlsx",
+        "xlsm",
+        "xlt"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Legacy Microsoft Excel workbooks"
+    },
+    {
+      "Extension": "xlsb",
+      "Description": "Excel Binary Workbook - Binary format Excel file",
+      "Category": "Office Spreadsheet",
+      "RelatedTypes": [
+        "xlsx",
+        "xlsm",
+        "xls"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Excel binary workbooks (faster, smaller)"
+    },
+    {
+      "Extension": "xlsm",
+      "Description": "Excel Macro-Enabled Workbook - Excel workbook that can contain macros",
+      "Category": "Office Spreadsheet/Macro",
+      "RelatedTypes": [
+        "xls",
+        "xlsx",
+        "xltm",
+        "docm",
+        "pptm"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Microsoft Excel workbooks with macros"
+    },
+    {
+      "Extension": "xlsx",
+      "Description": "Excel Workbook - Modern Excel workbook format",
+      "Category": "Office Spreadsheet",
+      "RelatedTypes": [
+        "xls",
+        "xlsm",
+        "csv"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Microsoft Excel workbooks (2007+)"
+    },
+    {
+      "Extension": "xlt",
+      "Description": "Excel Template (Legacy) - Older Excel template format",
+      "Category": "Office Template",
+      "RelatedTypes": [
+        "xltx",
+        "xltm",
+        "xls"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Legacy Microsoft Excel templates"
+    },
+    {
+      "Extension": "xltm",
+      "Description": "Excel Macro-Enabled Template - Excel template that can contain macros",
+      "Category": "Office Template/Macro",
+      "RelatedTypes": [
+        "xlsm",
+        "xlt",
+        "xltx",
+        "dotm",
+        "potm"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Microsoft Excel templates with macros"
+    },
+    {
+      "Extension": "xltx",
+      "Description": "Excel Template - Modern Excel template format",
+      "Category": "Office Template",
+      "RelatedTypes": [
+        "xlt",
+        "xltm",
+        "xlsx"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Microsoft Excel templates (2007+)"
+    },
+    {
+      "Extension": "xml",
+      "Description": "XML File - Extensible Markup Language file",
+      "Category": "Data/Configuration",
+      "RelatedTypes": [
+        "html",
+        "xsl",
+        "xsd",
+        "config"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Data storage, configuration, and web services"
+    },
+    {
+      "Extension": "xnk",
+      "Description": "Exchange Shortcut - Microsoft Exchange public folder shortcut",
+      "Category": "Exchange Shortcut",
+      "RelatedTypes": [
+        "lnk",
+        "url",
+        "pif"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Microsoft Exchange public folder shortcuts"
+    },
+    {
+      "Extension": "xpi",
+      "Description": "Firefox Extension - Mozilla Firefox browser extension",
+      "Category": "Browser Extension",
+      "RelatedTypes": [
+        "crx",
+        "zip"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Firefox browser extensions"
+    },
+    {
+      "Extension": "xps",
+      "Description": "XPS Document - XML Paper Specification document",
+      "Category": "Document",
+      "RelatedTypes": [
+        "pdf",
+        "oxps",
+        "doc"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Microsoft XPS documents"
+    },
+    {
+      "Extension": "xsl",
+      "Description": "XSL Stylesheet - XML stylesheet for transformations",
+      "Category": "Web/Stylesheet",
+      "RelatedTypes": [
+        "xml",
+        "xslt",
+        "css",
+        "html"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "XML transformations and formatting"
+    },
+    {
+      "Extension": "xslt",
+      "Description": "XSL Transform - XML transformation template",
+      "Category": "Web/Stylesheet",
+      "RelatedTypes": [
+        "xml",
+        "xsl",
+        "html"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "XML data transformations"
+    },
+    {
+      "Extension": "xz",
+      "Description": "XZ Compressed File - XZ Utils compression format",
+      "Category": "Compressed",
+      "RelatedTypes": [
+        "lzma",
+        "gz",
+        "bz2",
+        "tar"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "High-ratio file compression"
+    },
+    {
+      "Extension": "yaml",
+      "Description": "YAML File - YAML Ain't Markup Language configuration file",
+      "Category": "Data/Configuration",
+      "RelatedTypes": [
+        "yml",
+        "json",
+        "xml",
+        "txt"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Configuration and data serialization"
+    },
+    {
+      "Extension": "yml",
+      "Description": "YAML File - YAML configuration file (alternate extension)",
+      "Category": "Data/Configuration",
+      "RelatedTypes": [
+        "yaml",
+        "json",
+        "xml",
+        "txt"
+      ],
+      "RiskLevel": "Low",
+      "CommonUse": "Configuration and data serialization"
+    },
+    {
+      "Extension": "z",
+      "Description": "Unix Compressed File - Legacy Unix compress format",
+      "Category": "Compressed",
+      "RelatedTypes": [
+        "gz",
+        "bz2",
+        "xz"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Legacy Unix file compression"
+    },
+    {
+      "Extension": "zi",
+      "Description": "Renamed ZIP Archive - ZIP with alternate extension",
+      "Category": "Archive",
+      "RelatedTypes": [
+        "zip",
+        "jar",
+        "zipx"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "ZIP archives with renamed extension"
+    },
+    {
+      "Extension": "zip",
+      "Description": "ZIP Archive - Compressed archive that may contain executables",
+      "Category": "Archive/Compression",
+      "RelatedTypes": [
+        "rar",
+        "7z",
+        "tar",
+        "gz",
+        "bz2"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "File compression and distribution"
+    },
+    {
+      "Extension": "zipx",
+      "Description": "Extended ZIP Archive - WinZip extended format",
+      "Category": "Archive/Compressed",
+      "RelatedTypes": [
+        "zip",
+        "7z",
+        "rar"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "WinZip archives with advanced compression"
+    },
+    {
+      "Extension": "zpaq",
+      "Description": "ZPAQ Archive - High compression archive format",
+      "Category": "Archive/Compressed",
+      "RelatedTypes": [
+        "zip",
+        "7z",
+        "rar"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "High-ratio data compression"
+    },
+    {
+      "Extension": "zsh",
+      "Description": "Z Shell Script - Unix/Linux Z shell script",
+      "Category": "Script",
+      "RelatedTypes": [
+        "sh",
+        "bash",
+        "csh",
+        "ksh"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Unix/Linux Z shell scripting"
+    },
+    {
+      "Extension": "zst",
+      "Description": "Zstandard Compressed File - Zstandard compression format",
+      "Category": "Compressed",
+      "RelatedTypes": [
+        "gz",
+        "xz",
+        "bz2"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Fast compression with high ratio"
+    },
+    {
+      "Extension": "zstd",
+      "Description": "Zstandard Compressed File - Zstandard compression (alternate extension)",
+      "Category": "Compressed",
+      "RelatedTypes": [
+        "zst",
+        "gz",
+        "xz",
+        "bz2"
+      ],
+      "RiskLevel": "Medium",
+      "CommonUse": "Fast compression with high ratio"
+    }
+  ],
+  "TotalExtensions": 322
+}
