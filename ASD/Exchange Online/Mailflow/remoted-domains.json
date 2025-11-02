@@ -1,0 +1,39 @@
+{
+  "RemoteDomain": {
+    "Name": "Default",
+    "DomainName": "*",
+    "Description": "ASD Blueprint for Secure Cloud - Remote Domains Configuration",
+    "Reference": "https://blueprint.asd.gov.au/configuration/exchange-online/mail-flow/remote-domains/",
+    "EmailReplyTypes": {
+      "AllowedOOFType": "External",
+      "AllowedOOFTypeDescription": "Allow only external out of office replies",
+      "AutoReplyEnabled": false,
+      "AutoReplyEnabledDescription": "Allow automatic replies - Not checked",
+      "AutoForwardEnabled": false,
+      "AutoForwardEnabledDescription": "Allow automatic forwarding - Not checked"
+    },
+    "MessageReporting": {
+      "DeliveryReportEnabled": false,
+      "DeliveryReportEnabledDescription": "Allow delivery reports - Not checked",
+      "NDREnabled": false,
+      "NDREnabledDescription": "Allow non-delivery reports - Not checked",
+      "MeetingForwardNotificationEnabled": false,
+      "MeetingForwardNotificationEnabledDescription": "Allow meeting forward notifications - Not checked"
+    },
+    "TextAndCharacterSet": {
+      "TNEFEnabled": null,
+      "TNEFEnabledDescription": "Use rich-text format - Follow user settings",
+      "CharacterSet": null,
+      "CharacterSetDescription": "MIME character set - None",
+      "NonMimeCharacterSet": null,
+      "NonMimeCharacterSetDescription": "Non-MIME character set - None"
+    }
+  },
+  "Metadata": {
+    "Version": "1.0",
+    "LastUpdated": "2025-11-03",
+    "Source": "ASD Blueprint for Secure Cloud",
+    "AppliesTo": "Exchange Online Remote Domains",
+    "ConfigurationURL": "https://admin.exchange.microsoft.com/#/remotedomains"
+  }
+}
