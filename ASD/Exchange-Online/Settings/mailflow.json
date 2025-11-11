@@ -1,8 +1,4 @@
 {
-  "metadata": {
-    "sourceUrl": "https://blueprint.asd.gov.au/configuration/exchange-online/settings/mail-flow/",
-    "generatedAt": "2025-11-12"
-  },
   "general": {
     "plusAddressingEnabled": false,
     "sendFromAliasesEnabled": false
@@ -21,7 +17,7 @@
     "enabled": true,
     "allowRecallReadMessages": true,
     "enableRecipientAlerts": true,
-    "recipientAlertScope": "Only for recalled messages that were read by the recipient",
+    "alertReadMessagesOnly": true,
     "maxAgeDays": 1
   }
 }
