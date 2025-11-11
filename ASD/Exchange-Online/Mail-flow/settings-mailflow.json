@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "sourceUrl": "https://blueprint.asd.gov.au/configuration/exchange-online/settings/mail-flow/",
+    "generatedAt": "2025-11-12"
+  },
+  "general": {
+    "plusAddressingEnabled": false,
+    "sendFromAliasesEnabled": false
+  },
+  "security": {
+    "smtpAuthProtocolEnabled": false,
+    "legacyTlsClientsAllowed": false
+  },
+  "replyAllStormProtection": {
+    "enabled": true,
+    "minimumRecipients": 2500,
+    "minimumReplyAlls": 10,
+    "blockDurationHours": 6
+  },
+  "messageRecall": {
+    "enabled": true,
+    "allowRecallReadMessages": true,
+    "enableRecipientAlerts": true,
+    "recipientAlertScope": "Only for recalled messages that were read by the recipient",
+    "maxAgeDays": 1
+  }
+}
