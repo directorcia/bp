@@ -1,0 +1,138 @@
+{
+  "AccountLinking": {
+    "EnableMSAConsent": false
+  },
+  "AdoptionScore": {
+    "CalculateInsightsScope": "AllUsers",
+    "EnableGroupLevelInsights": false
+  },
+  "AzureSpeechServices": {
+    "EnableOrganizationWideLanguageModel": true
+  },
+  "Bookings": {
+    "Enabled": false
+  },
+  "Calendar": {
+    "EnableCalendarSharing": false
+  },
+  "CopilotForSales": {
+    "EnableCopilotForSalesContent": false
+  },
+  "Cortana": {
+    "EnableCortana": false
+  },
+  "Dynamics365Applications": {
+    "AllowUserDataView": false,
+    "AllowAggregatedInsights": false,
+    "AllowIndividualizedInsights": false
+  },
+  "Dynamics365CustomerVoice": {
+    "PreventPhishing": true,
+    "CollectNames": true,
+    "RestrictSurveyAccess": false
+  },
+  "Microsoft365Groups": {
+    "AllowGuestsAsMembers": false,
+    "AllowGuestAccess": false,
+    "EnableOrphanedGroupOwnerNotification": false
+  },
+  "Microsoft365InstallationOptions": {
+    "FeatureUpdateChannel": "Current",
+    "WindowsOffice": true,
+    "WindowsSkypeForBusiness": true,
+    "MacOffice": true,
+    "MacSkypeForBusiness": true
+  },
+  "Microsoft365OnTheWeb": {
+    "EnableThirdPartyStorage": false
+  },
+  "MicrosoftCommunicationToUsers": {
+    "EnableProductEmailCommunication": false
+  },
+  "MicrosoftForms": {
+    "AllowFormSharing": true,
+    "AllowCollaboration": true,
+    "AllowTemplateSharing": true,
+    "AllowResultSummarySharing": false,
+    "RecordNamedByDefault": false,
+    "AllowBingSearchAndYouTube": false,
+    "EnablePhishingProtection": true,
+    "AllowResponseEditing": false
+  },
+  "MicrosoftGraphDataConnect": {
+    "Enabled": false
+  },
+  "MicrosoftLoop": {
+    "EnableWorkspaces": true
+  },
+  "MicrosoftPlanner": {
+    "AllowiCalendarPublishing": false
+  },
+  "MicrosoftSearchInBing": {
+    "ShowHomepage": false
+  },
+  "MicrosoftTeams": {
+    "EnableTeams": true,
+    "AllowGuestAccess": false
+  },
+  "MicrosoftToDo": {
+    "AllowPushNotifications": false
+  },
+  "MicrosoftVivaInsights": {
+    "EnableWebExperience": true,
+    "EnableDigestEmail": true,
+    "EnableOutlookAddIn": true,
+    "EnableScheduleSendSuggestions": true,
+    "AllowMicrosoftFeedbackContact": false
+  },
+  "ModernAuthentication": {
+    "EnableModernAuth": true,
+    "EnableAuthenticatedSMTP": false
+  },
+  "News": {
+    "IndustryTopics": [],
+    "CustomTopics": [],
+    "ExcludedContent": [],
+    "AllowUserCustomization": false,
+    "EnableIndustryNews": false,
+    "SendDailyEmailUpdates": false,
+    "IncludeIndustryNewsInBingHomepage": false,
+    "ShowM365ContentOnEdgeNewTab": false,
+    "ShowMyFeedOnEdgeNewTab": false,
+    "DefaultToMyFeed": false,
+    "DefaultToWorkFeed": false
+  },
+  "OfficeScripts": {
+    "EnableOfficeScripts": false
+  },
+  "Reports": {
+    "DisplayConcealedNames": false,
+    "EnablePowerBIIntegration": false
+  },
+  "SharePoint": {
+    "SharingCapability": "Disabled"
+  },
+  "Sway": {
+    "AllowExternalSharing": false,
+    "AllowPeopleLookup": false,
+    "EnableFlickr": false,
+    "EnablePickit": false,
+    "EnableWikipedia": false,
+    "EnableYouTube": false
+  },
+  "UserOwnedAppsAndServices": {
+    "AllowOfficeStore": false,
+    "AllowUserTrials": false,
+    "AllowAutoClaimLicenses": false
+  },
+  "VivaLearning": {
+    "SendRequiredDiagnosticData": false,
+    "SendOptionalDiagnosticData": false
+  },
+  "Whiteboard": {
+    "Enabled": true,
+    "DiagnosticDataLevel": "Neither",
+    "AllowOptionalConnectedExperiences": false,
+    "EnableSurfaceHubSharing": true
+  }
+}
