@@ -1,12 +1,4 @@
 {
-  "general": {
-    "plusAddressingEnabled": false,
-    "sendFromAliasesEnabled": false
-  },
-  "security": {
-    "smtpAuthProtocolEnabled": false,
-    "legacyTlsClientsAllowed": false
-  },
   "replyAllStormProtection": {
     "enabled": true,
     "minimumRecipients": 2500,
