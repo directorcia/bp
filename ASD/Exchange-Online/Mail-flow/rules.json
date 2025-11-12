@@ -1,0 +1,18 @@
+{
+  "Rules": [
+    {
+      "Name": "Require TLS for sensitive items",
+      "Priority": 0,
+      "Mode": "Enforce",
+      "Severity": null,
+      "SenderAddressLocation": "Header",
+      "SentToScope": "NotInOrganization",
+      "HeaderContainsMessageHeader": "msip_labels",
+      "HeaderContainsWords": [
+        "",
+        ">"      
+      ],
+      "RequireTLS": true
+    }
+  ]
+}
