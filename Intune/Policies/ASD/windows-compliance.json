@@ -1,0 +1,52 @@
+{
+  "@odata.type": "#microsoft.graph.windows10CompliancePolicy",
+  "displayName": "ASD Windows 10/11 compliance policy",
+  "description": "Per the Australian Signals Directorate Blueprint for Secure Cloud.",
+  "version": 1,
+  "passwordRequired": true,
+  "passwordBlockSimple": true,
+  "passwordRequiredType": "alphanumeric",
+  "passwordMinimumLength": 15,
+  "passwordMinutesOfInactivityBeforeLock": 15,
+  "passwordExpirationDays": 365,
+  "passwordPreviousPasswordBlockCount": 5,
+  "passwordRequiredToUnlockFromIdle": true,
+  "passwordComplexity": "requireDigitsLowercaseUppercaseSpecialCharacters",
+  "osMinimumVersion": "10.0.19043.10000",
+  "osMaximumVersion": null,
+  "mobileOsMinimumVersion": "10.0.19043.10000",
+  "mobileOsMaximumVersion": null,
+  "earlyLaunchAntiMalwareDriverEnabled": true,
+  "bitLockerEnabled": true,
+  "secureBootEnabled": true,
+  "codeIntegrityEnabled": true,
+  "storageRequireEncryption": true,
+  "activeFirewallRequired": true,
+  "defenderEnabled": true,
+  "defenderVersion": "4.18.0.0",
+  "signatureOutOfDate": false,
+  "rtpEnabled": true,
+  "antivirusRequired": true,
+  "antiSpywareRequired": true,
+  "tpmRequired": true,
+  "deviceThreatProtectionEnabled": true,
+  "deviceThreatProtectionRequiredSecurityLevel": "medium",
+  "configurationManagerComplianceRequired": false,
+  "scheduledActionsForRule": [
+    {
+      "ruleName": "PasswordRequired",
+      "scheduledActionConfigurations": [
+        {
+          "actionType": "block",
+          "gracePeriodHours": 0,
+          "notificationTemplateId": "",
+          "notificationMessageCCList": []
+        }
+      ]
+    }
+  ],
+  "validOperatingSystemBuildRanges": [],
+  "roleScopeTagIds": [
+    "0"
+  ]
+}
