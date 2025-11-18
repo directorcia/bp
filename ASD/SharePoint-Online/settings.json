@@ -1,0 +1,38 @@
+{
+  "sharepoint": {
+    "notifications": {
+      "allowNotifications": true
+    },
+    "pages": {
+      "allowUsersToCreateModernPages": true,
+      "allowCommentingOnModernPages": true
+    },
+    "siteCreation": {
+      "usersCanCreateSharePointSites": false,
+      "createTeamSitesUnder": "/sites/",
+      "defaultTimeZone": "(UTC+10:00 Canberra, Melbourne, Sydney)"
+    },
+    "siteStorageLimits": {
+      "storageMode": "Automatic"
+    }
+  },
+  "oneDrive": {
+    "notification": {
+      "allowNotifications": true
+    },
+    "retention": {
+      "daysToRetainDeletedUserOneDrive": 365
+    },
+    "storageLimit": {
+      "defaultStorageLimitGB": 1024
+    },
+    "sync": {
+      "showSyncButtonOnOneDriveWebsite": true,
+      "allowSyncingOnlyOnComputersJoinedToSpecificDomains": true,
+      "activeDirectoryDomainGuids": [
+        "<GUID>"
+      ],
+      "blockUploadOfSpecificFileTypes": false
+    }
+  }
+}
