@@ -1,7 +1,7 @@
 {
   "@odata.type": "#microsoft.graph.windows10CompliancePolicy",
-  "displayName": "Windows 10/11 compliance policy",
-  "description": "",
+  "displayName": "ASD Windows 10/11 compliance policy",
+  "description": "Per the Australian Signals Directorate Blueprint for Secure Cloud.",
   "version": 1,
   "passwordRequired": true,
   "passwordBlockSimple": true,
