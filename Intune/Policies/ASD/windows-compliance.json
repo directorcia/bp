@@ -10,7 +10,7 @@
   "passwordMinutesOfInactivityBeforeLock": 15,
   "passwordExpirationDays": 365,
   "passwordPreviousPasswordBlockCount": 5,
-  "passwordRequireToUnlockFromIdle": true,
+  "passwordRequiredToUnlockFromIdle": true,
   "passwordComplexity": "requireDigitsLowercaseUppercaseSpecialCharacters",
   "osMinimumVersion": "10.0.19043.10000",
   "osMaximumVersion": null,
