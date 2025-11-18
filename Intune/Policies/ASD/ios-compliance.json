@@ -1,0 +1,35 @@
+{
+  "@odata.type": "#microsoft.graph.iosCompliancePolicy",
+  "displayName": "ASD Apple iOS and iPad",
+  "description": "ASD Blueprint compliance policy for iOS and iPadOS devices",
+  "passcodeBlockSimple": true,
+  "passcodeExpirationDays": 365,
+  "passcodeMinimumLength": 15,
+  "passcodeMinutesOfInactivityBeforeLock": 0,
+  "passcodePreviousPasscodeBlockCount": 5,
+  "passcodeMinimumCharacterSetCount": 1,
+  "passcodeRequiredType": "alphanumeric",
+  "passcodeRequired": true,
+  "securityBlockJailbrokenDevices": true,
+  "deviceThreatProtectionEnabled": true,
+  "deviceThreatProtectionRequiredSecurityLevel": "medium",
+  "managedEmailProfileRequired": false,
+  "osMinimumVersion": "14.8.1",
+  "osMaximumVersion": null,
+  "osMinimumBuildVersion": "18H107",
+  "osMaximumBuildVersion": null,
+  "advancedThreatProtectionRequiredSecurityLevel": "medium",
+  "scheduledActionsForRule": [
+    {
+      "ruleName": "PasswordRequired",
+      "scheduledActionConfigurations": [
+        {
+          "actionType": "block",
+          "gracePeriodHours": 0,
+          "notificationTemplateId": "",
+          "notificationMessageCCList": []
+        }
+      ]
+    }
+  ]
+}
