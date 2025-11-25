@@ -5,16 +5,15 @@
     "ActiveSyncIntegrationEnabled": false,
     "ContactsEnabled": true,
     "LinkedInEnabled": false,
-    "MobileDeviceSyncEnabled": true,
     "AllAddressListsEnabled": true,
-    "JournalingEnabled": false,
+    "JournalEnabled": false,
     "NotesEnabled": true,
     "RulesEnabled": true,
     "RecoverDeletedItemsEnabled": true,
     "ChangePasswordEnabled": true,
-    "ThemesEnabled": true,
+    "ThemeSelectionEnabled": true,
     "PremiumClientEnabled": true,
-    "EmailSignatureEnabled": true,
+    "SignaturesEnabled": true,
     "WeatherEnabled": true,
     "PlacesEnabled": false,
     "LocalEventsEnabled": false,
@@ -22,8 +21,8 @@
     "CalendarEnabled": true,
     "TasksEnabled": true,
     "RemindersAndNotificationsEnabled": true,
-    "PublicFileAccessEnabled": false,
-    "PrivateFileAccessEnabled": true,
-    "OfflineAccessEnabled": "Always"
+    "DirectFileAccessOnPublicComputersEnabled": false,
+    "DirectFileAccessOnPrivateComputersEnabled": true,
+    "OfflineEnabledWeb": true
   }
 }
