@@ -1,129 +1,106 @@
 {
+  "@odata.type": "#microsoft.graph.intent",
   "displayName": "Security baseline for Microsoft Edge",
-  "description": "ASD Blueprint - Security baseline for Microsoft Edge",
-  "platform": "Windows 10 and later",
-  "settings": {
-    "microsoftEdge": {
-      "allowUnconfiguredSitesReloadInIEMode": {
-        "displayName": "Allow unconfigured sites to be reloaded in Internet Explorer mode",
-        "value": "Disabled",
-        "omaUri": "./Device/Vendor/MSFT/Policy/Config/Browser/ConfigureInternetExplorerIntegrationReloadInIEModeAllowed"
-      },
-      "allowUsersToProceedException": {
-        "displayName": "Allow users to proceed from the HTTPS warning page",
-        "value": "Disabled",
-        "omaUri": "./Device/Vendor/MSFT/Policy/Config/Browser/PreventCertErrorOverrides"
-      },
-      "enableBrowserLegacyExtensionPointBlocking": {
-        "displayName": "Enable browser legacy extension point blocking",
-        "value": "Enabled",
-        "omaUri": "./Device/Vendor/MSFT/Policy/Config/Browser/EnableBrowserLegacyExtensionPointBlocking"
-      },
-      "enableSiteIsolation": {
-        "displayName": "Enable site isolation for every site",
-        "value": "Enabled",
-        "omaUri": "./Device/Vendor/MSFT/Policy/Config/Browser/SitePerProcess"
-      },
-      "enhanceImagesEnabled": {
-        "displayName": "Enhance images enabled",
-        "value": "Disabled",
-        "omaUri": "./Device/Vendor/MSFT/Policy/Config/Browser/EdgeEnhanceImagesEnabled"
-      },
-      "forceWebSQL": {
-        "displayName": "Force WebSQL to be enabled",
-        "value": "Disabled",
-        "omaUri": "./Device/Vendor/MSFT/Policy/Config/Browser/WebSQLAccess"
-      },
-      "minimumTLSVersion": {
-        "displayName": "Minimum TLS version enabled",
-        "value": "Enabled",
-        "configuredValue": "TLS 1.2",
-        "omaUri": "./Device/Vendor/MSFT/Policy/Config/Browser/SSLMinVersion"
-      },
-      "showReloadInIEModeButton": {
-        "displayName": "Show the Reload in Internet Explorer mode button in the toolbar",
-        "value": "Disabled",
-        "omaUri": "./Device/Vendor/MSFT/Policy/Config/Browser/InternetExplorerModeToolbarButtonEnabled"
-      },
-      "sharedArrayBufferNonIsolated": {
-        "displayName": "Specifies whether SharedArrayBuffers can be used in a non cross-origin-isolated context",
-        "value": "Disabled",
-        "omaUri": "./Device/Vendor/MSFT/Policy/Config/Browser/SharedArrayBufferUnrestrictedAccessAllowed"
-      }
+  "description": "ASD Blueprint security baseline configuration for Microsoft Edge - Windows 10 and later",
+  "templateId": "a239407c-698d-4ef8-b314-e3ae409204b8",
+  "settingsDelta": [
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementComplexSettingInstance",
+      "definitionId": "deviceConfiguration--microsoft_edge~Policy~microsoft_edge~Extensions_ExtensionInstallBlocklist",
+      "valueJson": "{\"enabled\":true,\"data\":{\"ExtensionInstallBlocklist\":[\"*\"]}}"
     },
-    "extensions": {
-      "extensionInstallBlocklist": {
-        "displayName": "Control which extensions cannot be installed",
-        "value": "Enabled",
-        "extensionIds": "*",
-        "omaUri": "./Device/Vendor/MSFT/Policy/Config/Browser/ExtensionInstallBlocklist"
-      }
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
+      "definitionId": "deviceConfiguration--microsoft_edge~Policy~microsoft_edge~HTTPAuthentication_AllowBasicAuthHTTP",
+      "valueJson": "false"
     },
-    "httpAuthentication": {
-      "allowBasicAuth": {
-        "displayName": "Allow Basic authentication for HTTP",
-        "value": "Disabled",
-        "omaUri": "./Device/Vendor/MSFT/Policy/Config/Browser/BasicAuthOverHttpEnabled"
-      },
-      "authSchemes": {
-        "displayName": "Supported authentication schemes",
-        "value": "Enabled",
-        "configuredSchemes": "ntlm,negotiate",
-        "omaUri": "./Device/Vendor/MSFT/Policy/Config/Browser/AuthSchemes"
-      }
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementComplexSettingInstance",
+      "definitionId": "deviceConfiguration--microsoft_edge~Policy~microsoft_edge~HTTPAuthentication_AuthSchemes",
+      "valueJson": "{\"enabled\":true,\"data\":{\"AuthSchemes\":\"ntlm,negotiate\"}}"
     },
-    "nativeMessaging": {
-      "allowUserLevelNativeMessagingHosts": {
-        "displayName": "Allow user-level native messaging hosts (installed without admin permissions)",
-        "value": "Disabled",
-        "omaUri": "./Device/Vendor/MSFT/Policy/Config/Browser/NativeMessagingUserLevelHosts"
-      }
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
+      "definitionId": "deviceConfiguration--microsoft_edge~Policy~microsoft_edge~NativeMessaging_NativeMessagingUserLevelHosts",
+      "valueJson": "false"
     },
-    "passwordManager": {
-      "enablePasswordManager": {
-        "displayName": "Enable saving passwords to the password manager",
-        "value": "Disabled",
-        "omaUri": "./Device/Vendor/MSFT/Policy/Config/Browser/AllowPasswordManager"
-      }
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
+      "definitionId": "deviceConfiguration--microsoft_edge~Policy~microsoft_edge~PasswordManagerandProtection_PasswordManagerEnabled",
+      "valueJson": "false"
     },
-    "privateNetworkRequest": {
-      "insecurePrivateNetworkRequests": {
-        "displayName": "Specifies whether to allow insecure websites to make requests to more-private network endpoints",
-        "value": "Disabled",
-        "omaUri": "./Device/Vendor/MSFT/Policy/Config/Browser/InsecurePrivateNetworkRequestsAllowed"
-      }
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
+      "definitionId": "deviceConfiguration--microsoft_edge~Policy~microsoft_edge~PrivateNetworkRequestSettings_InsecurePrivateNetworkRequestsAllowed",
+      "valueJson": "false"
     },
-    "smartScreen": {
-      "enableSmartScreen": {
-        "displayName": "Configure Microsoft Defender SmartScreen",
-        "value": "Enabled",
-        "omaUri": "./Device/Vendor/MSFT/Policy/Config/Browser/AllowSmartScreen"
-      },
-      "blockPUA": {
-        "displayName": "Configure Microsoft Defender SmartScreen to block potentially unwanted apps",
-        "value": "Enabled",
-        "omaUri": "./Device/Vendor/MSFT/Policy/Config/Browser/PreventSmartScreenPromptOverride"
-      },
-      "preventBypassSites": {
-        "displayName": "Prevent bypassing Microsoft Defender SmartScreen prompts for sites",
-        "value": "Enabled",
-        "omaUri": "./Device/Vendor/MSFT/Policy/Config/Browser/PreventSmartScreenPromptOverride"
-      },
-      "preventBypassDownloads": {
-        "displayName": "Prevent bypassing of Microsoft Defender SmartScreen warnings about downloads",
-        "value": "Enabled",
-        "omaUri": "./Device/Vendor/MSFT/Policy/Config/Browser/PreventSmartScreenPromptOverrideForFiles"
-      }
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
+      "definitionId": "deviceConfiguration--microsoft_edge~Policy~microsoft_edge~SmartScreenSettings_SmartScreenEnabled",
+      "valueJson": "true"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
+      "definitionId": "deviceConfiguration--microsoft_edge~Policy~microsoft_edge~SmartScreenSettings_SmartScreenPuaEnabled",
+      "valueJson": "true"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
+      "definitionId": "deviceConfiguration--microsoft_edge~Policy~microsoft_edge~SmartScreenSettings_PreventSmartScreenPromptOverride",
+      "valueJson": "true"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
+      "definitionId": "deviceConfiguration--microsoft_edge~Policy~microsoft_edge~SmartScreenSettings_PreventSmartScreenPromptOverrideForFiles",
+      "valueJson": "true"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
+      "definitionId": "deviceConfiguration--microsoft_edge~Policy~microsoft_edge_InternetExplorerIntegrationReloadInIEModeAllowed",
+      "valueJson": "false"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
+      "definitionId": "deviceConfiguration--microsoft_edge~Policy~microsoft_edge_SSLErrorOverrideAllowed",
+      "valueJson": "false"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
+      "definitionId": "deviceConfiguration--microsoft_edge~Policy~microsoft_edge_BrowserLegacyExtensionPointsBlockingEnabled",
+      "valueJson": "true"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
+      "definitionId": "deviceConfiguration--microsoft_edge~Policy~microsoft_edge_SitePerProcess",
+      "valueJson": "true"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
+      "definitionId": "deviceConfiguration--microsoft_edge~Policy~microsoft_edge_EdgeEnhanceImagesEnabled",
+      "valueJson": "false"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
+      "definitionId": "deviceConfiguration--microsoft_edge~Policy~microsoft_edge_WebSQLInThirdPartyContextEnabled",
+      "valueJson": "false"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementComplexSettingInstance",
+      "definitionId": "deviceConfiguration--microsoft_edge~Policy~microsoft_edge_SSLVersionMin",
+      "valueJson": "{\"enabled\":true,\"data\":{\"SSLVersionMin\":\"tls1.2\"}}"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
+      "definitionId": "deviceConfiguration--microsoft_edge~Policy~microsoft_edge_InternetExplorerIntegrationSiteRedirect",
+      "valueJson": "false"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
+      "definitionId": "deviceConfiguration--microsoft_edge~Policy~microsoft_edge_SharedArrayBufferUnrestrictedAccessAllowed",
+      "valueJson": "false"
     }
-  },
-  "assignments": {
-    "includedGroups": [],
-    "excludedGroups": []
-  },
-  "metadata": {
-    "source": "ASD Blueprint for Secure Cloud",
-    "sourceUrl": "https://blueprint.asd.gov.au/configuration/intune/endpoint-security/security-baselines/security-baseline-for-microsoft-edge/",
-    "createdDate": "2025-12-01",
-    "version": "1.0"
-  }
+  ],
+  "roleScopeTagIds": [
+    "0"
+  ]
 }
