@@ -1,2 +1,3 @@
-[Windows Compliance Policy Settings ‐ Security Rationale](https://github.com/directorcia/bp/wiki/Windows-Compliance-Policy-Settings-%E2%80%90-Security-Rationale)
-[iOS Compliance Policy Settings - Security Rationale](https://github.com/directorcia/bp/wiki/iOS-Compliance-Policy-Settings-%E2%80%90-Security-Rationale)
+* [Windows Compliance Policy Settings ‐ Security Rationale](https://github.com/directorcia/bp/wiki/Windows-Compliance-Policy-Settings-%E2%80%90-Security-Rationale)</br>
+* [iOS Compliance Policy Settings - Security Rationale](https://github.com/directorcia/bp/wiki/iOS-Compliance-Policy-Settings-%E2%80%90-Security-Rationale)</br>
+* 
