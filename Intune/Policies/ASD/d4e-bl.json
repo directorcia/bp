@@ -1,142 +1,206 @@
 {
-  "@odata.type": "#microsoft.graph.deviceManagementIntent",
-  "displayName": "ASD Microsoft Defender for Endpoint Security Baseline v24H1",
-  "description": "Microsoft Defender for Endpoint Security Baseline (24H1) configured according to ASD Blueprint for Secure Cloud - https://blueprint.asd.gov.au/configuration/intune/endpoint-security/security-baselines/microsoft-defender-for-endpoint-baseline/",
-  "templateId": "2209e067-9c8c-462e-9981-5a8c79165dcc",
-  "settingsDelta": [
+  "name": "ASD Microsoft Defender for Endpoint Security Baseline v24H1",
+  "description": "ASD Blueprint Defender for Endpoint Security Baseline - Version 24H1 (Settings Catalog)",
+  "platforms": "windows10",
+  "technologies": "mdm",
+  "roleScopeTagIds": ["0"],
+  "settingCount": 12,
+  "templateReference": {
+    "templateId": "49b8320f-e179-472e-8e2c-2fde00289ca2_1",
+    "templateFamily": "endpointSecurityAntivirus",
+    "templateDisplayName": "Microsoft Defender for Endpoint Security Baseline",
+    "templateDisplayVersion": "Version 24H1"
+  },
+  "settings": [
     {
-      "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
-      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_deviceGuardLocalSystemAuthorityCredentialGuardSettings",
-      "valueJson": "\"enableWithUEFILock\"",
-      "value": "enableWithUEFILock"
-    },
-    {
-      "@odata.type": "#microsoft.graph.deviceManagementIntegerSettingInstance",
-      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_firewallIdleTimeoutForSecurityAssociationInSeconds",
-      "valueJson": "300",
-      "value": 300
-    },
-    {
-      "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
-      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_firewallPreSharedKeyEncodingMethod",
-      "valueJson": "\"utf8\"",
-      "value": "utf8"
-    },
-    {
-      "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
-      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_firewallIPSecExemptionsAllowDHCP",
-      "valueJson": "false",
-      "value": false
-    },
-    {
-      "@odata.type": "#microsoft.graph.deviceManagementComplexSettingInstance",
-      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_firewallProfilePrivate",
-      "valueJson": "{\"firewallEnabled\":\"allowed\",\"inboundConnectionsBlocked\":true,\"unicastResponsesToMulticastBroadcastsRequired\":true,\"connectionSecurityRulesFromGroupPolicyNotMerged\":true,\"incomingTrafficBlocked\":true,\"policyRulesFromGroupPolicyNotMerged\":true}",
-      "value": [
-        {
-          "@odata.type": "#microsoft.graph.keyValuePair",
-          "name": "firewallEnabled",
-          "value": "allowed"
-        },
-        {
-          "@odata.type": "#microsoft.graph.keyValuePair",
-          "name": "inboundConnectionsBlocked",
-          "value": "true"
-        },
-        {
-          "@odata.type": "#microsoft.graph.keyValuePair",
-          "name": "unicastResponsesToMulticastBroadcastsRequired",
-          "value": "true"
-        },
-        {
-          "@odata.type": "#microsoft.graph.keyValuePair",
-          "name": "connectionSecurityRulesFromGroupPolicyNotMerged",
-          "value": "true"
-        },
-        {
-          "@odata.type": "#microsoft.graph.keyValuePair",
-          "name": "incomingTrafficBlocked",
-          "value": "true"
-        },
-        {
-          "@odata.type": "#microsoft.graph.keyValuePair",
-          "name": "policyRulesFromGroupPolicyNotMerged",
-          "value": "true"
+      "id": "0",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_deviceguard_lsacfgflags",
+        "settingInstanceTemplateReference": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_deviceguard_lsacfgflags_1",
+          "children": []
         }
-      ]
+      }
     },
     {
-      "@odata.type": "#microsoft.graph.deviceManagementComplexSettingInstance",
-      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_firewallProfilePublic",
-      "valueJson": "{\"firewallEnabled\":\"allowed\",\"inboundConnectionsBlocked\":true,\"unicastResponsesToMulticastBroadcastsRequired\":true,\"connectionSecurityRulesFromGroupPolicyNotMerged\":true,\"incomingTrafficBlocked\":true,\"policyRulesFromGroupPolicyNotMerged\":true}",
-      "value": [
-        {
-          "@odata.type": "#microsoft.graph.keyValuePair",
-          "name": "firewallEnabled",
-          "value": "allowed"
-        },
-        {
-          "@odata.type": "#microsoft.graph.keyValuePair",
-          "name": "inboundConnectionsBlocked",
-          "value": "true"
-        },
-        {
-          "@odata.type": "#microsoft.graph.keyValuePair",
-          "name": "unicastResponsesToMulticastBroadcastsRequired",
-          "value": "true"
-        },
-        {
-          "@odata.type": "#microsoft.graph.keyValuePair",
-          "name": "connectionSecurityRulesFromGroupPolicyNotMerged",
-          "value": "true"
-        },
-        {
-          "@odata.type": "#microsoft.graph.keyValuePair",
-          "name": "incomingTrafficBlocked",
-          "value": "true"
-        },
-        {
-          "@odata.type": "#microsoft.graph.keyValuePair",
-          "name": "policyRulesFromGroupPolicyNotMerged",
-          "value": "true"
+      "id": "1",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_firewall_mdmstore_global_saidletime",
+        "settingInstanceTemplateReference": null,
+        "simpleSettingValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 300
         }
-      ]
+      }
     },
     {
-      "@odata.type": "#microsoft.graph.deviceManagementIntegerSettingInstance",
-      "definitionId": "deviceConfiguration--windows10GeneralConfiguration_defenderCloudExtendedTimeout",
-      "valueJson": "50",
-      "value": 50
+      "id": "2",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_firewall_mdmstore_global_presharedkeyencoding",
+        "settingInstanceTemplateReference": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_firewall_mdmstore_global_presharedkeyencoding_utf8",
+          "children": []
+        }
+      }
     },
     {
-      "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
-      "definitionId": "deviceConfiguration--windows10GeneralConfiguration_defenderScanType",
-      "valueJson": "\"quick\"",
-      "value": "quick"
+      "id": "3",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_firewall_mdmstore_global_disablestatefulftp",
+        "settingInstanceTemplateReference": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_firewall_mdmstore_global_disablestatefulftp_true",
+          "children": []
+        }
+      }
     },
     {
-      "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
-      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_defenderScheduledScanDay",
-      "valueJson": "\"everyday\"",
-      "value": "everyday"
+      "id": "4",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall",
+        "settingInstanceTemplateReference": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall_true",
+          "children": [
+            {
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+              "settingDefinitionId": "vendor_msft_firewall_mdmstore_privateprofile_defaultinboundaction",
+              "choiceSettingValue": {
+                "value": "vendor_msft_firewall_mdmstore_privateprofile_defaultinboundaction_1",
+                "children": []
+              }
+            },
+            {
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+              "settingDefinitionId": "vendor_msft_firewall_mdmstore_privateprofile_disableunicastresponsestomulticastbroadcast",
+              "choiceSettingValue": {
+                "value": "vendor_msft_firewall_mdmstore_privateprofile_disableunicastresponsestomulticastbroadcast_false",
+                "children": []
+              }
+            }
+          ]
+        }
+      }
     },
     {
-      "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
-      "definitionId": "deviceConfiguration--windows10GeneralConfiguration_defenderSubmitSamplesConsentType",
-      "valueJson": "\"sendSafeSamplesAutomatically\"",
-      "value": "sendSafeSamplesAutomatically"
+      "id": "5",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall",
+        "settingInstanceTemplateReference": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall_true",
+          "children": [
+            {
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+              "settingDefinitionId": "vendor_msft_firewall_mdmstore_publicprofile_defaultinboundaction",
+              "choiceSettingValue": {
+                "value": "vendor_msft_firewall_mdmstore_publicprofile_defaultinboundaction_1",
+                "children": []
+              }
+            },
+            {
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+              "settingDefinitionId": "vendor_msft_firewall_mdmstore_publicprofile_disableunicastresponsestomulticastbroadcast",
+              "choiceSettingValue": {
+                "value": "vendor_msft_firewall_mdmstore_publicprofile_disableunicastresponsestomulticastbroadcast_false",
+                "children": []
+              }
+            }
+          ]
+        }
+      }
     },
     {
-      "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
-      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_defenderScanRemovableDrivesDuringFullScan",
-      "valueJson": "true",
-      "value": true
+      "id": "6",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_defender_cloudextendedtimeout",
+        "settingInstanceTemplateReference": null,
+        "simpleSettingValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 50
+        }
+      }
     },
     {
-      "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
-      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_defenderPotentiallyUnwantedAppAction",
-      "valueJson": "\"block\"",
-      "value": "block"
+      "id": "7",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_defender_scanparameter",
+        "settingInstanceTemplateReference": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_defender_scanparameter_1",
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "8",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_defender_schedulescanday",
+        "settingInstanceTemplateReference": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_defender_schedulescanday_0",
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "9",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_defender_submitsamplesconsent",
+        "settingInstanceTemplateReference": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_defender_submitsamplesconsent_3",
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "10",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_defender_allowfullscanremovabledrivescanning",
+        "settingInstanceTemplateReference": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_defender_allowfullscanremovabledrivescanning_1",
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "11",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_defender_puaprotection",
+        "settingInstanceTemplateReference": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_defender_puaprotection_1",
+          "children": []
+        }
+      }
     }
   ]
 }
