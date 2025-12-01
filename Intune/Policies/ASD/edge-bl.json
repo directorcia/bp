@@ -1,7 +1,7 @@
 {
   "@odata.type": "#microsoft.graph.intent",
-  "displayName": "Security baseline for Microsoft Edge",
-  "description": "ASD Blueprint security baseline configuration for Microsoft Edge - Windows 10 and later",
+  "displayName": "Security baseline for Microsoft Edge v128",
+  "description": "Microsoft Edge v128 security baseline configuration for Windows 10 and later - January 2025",
   "templateId": "a239407c-698d-4ef8-b314-e3ae409204b8",
   "settingsDelta": [
     {
@@ -22,11 +22,6 @@
     {
       "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
       "definitionId": "deviceConfiguration--microsoft_edge~Policy~microsoft_edge~NativeMessaging_NativeMessagingUserLevelHosts",
-      "valueJson": "false"
-    },
-    {
-      "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
-      "definitionId": "deviceConfiguration--microsoft_edge~Policy~microsoft_edge~PasswordManagerandProtection_PasswordManagerEnabled",
       "valueJson": "false"
     },
     {
@@ -76,28 +71,28 @@
     },
     {
       "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
-      "definitionId": "deviceConfiguration--microsoft_edge~Policy~microsoft_edge_EdgeEnhanceImagesEnabled",
+      "definitionId": "deviceConfiguration--microsoft_edge~Policy~microsoft_edge_SharedArrayBufferUnrestrictedAccessAllowed",
       "valueJson": "false"
     },
     {
       "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
-      "definitionId": "deviceConfiguration--microsoft_edge~Policy~microsoft_edge_WebSQLInThirdPartyContextEnabled",
+      "definitionId": "deviceConfiguration--microsoft_edge~Policy~microsoft_edge_InternetExplorerIntegrationAutomaticOpenInIEMode",
       "valueJson": "false"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
+      "definitionId": "deviceConfiguration--microsoft_edge~Policy~microsoft_edge_ApplicationBoundEncryptionEnabled",
+      "valueJson": "true"
     },
     {
       "@odata.type": "#microsoft.graph.deviceManagementComplexSettingInstance",
-      "definitionId": "deviceConfiguration--microsoft_edge~Policy~microsoft_edge_SSLVersionMin",
-      "valueJson": "{\"enabled\":true,\"data\":{\"SSLVersionMin\":\"tls1.2\"}}"
+      "definitionId": "deviceConfiguration--microsoft_edge~Policy~microsoft_edge_DynamicCodeSettings",
+      "valueJson": "{\"enabled\":true,\"data\":{\"DynamicCodeSettings\":0}}"
     },
     {
       "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
-      "definitionId": "deviceConfiguration--microsoft_edge~Policy~microsoft_edge_InternetExplorerIntegrationSiteRedirect",
-      "valueJson": "false"
-    },
-    {
-      "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
-      "definitionId": "deviceConfiguration--microsoft_edge~Policy~microsoft_edge_SharedArrayBufferUnrestrictedAccessAllowed",
-      "valueJson": "false"
+      "definitionId": "deviceConfiguration--microsoft_edge~Policy~microsoft_edge~TyposquattingChecker_TyposquattingCheckerEnabled",
+      "valueJson": "true"
     }
   ],
   "roleScopeTagIds": [
