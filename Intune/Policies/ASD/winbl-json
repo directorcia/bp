@@ -1,0 +1,101 @@
+{
+  "@odata.type": "#microsoft.graph.intent",
+  "displayName": "Security baseline for Microsoft Edge v128",
+  "description": "Microsoft Edge v128 security baseline configuration for Windows 10 and later - January 2025",
+  "templateId": "a239407c-698d-4ef8-b314-e3ae409204b8",
+  "settingsDelta": [
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementComplexSettingInstance",
+      "definitionId": "deviceConfiguration--microsoft_edge~Policy~microsoft_edge~Extensions_ExtensionInstallBlocklist",
+      "valueJson": "{\"enabled\":true,\"data\":{\"ExtensionInstallBlocklist\":[\"*\"]}}"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
+      "definitionId": "deviceConfiguration--microsoft_edge~Policy~microsoft_edge~HTTPAuthentication_AllowBasicAuthHTTP",
+      "valueJson": "false"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementComplexSettingInstance",
+      "definitionId": "deviceConfiguration--microsoft_edge~Policy~microsoft_edge~HTTPAuthentication_AuthSchemes",
+      "valueJson": "{\"enabled\":true,\"data\":{\"AuthSchemes\":\"ntlm,negotiate\"}}"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
+      "definitionId": "deviceConfiguration--microsoft_edge~Policy~microsoft_edge~NativeMessaging_NativeMessagingUserLevelHosts",
+      "valueJson": "false"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
+      "definitionId": "deviceConfiguration--microsoft_edge~Policy~microsoft_edge~PrivateNetworkRequestSettings_InsecurePrivateNetworkRequestsAllowed",
+      "valueJson": "false"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
+      "definitionId": "deviceConfiguration--microsoft_edge~Policy~microsoft_edge~SmartScreenSettings_SmartScreenEnabled",
+      "valueJson": "true"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
+      "definitionId": "deviceConfiguration--microsoft_edge~Policy~microsoft_edge~SmartScreenSettings_SmartScreenPuaEnabled",
+      "valueJson": "true"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
+      "definitionId": "deviceConfiguration--microsoft_edge~Policy~microsoft_edge~SmartScreenSettings_PreventSmartScreenPromptOverride",
+      "valueJson": "true"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
+      "definitionId": "deviceConfiguration--microsoft_edge~Policy~microsoft_edge~SmartScreenSettings_PreventSmartScreenPromptOverrideForFiles",
+      "valueJson": "true"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
+      "definitionId": "deviceConfiguration--microsoft_edge~Policy~microsoft_edge_InternetExplorerIntegrationReloadInIEModeAllowed",
+      "valueJson": "false"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
+      "definitionId": "deviceConfiguration--microsoft_edge~Policy~microsoft_edge_SSLErrorOverrideAllowed",
+      "valueJson": "false"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
+      "definitionId": "deviceConfiguration--microsoft_edge~Policy~microsoft_edge_BrowserLegacyExtensionPointsBlockingEnabled",
+      "valueJson": "true"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
+      "definitionId": "deviceConfiguration--microsoft_edge~Policy~microsoft_edge_SitePerProcess",
+      "valueJson": "true"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
+      "definitionId": "deviceConfiguration--microsoft_edge~Policy~microsoft_edge_SharedArrayBufferUnrestrictedAccessAllowed",
+      "valueJson": "false"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
+      "definitionId": "deviceConfiguration--microsoft_edge~Policy~microsoft_edge_InternetExplorerIntegrationAutomaticOpenInIEMode",
+      "valueJson": "false"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
+      "definitionId": "deviceConfiguration--microsoft_edge~Policy~microsoft_edge_ApplicationBoundEncryptionEnabled",
+      "valueJson": "true"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementComplexSettingInstance",
+      "definitionId": "deviceConfiguration--microsoft_edge~Policy~microsoft_edge_DynamicCodeSettings",
+      "valueJson": "{\"enabled\":true,\"data\":{\"DynamicCodeSettings\":0}}"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
+      "definitionId": "deviceConfiguration--microsoft_edge~Policy~microsoft_edge~TyposquattingChecker_TyposquattingCheckerEnabled",
+      "valueJson": "true"
+    }
+  ],
+  "roleScopeTagIds": [
+    "0"
+  ]
+}
