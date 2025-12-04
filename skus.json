@@ -936,5 +936,8 @@
     "YAMMER_EDU" :	"Yammer for Academic",
     "YAMMER_ENTERPRISE" :	"Yammer Enterprise",
     "YAMMER_ENTERPRISE_STANDALONE" :	"Yammer Enterprise Standalone",
+    "Microsoft_Intune_Suite" :	"Microsoft Intune Suite",
+    "Power_Virtual_Agents" :	"Power Virtual Agents",
+    "POWERAPPS_DEV" :	"Power Apps Developer Plan",
     "YAMMER_MIDSIZE" :	"Yammer Midsize"
 }
