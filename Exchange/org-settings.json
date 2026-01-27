@@ -42,5 +42,6 @@
   "MailTipsLargeAudienceThreshold": 25,
   "LinkPreviewEnabled": true,
   "OAuth2ClientProfileEnabled": true,
+  "RejectDirectSendEnabled": true,
   "ExchangeNotificationRecipients": ""
 }
